@@ -10,7 +10,7 @@ P01 Final Deliverable
 
 body {
 	font-family: "Circular Std", Verdana, sans-serif;
-	background-color: #F8F8F8;
+	background-color: #FFF;
 	margin: 2rem;
 }
 
@@ -46,8 +46,8 @@ nav a {
 }
 
 nav a:hover, nav a:focus {
-	color: #303030;
-	border-bottom: 0.2rem solid #C0C0C0;
+	text-decoration: line-through;
+
 }
 
 
@@ -98,15 +98,12 @@ section h6 {
 .textlink{
   font-size: 0.9em;
   font-weight: lighter;
-  color: #C0C0C0;
+  color: #000;
   text-decoration: none;
 }
 
 .textlink:hover {
-  color: #303030;
   text-decoration: underline;
-  -webkit-transition: color 0.2s ease-out;
-  transition: color 0.2s ease-out;
 }
 
 
@@ -115,12 +112,10 @@ section h6 {
   display: inline-block;
   margin: 0.25em 0.25em;
   padding: 0.75em 1em;
-  border: 0.2rem solid #fff;
+/*  border: 0.2rem solid #fff;*/
   color: #303030;
-  background-color: #F8F8F8;
   font-size: 1em;
   font-weight: bold;
-  text-transform: uppercase;
   text-decoration: none;
   letter-spacing: 0.05rem;
   -webkit-transition: background-color 0.5s, color 0.5s ease-out;
@@ -128,10 +123,8 @@ section h6 {
 }
 
 .button-nav:hover, .button-nav:focus {
-  background-color: #fff;
-  border: 0.2rem solid #303030;
-  color: #303030;
-  opacity: 0.8;
+  text-decoration: line-through;
+
 }
 
 
@@ -147,17 +140,21 @@ form {
 input[type=text]{
 	display: inline-block;
 	margin: 1em;
-	padding-left: 1em;
+	margin-bottom: 0;
+	padding: 1em 1em 0 1em;
 	width: 300px;
 	height: 30px;
-	border: 0.15rem solid #C0C0C0;
+	border: none;
+	border-bottom: 0.15rem solid #000;
+	color: #000;
 	background-color: #FFF;
-	color: #C0C0C0;
 }
 
 label {
-	font-size: 0.8em;
-	text-transform: uppercase;
+	font-size: 1.2em;
+	margin-bottom: 0;
+	vertical-align: bottom;
+
 }
 
 textarea:focus, input:focus{
@@ -176,18 +173,13 @@ input.button-submit {
   font-size: 0.90em;
   text-decoration: none;
   letter-spacing: 0.05rem;
-  -webkit-transition: background-color 0.5s, color 0.5s ease-out;
-  transition: background-color 0.5s ease-out;
+
 }
 
 .button-submit:hover, .button-submit:focus {
-  background-color: #484848;
-  color: #FFF;
-  opacity: 0.8;
-	-o-transition: 0.5s;
-	-ms-transition: 0.5s;
-	-moz-transition: 0.5s;
-	-webkit-transition: 0.5s;
+  background-color: #F8F8F8;
+  color: #000;
+
 }
 
 
@@ -203,18 +195,14 @@ input.button-cancel {
   font-size: 0.90em;
   text-decoration: none;
   letter-spacing: 0.05rem;
-  -webkit-transition: background-color 0.5s, color 0.5s ease-out;
-  transition: background-color 0.5s ease-out;
+  opacity: 0.5;
+
 }
 
 .button-cancel:hover, .button-cancel:focus {
-  background-color: #484848;
-  color: #FFF;
-  opacity: 0.8;
-	-o-transition: 0.5s;
-	-ms-transition: 0.5s;
-	-moz-transition: 0.5s;
-	-webkit-transition: 0.5s;
+	opacity: 1;
+
+
 }
 
 /* ------------------- Colour Palette Elements ------------------- */
@@ -272,6 +260,7 @@ img {
 	height: auto; 
 	max-width: 100%;
 	border: 1px solid #FFF;
+
 }
 
 figure {
@@ -284,15 +273,14 @@ figcaption {
 }
 
 .product-img{
-	color: #303030;
-  	background-color: #F8F8F8;
+
+  	background-color: #FFF;
     -webkit-transition: background-color 0.5s, color 0.5s ease-out;
   	transition: background-color 0.5s ease-out;
 
 }
 
 .product-img:hover {
-  	color: #303030;
   	opacity: 0.8;
 	-o-transition: 0.5s;
 	-ms-transition: 0.5s;
