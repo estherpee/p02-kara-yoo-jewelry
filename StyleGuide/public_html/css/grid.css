@@ -1,0 +1,58 @@
+/*Grid CSS
+
+Katelynn Ngo
+301178351
+IAT 339 | D101
+P01 Final Deliverable
+*/
+
+*, *::after, *::before {
+	box-sizing: border-box;
+}
+
+[class^='grid-col-'] {
+	float: left;
+	padding: 0.5em; 
+}
+
+
+.grid-col-1of2, .grid-col-1of4 {
+	width: 100%;
+}
+
+.grid-row::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+
+@media (min-width: 45em) {
+
+	.grid-col-1of2 {
+		width: 50%;
+	}
+
+	.grid-col-1of2:last-of-type {
+		padding-left: 0.5rem;
+	}
+	
+	.grid-col-1of4 {
+		width: 50%;
+	}
+
+}
+
+
+@media (min-width: 60em) {
+
+	.grid-col-1of4 {
+		width: 25%;
+	}
+
+}
+
+
+
+
+

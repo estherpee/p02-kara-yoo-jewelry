@@ -1,0 +1,64 @@
+/*Flexbox CSS
+
+Katelynn Ngo
+301178351
+IAT 339 | D101
+P01 Final Deliverable
+*/
+
+
+*, *:after, *:before {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.box {
+	display: -webkit-flex;
+	display: -ms-flex;
+	display: flex;
+
+	-webkit-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+}
+
+.box-item-nav {
+	-webkit-flex: 1 1 auto;
+	-ms-flex: 1 1 auto;
+	flex: 1 1 auto;
+	text-align: center;
+}
+
+.box-item-image {
+	-webkit-flex: 3 1 100px;
+	-ms-flex: 3 1 100px;
+	flex: 3 1 100px;
+}
+
+.box-item-text {
+	-webkit-flex: 1 1 18em;
+	-ms-flex: 1 1 18em;
+	flex: 1 1 18em;
+	padding: 0 1rem;
+	margin-right: 1rem;
+}
+
+@media (max-width: 48em) {
+	.box-item-image {
+		-webkit-flex-direction: column;
+		-ms-flex-direction: column;
+		-moz-flex-direction: column;
+		flex-direction: column;
+	}
+}
+
+@media (max-width: 55em) {
+	.box{
+		-webkit-flex-direction: column;
+		-ms-flex-direction: column;
+		-moz-flex-direction: column;
+		flex-direction: column;
+	}
+}
+
