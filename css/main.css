@@ -6,7 +6,7 @@ body {
 
 }
 
-section {
+section{
 	margin-top: 0.5em;
 	margin-bottom: 0.5em;
 	padding-bottom: 1em;
@@ -298,6 +298,13 @@ figcaption {
   letter-spacing: 0.08em;
   text-decoration: none;
   color: #303030;
+}
+
+/*LandingPage*/
+
+
+#global-nav {
+	border: none;
 }
 
 
