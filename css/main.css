@@ -327,10 +327,16 @@ figcaption {
 
 
 .material-icons {
-	color: #000;
+	color: #C0C0C0;
 
 }
 
+
+.material-icons:hover {
+	color: #000;
+	-webkit-transition: color 0.2s ease-out;
+	transition: color 0.2s ease-out;
+}
 
 
 
