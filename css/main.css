@@ -177,7 +177,7 @@ input.cancel-button {
 
 }
 
-.button-cancel:hover, .button-cancel:focus {
+.cancel-button:hover, .cancel-button:focus {
 	opacity: 1;
 
 
