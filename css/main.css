@@ -1,19 +1,10 @@
-/*Style Guide Styling
-Default styling guide
-
-Katelynn Ngo
-301178351
-IAT 339 | D101
-P01 Final Deliverable
-*/
-
 
 body {
-	font-family: "Circular Std", Verdana, sans-serif;
-	background-color: #FFF;
-	margin: 2rem;
-}
+	font-family: 'Circular Std', Verdana, sans-serif;
+	font-size: 1em;
+	margin: 3%;
 
+}
 
 section {
 	margin-top: 0.5em;
@@ -36,7 +27,7 @@ section code {
 	display: block;
 }
 
-nav a {
+/*.main-nav {
 	margin: 0.5em;
 	padding: 0.5em;
 	color: #303030;
@@ -48,7 +39,7 @@ nav a {
 nav a:hover, nav a:focus {
 	text-decoration: line-through;
 
-}
+}*/
 
 
 li {
@@ -56,16 +47,14 @@ li {
 }
 
 
-/* ------------------- Text Elements ------------------- */
-
-section h3 {
+section h1 {
 	font-family: "Circular Std", Verdana, sans-serif;
 	font-size: 1.5rem;
 	margin-top:1.5rem;
 	margin-bottom: 0;
 }
 
-section h4 {
+section h2 {
 	font-family: "Circular Std", Verdana, sans-serif;
 	font-size: 1.25rem;
 	margin-top: 1.25rem;
@@ -73,7 +62,7 @@ section h4 {
 	width: 100%;
 }
 
-section h5 {
+section h3 {
 	font-family: Garamond, Times, serif;
 	font-size: 1.10em;
 	font-style: italic;
@@ -82,7 +71,7 @@ section h5 {
 	letter-spacing: 0.08em;
 }
 
-section h6 {
+section h4 {
 	font-family: "Circular Std", Verdana, sans-serif;
 	font-size: .75rem;
 	margin-top: 1.25rem;
@@ -95,20 +84,20 @@ section h6 {
 /* ------------------- Interactive Elements ------------------- */
 
 /** Styling for In-text Links **/
-.textlink{
+.text-link {
   font-size: 0.9em;
   font-weight: lighter;
   color: #000;
   text-decoration: none;
 }
 
-.textlink:hover {
+.text-link:hover {
   text-decoration: underline;
 }
 
 
 /** Styling for Navigation Button **/
-.button-nav {
+.main-nav-item {
   display: inline-block;
   margin: 0.25em 0.25em;
   padding: 0.75em 1em;
@@ -122,12 +111,10 @@ section h6 {
   transition: background-color 0.5s ease-out;
 }
 
-.button-nav:hover, .button-nav:focus {
+.main-nav-item:hover, .main-nav-item:focus {
   text-decoration: line-through;
 
 }
-
-
 
 /** Styling for Forms and Submit/Reset **/
 form {
@@ -160,7 +147,6 @@ label {
 textarea:focus, input:focus{
     outline: 0;
 }
-
 input.submit-button {
   display: inline-block;
   margin: 0.25em 0.25em;
@@ -205,6 +191,12 @@ input.cancel-button {
 
 }
 
+.button-cancel:hover, .button-cancel:focus {
+	opacity: 1;
+
+
+}
+
 /* ------------------- Colour Palette Elements ------------------- */
 
 /** Styling for Colour Palette**/
@@ -226,11 +218,11 @@ input.cancel-button {
 	background-color: #303030;
 }
 
-.lightGrey{
+.light-grey{
 	background-color: #C0C0C0;
 }
 
-.offWhite{
+.off-white{
 	background-color: #F8F8F8;
 	border: 0.05rem solid #000;
 
@@ -251,7 +243,6 @@ input.cancel-button {
 .peach{
 	background-color: #ffe6e6;
 }
-
 
 /* ------------------- Combined Elements ------------------- */
 
@@ -288,7 +279,7 @@ figcaption {
 	-webkit-transition: 0.5s;
 }
 
-.productName {
+.product-name {
 	font-size: 0.9rem;
 	font-weight: bold;
 	padding: 0.5em;
@@ -296,21 +287,21 @@ figcaption {
 	color: #303030;
 }
 
-.productName:hover {
+.product-name:hover {
 	color: #484848;
 	text-decoration: underline;
 	-webkit-transition: color 0.2s ease-out;
 	transition: color 0.2s ease-out;
 }
 
-.productDescription {
+.product-description {
 	margin: 0.8em;
 	font-size: 0.70rem;
 	letter-spacing: 0.05rem;
 	max-width: 50em;
 }
 
-.priceTag{
+.price-tag{
   margin-top: .25rem;
   margin-bottom: .75rem;
   padding-left: 0.5em;
@@ -322,6 +313,8 @@ figcaption {
   text-decoration: none;
   color: #303030;
 }
+
+
 
 
 
