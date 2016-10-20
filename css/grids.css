@@ -25,7 +25,7 @@
 
 
 
-@media (min-width: 45em) {
+@media (min-width: 55em) {
 
 
 	.grid-col-1of2 {
@@ -38,6 +38,17 @@
 	
 	.grid-col-1of4 {
 		width: 50%;
+	}
+	.grid-col-2of12 {
+		width: 16.666666666%;
+	}
+
+	.grid-col-1of12 {
+		width: 8.33333333333%;
+	}
+
+	.nav-secondary {
+		text-align: center;
 	}
 
 }
