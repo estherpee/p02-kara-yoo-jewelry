@@ -27,19 +27,7 @@ section code {
 	display: block;
 }
 
-/*.main-nav {
-	margin: 0.5em;
-	padding: 0.5em;
-	color: #303030;
-	text-decoration: none;
-	text-align: center;
-	border-bottom: 0.2rem solid transparent;
-}
 
-nav a:hover, nav a:focus {
-	text-decoration: line-through;
-
-}*/
 
 
 li {
@@ -95,20 +83,18 @@ section h4 {
   text-decoration: underline;
 }
 
+.main-nav{
+	text-align: center;
+}
 
 /** Styling for Navigation Button **/
 .main-nav-item {
   display: inline-block;
-  margin: 0.25em 0.25em;
-  padding: 0.75em 1em;
-/*  border: 0.2rem solid #fff;*/
   color: #303030;
   font-size: 1em;
   font-weight: bold;
   text-decoration: none;
   letter-spacing: 0.05rem;
-  -webkit-transition: background-color 0.5s, color 0.5s ease-out;
-  transition: background-color 0.5s ease-out;
 }
 
 .main-nav-item:hover, .main-nav-item:focus {

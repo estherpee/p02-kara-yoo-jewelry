@@ -20,12 +20,20 @@
 		<h1>Kara Yoo Style Guide Template</h1>
 		<p>This styleguide is a resource for our designers, managers, and developers, in order to provide a common language around Kara Yoo's design patterns. It is used to maintain code structure and visual consistency across platforms.</p>
 
-		<section>
-			<nav class="main-nav grid-row">
-				<a href="#text_styling_elements" class="main-nav-item">Typography</a>
-	       		<a href="#interactive_elements" class="main-nav-item">Buttons and Forms</a>
-	       		<a href="#colour_palette" class="main-nav-item">Colour Palette</a>
-	       		<a href="#combined_elements" class="main-nav-item">Combined Elements</a>
+		<section class="grid-row">
+			<nav class="main-nav">
+				<div class="grid-col-1of4">
+					<a href="#text_styling_elements" class="main-nav-item">Typography</a>
+				</div>
+				<div class="grid-col-1of4">
+	       			<a href="#interactive_elements" class="main-nav-item">Buttons and Forms</a>
+	       		</div>
+	       		<div class="grid-col-1of4">
+	       			<a href="#colour_palette" class="main-nav-item">Colour Palette</a>
+	       		</div>
+	       		<div class="grid-col-1of4">
+	       			<a href="#combined_elements" class="main-nav-item">Combined Elements</a>
+	       		</div>
 			</nav>
 		</section>
 
@@ -333,14 +341,22 @@
 
 				<section>
 					<h4>Main Navigation</h4>
-
-					<nav class="main-nav">
-						<a href="#" class="main-nav-item">Shop</a>
-						<a href="#" class="main-nav-item">Collections</a>
-						<a href="#" class="main-nav-item">Fine Jewelry</a>
-						<a href="#" class="main-nav-item">Sale</a>
-						<a href="#" class="main-nav-item">Inside KY</a>
-					</nav>
+					<div class="grid-row">
+						<nav class="main-nav">
+							<div class="grid-col-1of4">
+								<a href="#" class="main-nav-item">Shop</a>
+							</div>
+							<div class="grid-col-1of4">
+								<a href="#" class="main-nav-item">Fine Jewelry</a>
+							</div>
+							<div class="grid-col-1of4">
+								<a href="#" class="main-nav-item grid-col-1of4">About</a>
+							</div>
+							<div class="grid-col-1of4">
+								<a href="#" class="main-nav-item grid-col-1of4">Stockist</a>
+							</div>
+						</nav>
+					</div>
 				</section>
 
 				<section>
@@ -359,7 +375,7 @@
 								</div>
 
 								<div class="grid-col-1of2">
-									<a href="#" class="product-name">Meteor Ring</a>
+									<h1>Meteor Ring</h1>
 									<div class="price-tag">$42.00</div>
 									<p class="productDescription">A square-shaped band with beveled corners that is delicately-lined. Streamlined and uniquely textured, this ring is slender enough to wear in multiples or stacked with other rings. Can be worn as a midi ring, we recommend a size 3.</p>
 										
