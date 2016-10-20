@@ -45,12 +45,22 @@
 
 @media (min-width: 73em) {
 
-	.grid-col-1of4 {
+	.grid-col-1of4, .grid-col-3of12 {
 		width: 25%;
 	}
 	.grid-col-1of2 {
 		width: 50%;
 	}
+
+
+	.grid-col-1of12 {
+		width: 8.33333333333%;
+	}
+
+	.grid-col-2of12 {
+		width: 16.666666666%;
+	}
+
 
 
 }
