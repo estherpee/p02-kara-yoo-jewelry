@@ -2,7 +2,7 @@
 body {
 	font-family: 'Circular Std', Verdana, sans-serif;
 	font-size: 1em;
-	margin: 1em 3%;
+	margin: 1em 3% 0;
 
 }
 
@@ -120,7 +120,8 @@ input[type=text]{
 	border: none;
 	border-bottom: 0.15rem solid #000;
 	color: #000;
-	background-color: #FFF;
+	background-color: transparent;
+
 }
 
 label {
@@ -236,7 +237,6 @@ input.cancel-button {
 img {
 	height: auto; 
 	max-width: 100%;
-	border: 1px solid #FFF;
 
 }
 
@@ -313,17 +313,21 @@ figcaption {
 	margin:0;
 	text-decoration: none;
 	color: black;
+	height: auto;
+	width: 165px;
+	padding: 0.7rem 1em;
 }
 
-.nav-secondary {
-	text-align: right;
+.secondary-nav {
+	position: absolute;
+	right: 3%;
+}
+.secondary-nav-item {
+	float: left;
+
+
 }
 
-@media (max-width: 55em) {
-	.nav-secondary {
-		text-align: center;
-	}
-}
 
 
 .material-icons {
@@ -337,6 +341,46 @@ figcaption {
 	-webkit-transition: color 0.2s ease-out;
 	transition: color 0.2s ease-out;
 }
+
+.landing-banner {
+	background-color: #C0C0C0;
+	height: 500px;
+}
+
+#global-footer {
+	border: none;
+	background-color: #303030;
+	margin: 3em -3% -3% -3%;
+	padding: 3em 5em;
+	width: auto;
+	color: #fff;
+
+}
+
+
+
+
+
+.footer-link {
+	text-decoration: none;
+	color: #fff;
+
+
+}
+
+.footer-link:hover {
+	text-decoration: underline;
+
+
+}
+
+.footer-nav li{
+	list-style: none;
+	padding-bottom: 1em;
+
+}
+
+
 
 
 
