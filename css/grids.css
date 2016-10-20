@@ -3,7 +3,6 @@
 }
 
 
-
 [class^='grid-col-'] {
 	
 	float: left;
@@ -12,8 +11,6 @@
 	
 }
 
-
-
 .grid-row::after {
 	content: "";
 	display: block;
@@ -21,13 +18,7 @@
 }
 
 
-
-
-
-
 @media (min-width: 45em) {
-
-
 	.grid-col-1of2 {
 		width: 50%;
 	}
@@ -39,7 +30,6 @@
 	.grid-col-1of4 {
 		width: 50%;
 	}
-
 }
 
 
