@@ -15,7 +15,6 @@ section{
 
 
 section p, p, ol, ul {
-	margin: 0.8em;
 	font-size: 0.80em;
 	letter-spacing: 0.05rem;
 	max-width: 50em;
@@ -112,7 +111,6 @@ form {
 
 input[type=text]{
 	display: inline-block;
-	margin: 1em;
 	margin-bottom: 0;
 	padding: 1em 1em 0 1em;
 	width: 300px;
@@ -134,10 +132,11 @@ label {
 textarea:focus, input:focus{
     outline: 0;
 }
+
 input.submit-button {
   display: inline-block;
-  margin: 0.25em 0.25em;
-  padding: 0.5em 0.5em;
+  margin: 1em 0;
+  padding: 0.5em;
   width: 200px;
   height: 40px;
   color: #FFF;
@@ -349,30 +348,15 @@ figcaption {
 
 #global-footer {
 	border: none;
-	background-color: #303030;
+	background-color: #F7F7F7;
 	margin: 3em -3% -3% -3%;
 	padding: 3em 5em;
 	width: auto;
-	color: #fff;
+	color: #000;
 
 }
 
 
-
-
-
-.footer-link {
-	text-decoration: none;
-	color: #fff;
-
-
-}
-
-.footer-link:hover {
-	text-decoration: underline;
-
-
-}
 
 .footer-nav li{
 	list-style: none;
@@ -380,8 +364,20 @@ figcaption {
 
 }
 
+.footer-nav {
+	padding-left: 0;
+}
+
+.newsletter-form {
+	float: right;
+}
 
 
+.newsletter-form input.submit-button{
+	float: right;
+  	width: 100px;
+  	height: 40px;
 
+}
 
 
