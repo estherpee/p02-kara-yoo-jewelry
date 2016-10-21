@@ -149,6 +149,7 @@ nav h4 {
 .page{
 	display: inline-block;
 	padding: 2em;
+	font-size: 1em;
 }
 
 .pagnation {
@@ -165,7 +166,11 @@ nav h4 {
 .next-page {
     float: right;
     margin-right: 10px;
-    padding: 1em;
+    padding: 1.5em;
+}
+
+.next-page:hover {
+    text-decoration: underline;
 }
 
 .toolbar-bottom a {
@@ -395,6 +400,20 @@ figcaption {
   	opacity: 0;
 }
 
+.product-img a{
+position: relative;
+}
+
+.product-imag a span{
+	position:absolute;
+	display: none;
+	z-index: 99;
+}
+
+.product-img a:hover span{
+	display:block;
+}
+
 .product-name{
 	font-size: 0.8em;
 	font-weight: normal;
@@ -409,6 +428,8 @@ figcaption {
 	-webkit-transition: color 0.2s ease-out;
 	transition: color 0.2s ease-out;
 }
+
+
 
 .product-description {
 	margin: 0.em;
