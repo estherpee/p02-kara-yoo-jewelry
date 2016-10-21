@@ -123,11 +123,6 @@ nav h4 {
 	position: relative;
 }
 
-header {
-    background: #fff;
-    border-bottom: 1px solid #f1f1f1;
-    position: relative;
-}
 
 /*footer {
     padding: 90px 0 75px 0;
@@ -453,6 +448,8 @@ figcaption {
 	border: none;
 	position:relative;
 	padding:0;
+	background: #fff;
+    border-bottom: 1px solid #f1f1f1;
 }
 
 #logo {
@@ -516,7 +513,7 @@ figcaption {
 	padding-left: 0;
 }
 
-<<<<<<< HEAD
+
 
 /*
 
