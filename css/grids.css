@@ -32,9 +32,6 @@
 		width: 50%;
 	}
 
-	.grid-col-1of2:last-of-type {
-		padding-left: 0.5rem;
-	}
 
 	.grid-col-1of12{
 		width: 8.33333333333%;
