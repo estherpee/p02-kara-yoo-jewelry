@@ -28,13 +28,14 @@ section code {
 }
 
 
+a {
+    text-decoration: none;
+}
 
 
 li {
 	padding-bottom: 0.5em;
-
 }
-
 
 section h1 {
 	font-family: "Circular Std", Verdana, sans-serif;
@@ -76,7 +77,13 @@ nav h4 {
     padding: 0 0.5em;
 }
 
-/*Sidebar Navigation*/
+
+.container {
+	width: 100%;
+	position: relative;
+}
+
+/*Product List Container*/
 
 .product-list-grid{
 	margin-left: 20%
@@ -89,6 +96,9 @@ nav h4 {
     left: 0;
     width: 195px;
 }
+
+
+/*Sidebar Navigation*/
 
 .side-nav {
 	list-style-type: none;
@@ -118,19 +128,8 @@ nav h4 {
 	font-weight: bold;
 }
 
-.container {
-	width:100%;
-	position: relative;
-}
 
-
-
-/*footer {
-    padding: 90px 0 75px 0;
-    position: relative;
-    background-color: #f1f1f1;
-}*/
-
+/* Pagnation */
 
 .page{
 	display: inline-block;
@@ -149,7 +148,6 @@ nav h4 {
 }
 
 .next-page {
-    /*background: url(../images/icon-caret-black-right.svg) right center no-repeat;*/
     float: right;
     height: 20px;
     line-height: 22px;
@@ -165,9 +163,6 @@ nav h4 {
     color: #111;
 }
 
-a {
-    text-decoration: none;
-}
 
 .shop-banner{
 	margin: 0 1em;
@@ -181,16 +176,6 @@ a {
 	width: 100%
 }
 
-.global-navigation{
-	width: 100%;
-    border: none;
-	padding: 0.5em;
-	color: white;
-	background-color: #FFF;
-	clear: left;
-	text-align:center;
-}
-
 .clear {
     clear: both;
     display: block;
@@ -199,7 +184,6 @@ a {
     width: 0;
     height: 0;
 }
-/*--------------------end sidebar navigation--------------- */
 
 
 /* ------------------- Interactive Elements ------------------- */
