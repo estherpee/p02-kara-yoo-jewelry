@@ -124,6 +124,7 @@ nav h4 {
 }
 
 
+
 /*footer {
     padding: 90px 0 75px 0;
     position: relative;
@@ -449,7 +450,7 @@ figcaption {
 
 
 #global-nav {
-	border: none;
+
 	position:relative;
 	padding:0;
 	background: #fff;
@@ -516,7 +517,6 @@ figcaption {
 .footer-nav {
 	padding-left: 0;
 }
-
 
 
 /*
