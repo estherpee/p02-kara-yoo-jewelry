@@ -31,6 +31,8 @@ section code {
 }
 
 
+
+
 li {
 	padding-bottom: 0.5em;
 }
@@ -106,6 +108,10 @@ section h4 {
 .side-nav-item:hover {
 	color: white;
 	background-color: #555;
+}
+
+.container {
+	width:100%;
 }
 
 header {
@@ -219,7 +225,6 @@ form {
 
 input[type=text]{
 	display: inline-block;
-	margin: 1em;
 	margin-bottom: 0;
 	padding: 1em 1em 0 1em;
 	width: 300px;
@@ -227,7 +232,8 @@ input[type=text]{
 	border: none;
 	border-bottom: 0.15rem solid #000;
 	color: #000;
-	background-color: #FFF;
+	background-color: transparent;
+
 }
 
 label {
@@ -240,10 +246,11 @@ label {
 textarea:focus, input:focus{
     outline: 0;
 }
+
 input.submit-button {
   display: inline-block;
-  margin: 0.25em 0.25em;
-  padding: 0.5em 0.5em;
+  margin: 1em 0;
+  padding: 0.5em;
   width: 200px;
   height: 40px;
   color: #FFF;
@@ -343,7 +350,6 @@ input.cancel-button {
 img {
 	height: auto; 
 	max-width: 100%;
-	border: 1px solid #FFF;
 
 }
 
@@ -420,25 +426,72 @@ figcaption {
 	margin:0;
 	text-decoration: none;
 	color: black;
+	height: auto;
+	width: 165px;
+	padding: 0.7rem 1em;
 }
 
-.nav-secondary {
-	text-align: right;
+.secondary-nav {
+	position: absolute;
+	right: 3%;
+}
+.secondary-nav-item {
+	float: left;
+
+
 }
 
-@media (max-width: 55em) {
-	.nav-secondary {
-		text-align: center;
-	}
-}
 
 
 .material-icons {
+	color: #C0C0C0;
+
+}
+
+
+.material-icons:hover {
+	color: #000;
+	-webkit-transition: color 0.2s ease-out;
+	transition: color 0.2s ease-out;
+}
+
+.landing-banner {
+	background-color: #C0C0C0;
+	height: 500px;
+}
+
+#global-footer {
+	border: none;
+	background-color: #F7F7F7;
+	margin: 3em -3% -3% -3%;
+	padding: 3em 5em;
+	width: auto;
 	color: #000;
 
 }
 
 
 
+.footer-nav li{
+	list-style: none;
+	padding-bottom: 1em;
+
+}
+
+.footer-nav {
+	padding-left: 0;
+}
+
+.newsletter-form {
+	float: right;
+}
+
+
+.newsletter-form input.submit-button{
+	float: right;
+  	width: 100px;
+  	height: 40px;
+
+}
 
 
