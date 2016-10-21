@@ -14,7 +14,7 @@ section {
 }
 
 
-section p, p, ol, ul {
+section ol, ul {
 	margin: 0.8em;
 	font-size: 0.80em;
 	letter-spacing: 0.05rem;
@@ -224,7 +224,7 @@ nav h4 {
 
 .button {
   display: inline-block;
-  padding: 1em 2em;
+  padding: 0.7em 2em;
   color: #FFF;
   background-color: #000;
   border: 2px solid #000;
@@ -238,6 +238,8 @@ nav h4 {
   color: #000;
 
 }
+
+
 
 /** Styling for Forms and Submit/Reset **/
 form {
@@ -544,33 +546,10 @@ figcaption {
 	height: 600px;
 	overflow: hidden; /*crops excess image*/
 	position: relative;
-/*	text-align: center;*/
-}
 
-.large-featured img{
-	position: absolute;
-	top: 30%;
-	width: 100%;
-	z-index: 1;
 
 }
 
-.large-featured p{
-	font-size: 3rem;
-	font-family: Garamond, Times, serif;
-	margin-bottom: 1rem;
-	position: absolute;
-	top: 30%;
-	width: 100%;
-	z-index: 2;
-
-}
-
-.small-featured p {
-	font-size: 3rem;
-	font-family: Garamond, Times, serif;
-	margin-bottom: 1rem;
-}
 
 
 .small-featured {
@@ -579,8 +558,61 @@ figcaption {
 	height: 290px;
 	overflow: hidden; /*crops excess image*/
 	position: relative;
-	text-align: center;
 }
+
+
+.large-featured img, .small-featured img {
+	position: absolute;
+	width: 100%;
+	z-index: 1;
+
+}
+
+.large-featured p, .small-featured p {
+	font-size: 3rem;
+	font-family: Garamond, Times, serif;
+	margin-bottom: 1rem;
+	position: absolute;
+	top: 40%;
+	transform: translateY(-50%);
+	width: 100%;
+	left: 0;
+	z-index: 2;
+	text-align: center;
+
+}
+
+.small-featured p{
+	top: 30%;
+}
+
+.button-overlay {
+  display: inline-block;
+  padding: 0.7em 2em;
+  color: #000;
+  background-color: #FFF;
+
+  font-size: 1rem;
+  text-decoration: none;
+  letter-spacing: 0.05rem;
+}
+
+.button-overlay:hover, .button-overlay:focus {
+  background-color: #000;
+  color: #FFF;
+
+}
+
+.large-featured .button-overlay, .small-featured .button-overlay{
+	position: absolute;
+	z-index: 3;
+	transform: translate(-50%, -50%);
+	top: 50%;
+	left: 50%; 
+
+}
+
+
 
 
 
