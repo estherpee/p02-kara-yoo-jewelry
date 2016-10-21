@@ -586,7 +586,7 @@ figcaption {
 	top: 30%;
 }
 
-.button-overlay {
+.overlay-button {
   display: inline-block;
   padding: 0.7em 2em;
   color: #000;
@@ -597,13 +597,13 @@ figcaption {
   letter-spacing: 0.05rem;
 }
 
-.button-overlay:hover, .button-overlay:focus {
+.overlay-button:hover, .overlay-button:focus {
   background-color: #000;
   color: #FFF;
 
 }
 
-.large-featured .button-overlay, .small-featured .button-overlay{
+.large-featured .overlay-button, .small-featured .overlay-button{
 	position: absolute;
 	z-index: 3;
 	transform: translate(-50%, -50%);
