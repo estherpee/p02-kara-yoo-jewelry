@@ -235,6 +235,23 @@ a {
 
 }
 
+.button {
+  display: inline-block;
+  padding: 1em 2em;
+  color: #FFF;
+  background-color: #000;
+  border: 2px solid #000;
+  font-size: 1rem;
+  text-decoration: none;
+  letter-spacing: 0.05rem;
+}
+
+.button:hover, .button:focus {
+  background-color: #F8F8F8;
+  color: #000;
+
+}
+
 /** Styling for Forms and Submit/Reset **/
 form {
 	margin: 0;
@@ -247,8 +264,8 @@ input[type=text]{
 	display: inline-block;
 	margin-bottom: 0;
 	padding: 1em 1em 0 1em;
-	width: 300px;
-	height: 30px;
+	width: 100%;
+	max-width: 300px;
 	border: none;
 	border-bottom: 0.15rem solid #000;
 	color: #000;
@@ -270,9 +287,7 @@ textarea:focus, input:focus{
 input.submit-button {
   display: inline-block;
   margin: 1em 0;
-  padding: 0.5em;
-  width: 200px;
-  height: 40px;
+  padding: 1em 2em;
   color: #FFF;
   background-color: #000;
   border-color: #000;
@@ -293,8 +308,7 @@ input.cancel-button {
   display: inline-block;
   margin: 0.25em 0.25em;
   padding: 0.5em 0.5em;
-  width: 200px;
-  height: 40px;
+  padding: 1em 2em;
   color: #000;
   background-color: #FFF;
   border-color: #000;
@@ -452,7 +466,7 @@ figcaption {
 
 .secondary-nav {
 	position: absolute;
-	right: 3%;
+	right: 0;
 }
 .secondary-nav-item {
 	float: left;
@@ -477,13 +491,15 @@ figcaption {
 .landing-banner {
 	background-color: #C0C0C0;
 	height: 500px;
+	margin: 0 1em;
+	text-align: center;
 }
 
 #global-footer {
 	border: none;
 	background-color: #F7F7F7;
 	margin: 3em -3% -3% -3%;
-	padding: 3em 5em;
+	padding: 3em;
 	width: auto;
 	color: #000;
 
@@ -500,6 +516,7 @@ figcaption {
 	padding-left: 0;
 }
 
+<<<<<<< HEAD
 
 /*
 
@@ -524,12 +541,68 @@ figcaption {
 	float: right;
 }
 
-
-.newsletter-form input.submit-button{
-	float: right;
-  	width: 100px;
-  	height: 40px;
+#global-footer h2 {
+	margin: 0;
+	margin-bottom: 0.5em;
 
 }
+.newsletter-form input.submit-button{
+	display: inline;
+  	width: 100px;
+
+}
+
+
+
+/*Featured Section*/
+
+#featured {
+	border: none;
+	margin-top: 0;
+}
+
+.large-featured {
+	background-color: #C0C0C0;
+	width: 100%;
+	height: 600px;
+	overflow: hidden; /*crops excess image*/
+	position: relative;
+	text-align: center;
+}
+
+.large-featured img{
+	width: 100%;
+	vertical-align: center;
+
+}
+
+.large-featured p{
+	font-size: 3rem;
+	font-family: Garamond, Times, serif;
+	padding-top: 3em;
+	margin-bottom: 1rem;
+/*	position: absolute;
+	top: 30%;
+	width: 100%;*/
+
+}
+
+.small-featured p {
+	font-size: 3rem;
+	font-family: Garamond, Times, serif;
+	margin-bottom: 1rem;
+}
+
+
+.small-featured {
+	background-color: #C0C0C0;
+	width: 100%;
+	height: 290px;
+	overflow: hidden; /*crops excess image*/
+	position: relative;
+	text-align: center;
+}
+
+
 
 
