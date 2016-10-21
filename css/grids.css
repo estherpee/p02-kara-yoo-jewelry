@@ -28,17 +28,14 @@
 @media (min-width: 66em) {
 
 
-	.grid-col-1of2 {
+	.grid-col-1of2,	.grid-col-1of4 {
 		width: 50%;
 	}
-
+/*
 	.grid-col-1of2:last-of-type {
 		padding-left: 0.5rem;
-	}
+	}*/
 	
-	.grid-col-1of4 {
-		width: 50%;
-	}
 	.grid-col-2of12 {
 		width: 16.666666666%;
 	}
