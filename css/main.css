@@ -478,7 +478,15 @@ figcaption {
 	background-color: #C0C0C0;
 	height: 500px;
 	margin: 0 1em;
-	text-align: center;
+	overflow: hidden;
+	position: relative;
+}
+
+.landing-banner img{
+	position: absolute;
+	top: -30%;
+	width: 100%;
+
 }
 
 #global-footer {
@@ -495,11 +503,13 @@ figcaption {
 	list-style: none;
 	padding-bottom: 1em;
 
+
 }
 
 
 .footer-nav {
 	padding-left: 0;
+	margin:0;
 }
 
 
@@ -526,7 +536,7 @@ figcaption {
 	float: right;
 }
 
-#global-footer h2 {
+#global-footer h4, h2, p {
 	margin: 0;
 	margin-bottom: 0.5em;
 
@@ -552,23 +562,25 @@ figcaption {
 	height: 600px;
 	overflow: hidden; /*crops excess image*/
 	position: relative;
-	text-align: center;
+/*	text-align: center;*/
 }
 
 .large-featured img{
+	position: absolute;
+	top: 30%;
 	width: 100%;
-	vertical-align: center;
+	z-index: 1;
 
 }
 
 .large-featured p{
 	font-size: 3rem;
 	font-family: Garamond, Times, serif;
-	padding-top: 3em;
 	margin-bottom: 1rem;
-/*	position: absolute;
+	position: absolute;
 	top: 30%;
-	width: 100%;*/
+	width: 100%;
+	z-index: 2;
 
 }
 
