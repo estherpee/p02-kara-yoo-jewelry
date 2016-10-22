@@ -101,6 +101,10 @@
 		width: 33.333333333%;
 	}
 
+	.grid-col-2of3 {
+		width: 66.6666667%;
+	}
+
 	.grid-col-3of12 {
 		width: 25%;
 	}
