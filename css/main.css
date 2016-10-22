@@ -86,8 +86,6 @@ nav h4 {
 
 /* About Banner */
 
-
-
 .about-banner{
 	margin: 0 1em;
 	position: relative;
@@ -101,9 +99,10 @@ nav h4 {
 }
 
 .content {
-    margin: 0 auto;
+    margin: 0 auto 5em auto;
     padding: 1em;
     width: 75%;
+    font-size: 0.8em
 }
 
 
@@ -127,6 +126,8 @@ nav h4 {
 .menu-list-grid{
 	margin-left: 20%
 }
+
+
 
 .menu-list-nav {
     position: absolute;
@@ -236,10 +237,10 @@ nav h4 {
 .main-nav-item {
   display: inline-block;
   color: #303030;
-  font-size: 1em;
-  font-weight: bold;
+  font-size: 0.9em;
+  font-weight: normal;
   text-decoration: none;
-  letter-spacing: 0.05rem;
+  letter-spacing: 0.08rem;
 }
 
 .main-nav-item:hover, .main-nav-item:focus {
@@ -256,6 +257,7 @@ nav h4 {
   font-size: 1rem;
   text-decoration: none;
   letter-spacing: 0.05rem;
+  font-weight: normal;
 }
 
 .button:hover, .button:focus {
@@ -398,7 +400,6 @@ input.cancel-button {
 img {
 	height: auto; 
 	max-width: 100%;
-
 }
 
 figure {
@@ -409,6 +410,14 @@ figcaption {
 	font-family: Garamond, Times, serif;
 	font-style: italic;
 }
+
+/*About Image*/
+
+.about-img {
+	height:auto;
+	margin-bottom: 2em;
+}
+
 
 /*Product List Images*/
 .product-img {
@@ -426,20 +435,6 @@ figcaption {
   	opacity: 0;
 }
 
-.product-img a{
-position: relative;
-}
-
-.product-imag a span{
-	position:absolute;
-	display: none;
-	z-index: 99;
-}
-
-.product-img a:hover span{
-	display:block;
-}
-
 .product-name{
 	font-size: 0.8em;
 	font-weight: normal;
@@ -455,10 +450,20 @@ position: relative;
 	transition: color 0.2s ease-out;
 }
 
+.product-media {
+	float: left;
+    margin-right: 100px;
+    width: 550px;
+}
 
+.product-details {
+    float: left;
+    margin: 20px 10px 0 10px;
+    width: 460px;
+}
 
 .product-description {
-	margin: 0.em;
+	margin: 0em;
 	font-size: 0.70rem;
 	letter-spacing: 0.05rem;
 	max-width: 50em;
