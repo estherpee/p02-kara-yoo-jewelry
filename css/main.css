@@ -266,6 +266,39 @@ nav h4 {
 
 }
 
+.shop-dropdown-nav {
+	position: relative;
+}
+
+.shop-dropdown-content {
+	display: none;
+	position: absolute;
+	left: -100%;
+	top: 200%;
+	width: 50vw;
+	z-index: 10;
+	background-color: red;
+	text-align: left;
+
+
+}
+
+.shop-dropdown-content a{
+	color: black;
+	text-decoration: none;
+	display: block;
+	padding: 0.5rem;
+}
+
+.shop-dropdown-content a:hover {
+	text-decoration: line-through;
+
+}
+
+.shop-dropdown-nav:hover .shop-dropdown-content {
+	display: block;
+}
+
 
 
 /** Styling for Forms and Submit/Reset **/
