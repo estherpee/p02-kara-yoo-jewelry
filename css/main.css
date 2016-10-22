@@ -109,7 +109,8 @@ nav h4 {
 }
 .about-banner img{
 	position: absolute;
-	top: -30%;
+	top: 50%;
+	transform: translateY(-50%);
 	width: 100%
 }
 
@@ -125,12 +126,13 @@ nav h4 {
 .shop-banner{
 	margin: 0 1em;
 	position: relative;
-	height: 500px;
+	height: 350px;
 	overflow: hidden;
 }
 .shop-banner img{
 	position: absolute;
-	top: -30%;
+	top: 50%;
+	transform: translateY(-50%);
 	width: 100%
 }
 
@@ -770,7 +772,8 @@ figcaption {
 
 .landing-banner img{
 	position: absolute;
-	top: -30%;
+	top: 50%;
+	transform: translateY(-50%);
 	width: 100%;
 
 }
@@ -897,21 +900,21 @@ figcaption {
 	margin-top: 2em;
 }
 
-.blog-description p{
-	font-size: 0.8em;
-	margin-bottom: 1em;
-}
 
 .blog-description h4 {
 	margin: 0.5em 0;
 }
 
+.blog-preview {
+	margin-bottom: 1.5em;
+	font-size: 0.8em;
+}
 
 .blog-date {
 	font-style: italic;
 	font-family: Garamond, Times, serif;
-	font-size: 1.10em;
-	margin-top: 1em;
+	font-size: 0.8em;
+	margin-top: 0.5em;
 	margin-bottom: 0;
 	font-style: italic;
 	letter-spacing: 0.08em
