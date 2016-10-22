@@ -97,7 +97,7 @@
 		width: 16.666666666%;
 	}
 	
-	.grid-col-4of12 {
+	.grid-col-4of12, .grid-col-1of3 {
 		width: 33.333333333%;
 	}
 
