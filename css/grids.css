@@ -34,6 +34,7 @@
 .grid-col-1of4 {
 		width: 25%;
 	}
+
 	
 }
 
@@ -57,6 +58,14 @@
 	}
 
 }
+
+@media (min-width: 30em){
+
+	footer .grid-col-3of12 {
+		width: 25%;
+	}
+}
+
 
 
 @media (min-width: 73em) {
@@ -86,6 +95,8 @@
 
 
 }
+
+
 
 
 

@@ -461,17 +461,18 @@ figcaption {
     width: 550px;
 }
 
-.product-details {
+
+.product-details{
     float: left;
     margin: 1em;
-    width: 460px;
+    width: 350px;
 }
+
 
 .product-details h4 {
 	font-family: "Circular Std", Verdana, sans-serif;
 	font-size: 1.4em;
-	margin-top: 0;
-	margin-bottom: 0.5em;
+	margin: 0.5em 0;
 	letter-spacing: 0.07em;
 }
 
@@ -480,7 +481,7 @@ figcaption {
 
 }
 
-.description-title{
+.description-title h4 {
 	font-family: "Circular Std", Verdana, sans-serif;
 	font-size: 0.8em;
 	margin-top: 0;
@@ -507,6 +508,19 @@ figcaption {
 	 color: #303030;
 }
 
+
+.colour-area {
+	margin: 1em 0;
+}
+
+
+.colour-swatch{
+	margin: 0.25em 0.25em;
+  	padding: 0.75em 1em;
+	width: 45px;
+	height: 45px;
+
+}
 /*LandingPage*/
 
 
