@@ -91,7 +91,10 @@ nav h4 {
 	margin: 1em 0 0 0;
 }
 
-.review-container h4{
+
+/*-----------Review---------------*/
+
+.review-container {
 	width: 100%;
 	position: relative;
 	padding: 0 1em;
@@ -99,6 +102,27 @@ nav h4 {
 	text-align: center;
 	border-top: 2px solid #f1f1f1;
 }
+
+.review-description p{
+	font-size: 0.8em;
+	margin-bottom: 1em;
+}
+
+.review-description h4 {
+	margin: 0.5em 0;
+}
+
+
+.review-date {
+	font-style: italic;
+	font-family: Garamond, Times, serif;
+	font-size: 1.10em;
+	margin-top: 1em;
+	margin-bottom: 0;
+	font-style: italic;
+	letter-spacing: 0.08em
+}
+
 
 /* About Banner */
 
@@ -110,8 +134,7 @@ nav h4 {
 }
 .about-banner img{
 	position: absolute;
-	top: 50%;
-	transform: translateY(-50%);
+	top: -30%;
 	width: 100%
 }
 
@@ -127,13 +150,12 @@ nav h4 {
 .shop-banner{
 	margin: 0 1em;
 	position: relative;
-	height: 350px;
+	height: 500px;
 	overflow: hidden;
 }
 .shop-banner img{
 	position: absolute;
-	top: 50%;
-	transform: translateY(-50%);
+	top: -30%;
 	width: 100%
 }
 
@@ -143,6 +165,7 @@ nav h4 {
 .menu-list-grid{
 	margin-left: 20%
 }
+
 
 
 .menu-list-nav {
@@ -772,8 +795,7 @@ figcaption {
 
 .landing-banner img{
 	position: absolute;
-	top: 50%;
-	transform: translateY(-50%);
+	top: -30%;
 	width: 100%;
 
 }
@@ -897,21 +919,21 @@ textarea#styled{
 	margin-top: 2em;
 }
 
+.blog-description p{
+	font-size: 0.8em;
+	margin-bottom: 1em;
+}
 
 .blog-description h4 {
 	margin: 0.5em 0;
 }
 
-.blog-preview {
-	margin-bottom: 1.5em;
-	font-size: 0.8em;
-}
 
 .blog-date {
 	font-style: italic;
 	font-family: Garamond, Times, serif;
-	font-size: 0.8em;
-	margin-top: 0.5em;
+	font-size: 1.10em;
+	margin-top: 1em;
 	margin-bottom: 0;
 	font-style: italic;
 	letter-spacing: 0.08em
