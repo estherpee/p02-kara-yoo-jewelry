@@ -84,6 +84,21 @@ nav h4 {
 	margin-top: 2em;
 }
 
+.recommended-container h4{
+	width: 100%;
+	position: relative;
+	padding: 0 1em;
+	margin: 1em 0 0 0;
+}
+
+.review-container h4{
+	width: 100%;
+	position: relative;
+	padding: 0 1em;
+	margin: 1em 0 0 0;
+	text-align: center;
+}
+
 /* About Banner */
 
 .about-banner{
@@ -609,7 +624,7 @@ figcaption {
 }
 
 .area-selection .grid-col-1of2 {
-	padding:0;
+	padding: 0;
 
 }
 
@@ -630,11 +645,6 @@ figcaption {
 
 .area-chart {
 
-}
-
-.choices-grid {
-	float: left;
-	margin: 0 3em 0 0;
 }
 
 .colour-swatch{
@@ -800,6 +810,19 @@ figcaption {
 .newsletter-form input.submit-button{
 	display: inline;
   	width: 100px;
+}
+
+
+.review-form input[type=text]{
+	display: inline-block;
+	margin-bottom: 0;
+	padding: 16px;
+	width: 100%;
+    border: 0.5px solid #f1f1f1;
+	color: #000;
+	background-color: #FFF;
+	font-size: 0.8rem;
+	font-weight: normal;
 }
 
 
