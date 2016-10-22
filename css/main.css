@@ -16,7 +16,7 @@ section {
 
 section ol, ul {
 	margin: 0.8em;
-	font-size: 0.80em;
+	font-size: 0.8em;
 	letter-spacing: 0.05rem;
 	list-style: none;
 }
@@ -260,7 +260,7 @@ nav h4 {
   font-weight: normal;
 }
 
-.button:hover, .button:focus, .addtocart-button:focus {
+.button:hover, .button:focus, .addtocart-button:hover, .addtocart-button:focus {
   background-color: #F8F8F8;
   color: #000;
 
@@ -543,48 +543,131 @@ figcaption {
 
 
 .addtocart-button {
-  display: inline-block;
-  padding: 0.7em 5em;
-  color: #FFF;
-  background-color: #000;
-  border: 2px solid #000;
-  font-size: 1rem;
-  text-decoration: none;
-  letter-spacing: 0.05rem;
-  font-weight: normal;
+	display: inline-block;
+	padding: 0.7em 6em;
+	color: #FFF;
+	background-color: #000;
+	border: 2px solid #000;
+	font-size: 1rem;
+	text-decoration: none;
+	letter-spacing: 0.05rem;
+	font-weight: normal;
+}
+
+.sizechart-link {
+	font-size: 0.8em;
+	font-weight: lighter;
+	color: #000;
+	margin: 3em 0;
+	text-decoration: underline;
+}
+
+.sizechart-link:hover {
+	color: #f1f1f1;
+	text-decoration: underline;
 }
 
 
-.ticket-area {
+.ticket {
 	margin: 0 0 1.5em 0;
 }
 
-.colour-area {
-	margin: 1em 0 2em 0;
+[class^='area-'] {
+	margin: 1em 0 1.5em 0;
 }
 
-.size-area {
-	margin: 1em 0 2em 0;
+.area-color {
+	
 }
 
-.quantity-area {
-	margin: 1em 0 2em 0;
+.area-selection{
+
 }
 
+.area-button {
+
+}
+
+.area-description p {
+	font-size: 0.8em;
+}
+
+.area-additional p, ul {
+	letter-spacing: 0.05em;
+	font-size: 0.8em;
+	list-style: circle;
+	padding-left: 0.5em;
+}
+
+.area-chart {
+
+}
+
+.choices-grid {
+	float: left;
+	margin: 0 3em 0 0;
+}
 
 .colour-swatch{
 	float: left;
-	margin: 0 2em 0 0;
+	margin: 0 1.5em 0 0;
 	width: 50px;
 	height: 45px;
 	border: none;
-	display: block;
 }
 
 .colour-swatch:focus{
 	border: 2px solid;
 	border-color: #000;
 }
+
+
+.size-button{
+    background-color: #FFF;
+    color: #000;
+    padding: 16px;
+    font-size: 0.8em;
+    border: 0.5px solid #f1f1f1;
+    cursor: pointer;
+    z-index: 3;
+}
+
+.dropdown-size-button{
+	position: relative;
+    display: inline-block;
+}
+
+.dropdown-size-button-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 106px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+
+.dropdown-size-button-content a {
+    color: #000;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: 0.8em;
+    text-align: center;
+}
+
+.dropdown-size-button-content a:hover {
+	background-color: #f1f1f1
+}
+
+.dropdown-size-button:hover .dropdown-size-button-content {
+    display: block;
+}
+
+.dropdown-size-button:hover .size-button {
+    background-color: #f1f1f1;
+}
+
+
 
 /*LandingPage*/
 
