@@ -24,19 +24,24 @@
 
 @media (min-width: 30em){
 
-.grid-col-1of4 {
+	.grid-col-1of4 {
 		width: 50%;
 	}
+	.dropdown-nav:hover .dropdown-content {
+		display: none;
+	}
+
 }
 
 @media (min-width: 55em){
 
-.grid-col-1of4 {
+	.grid-col-1of4 {
 		width: 25%;
 	}
 
-	
+
 }
+
 
 
 @media (min-width: 66em) {
@@ -54,6 +59,13 @@
 	}
 	
 	.grid-col-1of4 {
+		width: 25%;
+	}
+	.dropdown-nav:hover .dropdown-content {
+		display: block;
+	}
+
+	.dropdown-content .grid-col-3of12{
 		width: 25%;
 	}
 

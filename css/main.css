@@ -266,34 +266,62 @@ nav h4 {
 
 }
 
-.shop-dropdown-nav {
+.dropdown-nav {
 	position: relative;
 }
 
-.shop-dropdown-content {
+.dropdown-content {
 	display: none;
 	position: absolute;
-	left: -100%;
-	top: 200%;
-	width: 50vw;
 	z-index: 10;
-	background-color: red;
+	width: 100%;
+	height: 330px;
+	left: 0;
+	top: 50px;
 	text-align: left;
+	background-color: #fff;
+
 }
 
-.shop-dropdown-content a{
+.dropdown-content .grid-row{
+	width: 65%;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%)
+}
+
+
+.dropdown-content ul{
+	position: relative;
+	list-style: none;
+	width: 100%;
+	margin: 0;
+
+}
+
+.dropdown-content img {
+	position: relative;
+	width: 500px;
+}
+
+.dropdown-content a{
 	color: black;
 	text-decoration: none;
 	display: block;
-	padding: 0.5rem;
+	padding: 0.3rem;
 }
 
-.shop-dropdown-content a:hover {
-	text-decoration: line-through;
+.dropdown-content h4{
+	padding: 0;
 
 }
 
-.shop-dropdown-nav:hover .shop-dropdown-content {
+.dropdown-content a:hover {
+	text-decoration: underline;
+
+}
+
+.dropdown-nav:hover .dropdown-content {
 	display: block;
 }
 
@@ -317,6 +345,7 @@ input[type=text]{
 	border-bottom: 0.15rem solid #000;
 	color: #000;
 	background-color: transparent;
+
 }
 
 label {
