@@ -260,7 +260,7 @@ nav h4 {
   font-weight: normal;
 }
 
-.button:hover, .button:focus {
+.button:hover, .button:focus, .addtocart-button:focus {
   background-color: #F8F8F8;
   color: #000;
 
@@ -485,7 +485,7 @@ figcaption {
 	font-family: "Circular Std", Verdana, sans-serif;
 	font-size: 0.8em;
 	margin-top: 0;
-	margin-bottom: 0.5em;
+	margin-bottom: 1em;
 	letter-spacing: 0.07em;
 	text-transform: uppercase;
 }
@@ -509,18 +509,50 @@ figcaption {
 }
 
 
+.addtocart-button {
+  display: inline-block;
+  padding: 0.7em 5em;
+  color: #FFF;
+  background-color: #000;
+  border: 2px solid #000;
+  font-size: 1rem;
+  text-decoration: none;
+  letter-spacing: 0.05rem;
+  font-weight: normal;
+}
+
+
+.ticket-area {
+	margin: 0 0 1.5em 0;
+}
+
 .colour-area {
-	margin: 1em 0;
+	margin: 1em 0 2em 0;
+}
+
+.size-area {
+	margin: 1em 0 2em 0;
+}
+
+.quantity-area {
+	margin: 1em 0 2em 0;
 }
 
 
 .colour-swatch{
-	margin: 0.25em 0.25em;
-  	padding: 0.75em 1em;
-	width: 45px;
+	float: left;
+	margin: 0 2em 0 0;
+	width: 50px;
 	height: 45px;
-
+	border: none;
+	display: block;
 }
+
+.colour-swatch:focus{
+	border: 2px solid;
+	border-color: #000;
+}
+
 /*LandingPage*/
 
 
