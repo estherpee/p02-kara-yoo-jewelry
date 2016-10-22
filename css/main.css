@@ -81,7 +81,31 @@ nav h4 {
 .container {
 	width: 100%;
 	position: relative;
+	margin-top: 2em;
 }
+
+/* About Banner */
+
+
+
+.about-banner{
+	margin: 0 1em;
+	position: relative;
+	height: 500px;
+	overflow: hidden;
+}
+.about-banner img{
+	position: absolute;
+	top: -30%;
+	width: 100%
+}
+
+.content {
+    margin: 0 auto;
+    padding: 1em;
+    width: 75%;
+}
+
 
 /*Shop Banner*/
 
@@ -98,19 +122,21 @@ nav h4 {
 }
 
 
-/*Product List Container*/
+/*Side Menu List Container*/
 
-.product-list-grid{
+.menu-list-grid{
 	margin-left: 20%
 }
 
-.product-list-nav {
+.menu-list-nav {
     position: absolute;
     padding: 0 900px;
     top: 0;
     left: 0;
     width: 195px;
 }
+
+
 
 
 /*Sidebar Navigation*/
