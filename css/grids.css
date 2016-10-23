@@ -30,6 +30,9 @@
 	.dropdown-nav:hover .dropdown-content {
 		display: none;
 	}
+	.grid-col-2of3 {
+		width: 66.6666667%;
+	}
 
 }
 
@@ -57,6 +60,8 @@
 	.grid-col-2of12{
 		width: 16.6666666666%;
 	}
+
+
 	
 	.grid-col-1of4 {
 		width: 25%;

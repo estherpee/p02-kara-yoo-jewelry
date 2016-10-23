@@ -126,7 +126,7 @@ nav h4 {
 
 /* About Banner */
 
-.about-banner{
+/*.about-banner{
 	margin: 0 1em;
 	position: relative;
 	height: 500px;
@@ -136,7 +136,7 @@ nav h4 {
 	position: absolute;
 	top: -30%;
 	width: 100%
-}
+}*/
 
 .content {
     padding: 1em;
@@ -150,12 +150,13 @@ nav h4 {
 .shop-banner{
 	margin: 0 1em;
 	position: relative;
-	height: 500px;
+	height: 30vw;
 	overflow: hidden;
 }
 .shop-banner img{
 	position: absolute;
-	top: -30%;
+	transform: translateY(-50%);
+	top: 50%;
 	width: 100%
 }
 
@@ -787,7 +788,7 @@ figcaption {
 
 .landing-banner {
 	background-color: #C0C0C0;
-	height: 500px;
+	height: 40vw;
 	margin: 0 1em;
 	overflow: hidden;
 	position: relative;
@@ -803,7 +804,7 @@ figcaption {
 #global-footer {
 	border: none;
 	background-color: #F7F7F7;
-	margin: 1em -3% -3% -3%;
+	margin: 3.5em -3% -3% -3%;
 	padding: 3em;
 	width: auto;
 	color: #000;
@@ -831,6 +832,9 @@ figcaption {
 	margin-bottom: 0.5em;
 
 }
+
+
+
 .newsletter-form input.submit-button{
 	display: inline;
   	width: 100px;
@@ -941,3 +945,18 @@ textarea#styled{
 	letter-spacing: 0.08em
 }
 
+
+/*------------STOCKIST--------*/
+
+
+.store-name {
+	font-weight: 700;
+}
+
+.store-contact p, .store-location p {
+	margin-bottom: 0;
+}
+
+#stockists h2{
+	padding: 0 0.6em;
+}
