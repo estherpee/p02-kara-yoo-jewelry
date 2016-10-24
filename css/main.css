@@ -105,6 +105,15 @@ nav h4 {
 	border-bottom: 1px solid #000;
 }
 
+
+
+.summary-title h4{
+	text-align: center;
+	border-bottom: 1px solid #000;
+	padding:0 0 1em 0;
+}
+
+
 .tester-photo{
 	width: 100%;
 	height: auto;
@@ -127,7 +136,7 @@ nav h4 {
 	font-weight: normal;
 }
 
-/*---Somthing weird is going on here at the cart */
+/*---Something weird is going on here at the cart */
 .fixed-description h4{
 
 	margin: 1em 0 0 0;
@@ -138,18 +147,10 @@ nav h4 {
 
 }
 
-
 .fixed-description .grid-row{
 	margin: 1em 0;
 }
 
-.summary-cost {
-	text-align: right;
-}
-
-.summary .button {
-	text-align: center;
-	width:100%;
 }
 
 .summary p {
