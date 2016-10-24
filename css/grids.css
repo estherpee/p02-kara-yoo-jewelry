@@ -22,8 +22,18 @@
 
 
 
+.summary .grid-col-1of2{
+		width: 50%;
+	}
 
+#stockists .grid-col-2of3 {
+	width: 66.6666667%;
 
+}
+
+#stockists .grid-col-1of4 {
+	width: 25%;
+}
 
 @media (min-width: 30em){
 
@@ -42,6 +52,8 @@
 	.cart-card .grid-col-1of2{
 		width: 50%;
 	}
+	
+
 }
 
 
@@ -62,6 +74,11 @@
 	.grid-col-2of3 {
 		width: 66.6666667%;
 	}
+	#stockists .grid-col-1of2 {
+	width: 50%;
+
+	}	
+
 
 }
 
