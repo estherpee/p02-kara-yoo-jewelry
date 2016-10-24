@@ -35,6 +35,9 @@
 	width: 25%;
 }
 
+.dropdown-nav:hover .dropdown-content {
+		display: none;
+	}
 @media (min-width: 30em){
 
 	footer .grid-col-3of12 {
@@ -44,9 +47,7 @@
 	.grid-col-1of4 {
 		width: 50%;
 	}
-	.dropdown-nav:hover .dropdown-content {
-		display: none;
-	}
+
 	
 	/*---For Cart example Grid Structure--*/
 	.cart-card .grid-col-1of2{
@@ -144,6 +145,10 @@
 
 	.grid-col-2of3 {
 		width: 66.6666667%;
+	}
+
+	.grid-col-3of4 {
+		width: 75%;
 	}
 
 
