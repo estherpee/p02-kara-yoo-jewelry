@@ -151,6 +151,15 @@ nav h4 {
 	margin: 1em 0;
 }
 
+
+
+.summary-cost {
+	text-align: right;
+}
+
+.summary .button {
+	text-align: center;
+	width:100%;
 }
 
 .summary p {
@@ -166,6 +175,7 @@ nav h4 {
 	color: #000;
 	font-weight: bold;
 }
+
 
 
 
