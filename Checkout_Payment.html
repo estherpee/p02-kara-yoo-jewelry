@@ -145,29 +145,38 @@
 					    <div class="credit-card-info">
 					    	<h4>Credit Card</h4>
 						    <div>
-								<label for="form-address">Address:</label>
+								<label for="form-card-number">Card Number:</label>
 						      	<input type="text" class="checkout-input" placeholder="">
 						    </div>
 						    
-						    <div>
-								<label for="form-city">City/Town:</label>
-						      	<input type="text" class="checkout-input" placeholder="">
+						    <div class="short">
+								<label for="form-expiry-date">Expiry Date:</label>
+						      	<input type="text" class="checkout-input" placeholder="MM">
+						      	<input type="text" class="checkout-input" placeholder="YY">
 						    </div>
-						    <div>
-								<label for="form-province">State/Province:</label>
-						      	<input type="text" class="checkout-input" placeholder="">
-						    </div>
-						    <div>
-								<label for="form-postal-code">Postal Code:</label>
-						      	<input type="text" class="checkout-input" placeholder="">
-						    </div>
-						    <div>
-								<label for="form-phone-number">Phone Number:</label>
-						      	<input type="text" class="checkout-input" placeholder="">
+						    <div class="short">
+								<label for="form-security-code">Security Code:</label>
+						      	<input type="text" class="checkout-input" placeholder="CVC">
 						    </div>
 						</div>
-				  
+					<div class="billing-address-section">
+						<h4>Billing Address</h4>
+						<p>
+							<input type="radio" name="billing-address" value="yes" checked>
+							Same as Shipping Address
+						</p>
+
+						<p class="billing-address">
+						Jane Doe <br>
+						7848 1st Street<br>
+						Vancouver, BC <br>
+						Canada<br>
+						604-777-7771<br>
+						</p>
+				  	</div>
 				  </form>
+
+
 
 			</div>
 
@@ -211,7 +220,7 @@
 								<p class="summary-cost summary-total">$84.50</p>
 							</div>
 						<div class="grid-col-1of1">
-						<a href="Checkout_Payment.html" class="button">Ship to This Address</a>
+						<a href="Checkout_Review.html" class="button">Review Your Order</a>
 						</div>
 
 					</div>

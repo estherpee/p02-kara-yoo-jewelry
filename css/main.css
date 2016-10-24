@@ -107,11 +107,7 @@ nav h4 {
 
 
 
-.summary-title h4{
-	text-align: center;
-	border-bottom: 1px solid #000;
-	padding:0 0 1em 0;
-}
+
 
 
 .tester-photo{
@@ -151,7 +147,11 @@ nav h4 {
 	margin: 1em 0;
 }
 
-
+.summary-title h4{
+	text-align: center;
+	border-bottom: 1px solid #000;
+	padding:0 0 1em 0;
+}
 
 .summary-cost {
 	text-align: right;
@@ -232,7 +232,7 @@ nav h4 {
 
 }
 
-.add-gift-card {
+.add-gift-card, .credit-card-info {
 	border-bottom: 1px solid #f1f1f1;
 }
 .add-gift-card input[type=text] {
@@ -255,6 +255,34 @@ nav h4 {
 	float: right;
 }
 
+label[for=form-card-number] {
+	padding-top: 0;
+}
+
+.credit-card-info {
+	padding-bottom: 2em;
+}
+.credit-card-info .short input[type=text] {
+	width: 50px;
+	min-width: 0;
+	border: 0.5px solid #C0C0C0;
+
+
+}
+
+input[type=radio]{
+	margin-right: 0.5em;
+
+}
+
+.billing-address {
+
+	margin-top: 1em;
+}
+
+.billing-address-section p{
+	font-weight: normal;
+}
 
 
 
