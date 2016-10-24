@@ -87,8 +87,10 @@ nav h4 {
 .recommended-container h4{
 	width: 100%;
 	position: relative;
-	padding: 0 1em;
+	padding: 1em 1em 0 1em;
 	margin: 1em 0 0 0;
+	border-top: 2px solid #f1f1f1;
+}
 }
 
 
@@ -531,7 +533,9 @@ figcaption {
   	position: relative;
 }
 
-.product-img-thumb{
+.thumbnails .grid-col-1of4 {
+	padding: 0.5em 1em 0 0;
+
 
 }
 
@@ -559,14 +563,6 @@ figcaption {
 	-webkit-transition: color 0.2s ease-out;
 	transition: color 0.2s ease-out;
 }
-
-.product-media {
-	float: left;
-    margin-right: 100px;
-    padding: 1em;
-    width: 550px;
-}
-
 
 .product-details{
     float: left;
@@ -618,7 +614,7 @@ figcaption {
 .addtocart-button {
 	display: inline-block;
 	padding: 0.7em 1em;
-	width: 88%;
+	width: 280px;
 	color: #FFF;
 	background-color: #000;
 	border: 2px solid #000;
@@ -648,7 +644,7 @@ figcaption {
 }
 
 [class^='area-'] {
-	margin: 1em 0 1.5em 0;
+	margin: 0em 0 1.5em 0;
 }
 
 .area-color {
@@ -704,6 +700,7 @@ figcaption {
 .dropdown-size-button{
 	position: relative;
     display: inline-block;
+    padding-bottom: 1em;
 }
 
 .dropdown-size-button-content {
@@ -739,10 +736,9 @@ figcaption {
 
 .quantity-form input[type=text]{
 	display: inline-block;
-	margin-bottom: 0;
+	margin-bottom: 1em;
 	padding: 16px;
-	width: 76%;
-	max-width: 300px;
+	width: 106px;
     border: 0.5px solid #f1f1f1;
 	color: #000;
 	background-color: #FFF;
