@@ -98,7 +98,6 @@ nav h4 {
 .tester-title h4{
 	width: 100%;
 	height: 50%;
-/*	background-color: #f1f1f1;*/
 	padding: 0.5em 0;
 	margin: 0 0 0.5em 0;
 	text-align: center;
@@ -116,10 +115,13 @@ nav h4 {
 
 
 .tester-photo{
-	width:100%;
-	height:200px;
-	background-color: #f1f1f1;
+	width: 100%;
+	height: auto;
+
 }
+
+
+
 
 .tester-description h4{
 	width: 100%;
@@ -149,16 +151,23 @@ nav h4 {
 	margin: 1em 0;
 }
 
-.summary-container .grid-col-1of3{
-	padding: 0 0 0 1em;
 }
 
-.tester-summary{
-	width:100%;
-	height:30em;
-	background-color: #f1f1f1;
-	border: 0.5px solid #000;
+.summary p {
+	font-size: 0.8em;
+
 }
+.summary-sub {
+	color: #C0C0C0;
+
+}
+
+.summary-total {
+	color: #000;
+	font-weight: bold;
+}
+
+
 
 .cart-description-grid .grid-col-1of3{
 	padding: 0 1em 1em 1em;
@@ -187,19 +196,31 @@ nav h4 {
 	text-align: center;
 }
 
-.mycheckout-button {
-	display: block;
-	padding: 0.7em 1em;
+
+
+/*-----------Checkout---------------*/
+
+.checkout {
 	margin: 1em;
-	color: #FFF;
-	background-color: #000;
-	border: 2px solid #000;
-	text-decoration: none;
-	letter-spacing: 0.05rem;
-	font-weight: normal;
-	text-align: center;
 }
 
+.checkout label{
+	display: block;
+	padding: 1.5em 0 0.5em 0;
+}
+
+.checkout-title {
+	border-bottom: 1px solid #000;
+	padding-bottom: 0.45em;
+}
+
+.checkout input[type=text] {
+	width: 50%;
+	min-width: 300px;
+	border: 0.5px solid #C0C0C0;
+	padding: 0.5em;
+
+}
 
 /*-----------Review---------------*/
 
@@ -496,7 +517,6 @@ input[type=text]{
 	margin-bottom: 0;
 	padding: 1em 1em 0 1em;
 	width: 100%;
-	max-width: 300px;
 	border: none;
 	border-bottom: 0.15rem solid #000;
 	color: #000;
