@@ -23,15 +23,13 @@
 
 
 
+
+
 @media (min-width: 30em){
 
 	footer .grid-col-3of12 {
 		width: 25%;
 	}
-}
-
-
-@media (min-width: 30em){
 
 	.grid-col-1of4 {
 		width: 50%;
@@ -39,15 +37,13 @@
 	.dropdown-nav:hover .dropdown-content {
 		display: none;
 	}
-	.grid-col-2of3 {
-		width: 66.6666667%;
-	}
-/*---For Cart example Grid Structure--*/
+	
+	/*---For Cart example Grid Structure--*/
 	.cart-card .grid-col-1of2{
 		width: 50%;
 	}
-
 }
+
 
 @media (min-width: 55em){
 
@@ -61,6 +57,10 @@
 
 	.cart-card .grid-col-2of12{
 		width: 16.666666666%;
+	}
+
+	.grid-col-2of3 {
+		width: 66.6666667%;
 	}
 
 }
@@ -90,6 +90,10 @@
 
 	.grid-col-1of2 {
 		width: 50%;
+	}
+
+	.grid-col-2of3 {
+		width: 66.6666667%;
 	}
 
 }
