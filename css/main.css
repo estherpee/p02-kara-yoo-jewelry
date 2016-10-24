@@ -184,7 +184,7 @@ nav h4 {
 }
 
 .all-cards .grid-col-2of3 {
-	border: 0.5px solid #f1f1f1;
+	border-right: 0.5px solid #f1f1f1;
 }
 
 .cart-card{
@@ -222,6 +222,7 @@ nav h4 {
 .checkout-title {
 	border-bottom: 1px solid #000;
 	padding-bottom: 0.45em;
+
 }
 
 .checkout input[type=text] {
@@ -248,10 +249,7 @@ nav h4 {
 	padding: 0 1em 1em 0;
 }
 
-.add-gift-card .button {
-	color: #000;
-	background-color: #fff;
-	border-color: #000;
+.add-gift-card .secondary-button {
 	float: right;
 }
 
@@ -284,8 +282,30 @@ input[type=radio]{
 	font-weight: normal;
 }
 
+.shipping-info-summary, .payment-info-summary {
+	margin-top: 2em;
+}
+
+.checkout-review{
+	font-size: 0.8em;
+
+}
+
+.checkout-review p {
+	margin: 1em 0;
+}
 
 
+
+.order-confirmation {
+	margin: 0 10%;
+	text-align: center;
+}
+
+.order-confirmation .button, .order-confirmation .secondary-button{
+	margin: 1em;
+
+}
 /*-----------Review---------------*/
 
 #review-card{
@@ -501,11 +521,23 @@ input[type=radio]{
   font-weight: normal;
 }
 
-.button:hover, .button:focus, .addtocart-button:hover, .remove-button:hover, .addtocart-button:focus, .remove-button:focus {
+.button:hover, .button:focus, .secondary-button:hover, .secondary-button:focus, .addtocart-button:hover, .remove-button:hover, .addtocart-button:focus, .remove-button:focus {
   background-color: #F8F8F8;
   color: #000;
 
 }
+
+.secondary-button {
+	display: inline-block;
+  	padding: 0.7em 2em;
+  	border: 2px solid #000;
+  	font-size: 1rem;
+  	text-decoration: none;
+  	letter-spacing: 0.05rem;
+	color: #000;
+	background-color: #fff;
+}
+
 
 .dropdown-nav {
 	position: relative;
@@ -572,7 +604,7 @@ input[type=radio]{
 form {
 	margin: 0;
 	font-size: 0.8em;
-	font-weight: bolder;
+	font-weight: bold;
 	text-decoration: none;
 }
 
