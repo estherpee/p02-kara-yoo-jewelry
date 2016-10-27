@@ -78,22 +78,7 @@ nav h4 {
 }
 
 
-.container {
-	width: 100%;
-	position: relative;
-	margin-top: 2em;
-}
-
-.recommended-container h4{
-	width: 100%;
-	position: relative;
-	padding: 1em 1em 0 1em;
-	margin: 1em 0 0 0;
-	border-top: 2px solid #f1f1f1;
-}
-
-
-/*------------------Cart------------------*/
+/*-------------------------Cart-------------------*/
 
 .tester-title h4{
 	width: 100%;
@@ -406,14 +391,11 @@ input[type=radio]{
 }
 
 .pagnation {
-    text-align: center;
-}
-
-.toolbar-bottom {
     border-top: 1px solid #ededed;
     clear: left;
     margin-top: 40px;
     padding: 14px 0;
+     text-align: center;
 }
 
 .next-page {
@@ -705,7 +687,7 @@ figcaption {
 	font-style: italic;
 }
 
-/*About Image*/
+/*-------------------------About-----------------------------*/
 
 .about-img {
 	height:auto;
@@ -713,16 +695,12 @@ figcaption {
 }
 
 
-/*Product List Images*/
+/*-------------------------Product Listing-------------------*/
+
+
 .product-img {
   	background-color: #FFF;
   	position: relative;
-}
-
-.thumbnails .grid-col-1of4 {
-	padding: 0.5em 1em 0 0;
-
-
 }
 
 .main-img {
@@ -733,6 +711,10 @@ figcaption {
 
 .main-img:hover{
   	opacity: 0;
+}
+
+.thumbnails .grid-col-1of4 {
+	padding: 0.5em 1em 0 0;
 }
 
 .product-name{
@@ -932,10 +914,18 @@ figcaption {
 	font-weight: normal;
 }
 
+.recommended-container h4{
+	width: 100%;
+	position: relative;
+	padding: 1em 1em 0 1em;
+	margin: 1em 0 0 0;
+	border-top: 2px solid #f1f1f1;
+}
 
-/*LandingPage*/
+
+/*-----------------------------Landing------------------------*/
+
 #global-nav {
-
 	position:relative;
 	padding:0;
 	background: #fff;
@@ -959,13 +949,10 @@ figcaption {
 	float: left;
 }
 
-
-
 .material-icons {
 	color: #C0C0C0;
 
 }
-
 
 .material-icons:hover {
 	color: #000;
@@ -1053,8 +1040,6 @@ textarea#styled{
 	height: 310px;
 	overflow: hidden; /*crops excess image*/
 	position: relative;
-
-
 }
 
 
@@ -1078,7 +1063,6 @@ textarea#styled{
 	left: 0;
 	z-index: 2;
 	text-align: center;
-
 }
 
 .overlay-button {
@@ -1106,8 +1090,7 @@ textarea#styled{
 
 }
 
-
-/*-----------BLOG---------------*/
+/*-------------------------Blog-------------------*/
 
 .title {
 	text-align: center;
@@ -1123,7 +1106,6 @@ textarea#styled{
 	margin: 0.5em 0;
 }
 
-
 .blog-date {
 	font-style: italic;
 	font-family: Garamond, Times, serif;
@@ -1135,8 +1117,7 @@ textarea#styled{
 }
 
 
-/*------------Stockists--------*/
-
+/*-------------------------Stockists-------------------*/
 
 .store-name {
 	font-weight: 700;
