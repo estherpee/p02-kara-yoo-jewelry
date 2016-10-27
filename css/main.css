@@ -78,22 +78,7 @@ nav h4 {
 }
 
 
-.container {
-	width: 100%;
-	position: relative;
-	margin-top: 2em;
-}
-
-.recommended-container h4{
-	width: 100%;
-	position: relative;
-	padding: 1em 1em 0 1em;
-	margin: 1em 0 0 0;
-	border-top: 2px solid #f1f1f1;
-}
-
-
-/*------Cart----*/
+/*-------------------------Cart------------------------*/
 
 .tester-title h4{
 	width: 100%;
@@ -105,19 +90,10 @@ nav h4 {
 	border-bottom: 1px solid #000;
 }
 
-
-
-
-
-
 .tester-photo{
 	width: 100%;
 	height: auto;
-
 }
-
-
-
 
 .tester-description h4{
 	width: 100%;
@@ -134,13 +110,11 @@ nav h4 {
 
 /*---Something weird is going on here at the cart */
 .fixed-description h4{
-
 	margin: 1em 0 0 0;
 	padding: 0 0 0 1em;
 	color: #000;
 	font-size: 0.8em;
 	font-weight: normal;
-
 }
 
 .fixed-description .grid-row{
@@ -168,16 +142,12 @@ nav h4 {
 }
 .summary-sub {
 	color: #C0C0C0;
-
 }
 
 .summary-total {
 	color: #000;
 	font-weight: bold;
 }
-
-
-
 
 .cart-description-grid .grid-col-1of3{
 	padding: 0 1em 1em 1em;
@@ -189,7 +159,6 @@ nav h4 {
 
 .cart-card{
 	border-bottom: 1px solid #f1f1f1;
-
 }
 
 .remove-button {
@@ -206,9 +175,70 @@ nav h4 {
 	text-align: center;
 }
 
+/* Review */
+
+.customer-reviews-container{
+	height: 14em; 
+	overflow: auto;
+	border: 0.5px solid #f1f1f1;
+}
+
+.add-review input[type=text] {
+	width: 100%;
+
+	border: 0.5px solid #f1f1f1;
+	padding: 0.5em;
+
+}
+.add-review label {
+	display: block;
+	padding: 0 0 0.5em 0;
+	font-weight: normal;
+}
+
+.add-review textarea{
+	margin-top: 1em;
+
+}
+#review-card{
+	border-bottom: 1px solid #f1f1f1
+}
+
+.review-container {
+	width: 100%;
+	position: relative;
+	padding: 0 1em;
+	margin: 1em 0 0 0;
+	border-top: 2px solid #f1f1f1;
+}
+
+.review-description p{
+	font-size: 0.8em;
+	margin-bottom: 1em;
+}
+
+.review-description h4 {
+	margin: 0.5em 0;
+}
+
+.review-date {
+	font-style: italic;
+	font-family: Garamond, Times, serif;
+	font-size: 1.10em;
+	margin-top: 1em;
+	margin-bottom: 0;
+	font-style: italic;
+	letter-spacing: 0.08em
+}
+
+.content {
+    padding: 1em;
+    font-size: 0.8em
+}
 
 
-/*-----------Checkout---------------*/
+
+/*-------------------------Checkout-------------------*/
 
 .checkout {
 	margin: 1em;
@@ -295,8 +325,6 @@ input[type=radio]{
 	margin: 1em 0;
 }
 
-
-
 .order-confirmation {
 	margin: 0 10%;
 	text-align: center;
@@ -306,77 +334,9 @@ input[type=radio]{
 	margin: 1em;
 
 }
-/*-----------Review---------------*/
-.add-review input[type=text] {
-	width: 100%;
-
-	border: 0.5px solid #f1f1f1;
-	padding: 0.5em;
-
-}
-.add-review label {
-	display: block;
-	padding: 0 0 0.5em 0;
-	font-weight: normal;
-}
-
-.add-review textarea{
-	margin-top: 1em;
-
-}
-#review-card{
-	border-bottom: 1px solid #f1f1f1
-}
-
-.review-container {
-	width: 100%;
-	position: relative;
-	padding: 0 1em;
-	margin: 1em 0 0 0;
-	border-top: 2px solid #f1f1f1;
-}
-
-.review-description p{
-	font-size: 0.8em;
-	margin-bottom: 1em;
-}
-
-.review-description h4 {
-	margin: 0.5em 0;
-}
-
-.review-date {
-	font-style: italic;
-	font-family: Garamond, Times, serif;
-	font-size: 1.10em;
-	margin-top: 1em;
-	margin-bottom: 0;
-	font-style: italic;
-	letter-spacing: 0.08em
-}
 
 
-/* About Banner */
-
-/*.about-banner{
-	margin: 0 1em;
-	position: relative;
-	height: 500px;
-	overflow: hidden;
-}
-.about-banner img{
-	position: absolute;
-	top: -30%;
-	width: 100%
-}*/
-
-.content {
-    padding: 1em;
-    font-size: 0.8em
-}
-
-
-/*Shop Banner*/
+/* Shop Banner */
 
 .shop-banner{
 	margin: 0 1em;
@@ -391,32 +351,7 @@ input[type=radio]{
 	width: 100%
 }
 
-
-/*Side Menu List Container*/
-
-.menu-list-grid{
-	margin-left: 20%
-}
-
-.customer-reviews-container{
-	height: 14em; 
-	overflow: auto;
-	border: 0.5px solid #f1f1f1;
-}
-
-
-.menu-list-nav {
-    position: absolute;
-    padding: 0 900px;
-    top: 0;
-    left: 0;
-    width: 195px;
-}
-
-
-
-
-/*Sidebar Navigation*/
+/* Sidebar Navigation */
 
 .side-nav {
 	list-style-type: none;
@@ -445,23 +380,24 @@ input[type=radio]{
 
 
 
-/* Pagnation */
+/* Pagnation -*/
+
+.pagnation {
+    border-top: 1px solid #ededed;
+    clear: left;
+    margin-top: 40px;
+    padding: 14px 0;
+    text-align: center;
+}
+
+.pagnation a {
+    color: #111;
+}
 
 .page{
 	display: inline-block;
 	padding: 2em;
 	font-size: 1em;
-}
-
-.pagnation {
-    text-align: center;
-}
-
-.toolbar-bottom {
-    border-top: 1px solid #ededed;
-    clear: left;
-    margin-top: 40px;
-    padding: 14px 0;
 }
 
 .next-page {
@@ -474,10 +410,8 @@ input[type=radio]{
     text-decoration: underline;
 }
 
-.toolbar-bottom a {
-    color: #111;
-}
 
+/* DONT NEED
 
 .clear {
     clear: both;
@@ -487,7 +421,7 @@ input[type=radio]{
     width: 0;
     height: 0;
 }
-
+*/
 
 /* ------------------- Interactive Elements ------------------- */
 
@@ -566,7 +500,6 @@ input[type=radio]{
 	top: 50px;
 	text-align: left;
 	background-color: #fff;
-
 }
 
 .dropdown-content .grid-row{
@@ -694,8 +627,6 @@ input.cancel-button {
 /* ------------------- Colour Palette Elements ------------------- */
 
 /** Styling for Colour Palette**/
-
-
 .swatch{
 	margin: 0.25em 0.25em;
   	padding: 0.75em 1em;
@@ -755,7 +686,7 @@ figcaption {
 	font-style: italic;
 }
 
-/*About Image*/
+/*-------------------------About-----------------------------*/
 
 .about-img {
 	height:auto;
@@ -763,16 +694,12 @@ figcaption {
 }
 
 
-/*Product List Images*/
+/*-------------------------Product Listing-------------------*/
+
+
 .product-img {
   	background-color: #FFF;
   	position: relative;
-}
-
-.thumbnails .grid-col-1of4 {
-	padding: 0.5em 1em 0 0;
-
-
 }
 
 .main-img {
@@ -783,6 +710,10 @@ figcaption {
 
 .main-img:hover{
   	opacity: 0;
+}
+
+.thumbnails .grid-col-1of4 {
+	padding: 0.5em 1em 0 0;
 }
 
 .product-name{
@@ -893,7 +824,6 @@ figcaption {
 }
 
 .area-button {
-
 }
 
 .area-description p {
@@ -908,8 +838,9 @@ figcaption {
 }
 
 .area-chart {
-
 }
+
+/* Colour Selection */
 
 .colour-swatch{
 	float: left;
@@ -924,6 +855,7 @@ figcaption {
 	border-color: #000;
 }
 
+/* Size and Quantity Selection */
 
 .size-button{
     background-color: #FFF;
@@ -947,7 +879,6 @@ figcaption {
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 12;
 }
-
 
 .dropdown-size-button-content a {
     color: #000;
@@ -982,10 +913,21 @@ figcaption {
 	font-weight: normal;
 }
 
+/* Recommendations */
 
-/*LandingPage*/
+.recommended-container h4{
+	width: 100%;
+	position: relative;
+	padding: 1em 1em 0 1em;
+	margin: 1em 0 0 0;
+	border-top: 2px solid #f1f1f1;
+}
+
+
+/*-----------------------------Landing------------------------*/
+
+/* Global Navigation */
 #global-nav {
-
 	position:relative;
 	padding:0;
 	background: #fff;
@@ -1007,17 +949,12 @@ figcaption {
 }
 .secondary-nav-item {
 	float: left;
-
-
 }
-
-
 
 .material-icons {
 	color: #C0C0C0;
 
 }
-
 
 .material-icons:hover {
 	color: #000;
@@ -1037,9 +974,10 @@ figcaption {
 	position: absolute;
 	top: -30%;
 	width: 100%;
-
 }
 
+
+/* Footer */
 #global-footer {
 	border: none;
 	background-color: #F7F7F7;
@@ -1047,7 +985,6 @@ figcaption {
 	padding: 3em;
 	width: auto;
 	color: #000;
-
 }
 
 .footer-nav li{
@@ -1055,12 +992,10 @@ figcaption {
 	padding-bottom: 1em;
 }
 
-
 .footer-nav {
 	padding-left: 0;
 	margin:0;
 }
-
 
 .newsletter-form {
 	float: right;
@@ -1071,8 +1006,6 @@ figcaption {
 	margin-bottom: 0.5em;
 
 }
-
-
 
 .newsletter-form input.submit-button{
 	display: inline;
@@ -1092,7 +1025,7 @@ textarea#styled{
 }
 
 
-/*Featured Section*/
+/* Featured Section */
 
 #featured {
 	border: none;
@@ -1105,8 +1038,6 @@ textarea#styled{
 	height: 310px;
 	overflow: hidden; /*crops excess image*/
 	position: relative;
-
-
 }
 
 
@@ -1116,7 +1047,6 @@ textarea#styled{
 	z-index: 1;
 	top: 50%;
 	transform: translateY(-50%);
-
 }
 
 
@@ -1130,7 +1060,6 @@ textarea#styled{
 	left: 0;
 	z-index: 2;
 	text-align: center;
-
 }
 
 .overlay-button {
@@ -1155,11 +1084,9 @@ textarea#styled{
 	transform: translate(-50%, -50%);
 	top: 60%;
 	left: 50%; 
-
 }
 
-
-/*-----------BLOG---------------*/
+/*-------------------------Blog-----------------------*/
 
 .title {
 	text-align: center;
@@ -1175,7 +1102,6 @@ textarea#styled{
 	margin: 0.5em 0;
 }
 
-
 .blog-date {
 	font-style: italic;
 	font-family: Garamond, Times, serif;
@@ -1187,8 +1113,7 @@ textarea#styled{
 }
 
 
-/*------------STOCKIST--------*/
-
+/*-------------------------Stockists-------------------*/
 
 .store-name {
 	font-weight: 700;
