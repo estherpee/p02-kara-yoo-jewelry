@@ -78,7 +78,7 @@ nav h4 {
 }
 
 
-/*-------------------------Cart-------------------*/
+/*-------------------------Cart------------------------*/
 
 .tester-title h4{
 	width: 100%;
@@ -142,7 +142,6 @@ nav h4 {
 }
 .summary-sub {
 	color: #C0C0C0;
-
 }
 
 .summary-total {
@@ -176,9 +175,70 @@ nav h4 {
 	text-align: center;
 }
 
+/* Review */
+
+.customer-reviews-container{
+	height: 14em; 
+	overflow: auto;
+	border: 0.5px solid #f1f1f1;
+}
+
+.add-review input[type=text] {
+	width: 100%;
+
+	border: 0.5px solid #f1f1f1;
+	padding: 0.5em;
+
+}
+.add-review label {
+	display: block;
+	padding: 0 0 0.5em 0;
+	font-weight: normal;
+}
+
+.add-review textarea{
+	margin-top: 1em;
+
+}
+#review-card{
+	border-bottom: 1px solid #f1f1f1
+}
+
+.review-container {
+	width: 100%;
+	position: relative;
+	padding: 0 1em;
+	margin: 1em 0 0 0;
+	border-top: 2px solid #f1f1f1;
+}
+
+.review-description p{
+	font-size: 0.8em;
+	margin-bottom: 1em;
+}
+
+.review-description h4 {
+	margin: 0.5em 0;
+}
+
+.review-date {
+	font-style: italic;
+	font-family: Garamond, Times, serif;
+	font-size: 1.10em;
+	margin-top: 1em;
+	margin-bottom: 0;
+	font-style: italic;
+	letter-spacing: 0.08em
+}
+
+.content {
+    padding: 1em;
+    font-size: 0.8em
+}
 
 
-/*-----------Checkout---------------*/
+
+/*-------------------------Checkout-------------------*/
 
 .checkout {
 	margin: 1em;
@@ -265,8 +325,6 @@ input[type=radio]{
 	margin: 1em 0;
 }
 
-
-
 .order-confirmation {
 	margin: 0 10%;
 	text-align: center;
@@ -276,69 +334,9 @@ input[type=radio]{
 	margin: 1em;
 
 }
-/*-----------Review---------------*/
-
-.customer-reviews-container{
-	height: 14em; 
-	overflow: auto;
-	border: 0.5px solid #f1f1f1;
-}
-
-.add-review input[type=text] {
-	width: 100%;
-
-	border: 0.5px solid #f1f1f1;
-	padding: 0.5em;
-
-}
-.add-review label {
-	display: block;
-	padding: 0 0 0.5em 0;
-	font-weight: normal;
-}
-
-.add-review textarea{
-	margin-top: 1em;
-
-}
-#review-card{
-	border-bottom: 1px solid #f1f1f1
-}
-
-.review-container {
-	width: 100%;
-	position: relative;
-	padding: 0 1em;
-	margin: 1em 0 0 0;
-	border-top: 2px solid #f1f1f1;
-}
-
-.review-description p{
-	font-size: 0.8em;
-	margin-bottom: 1em;
-}
-
-.review-description h4 {
-	margin: 0.5em 0;
-}
-
-.review-date {
-	font-style: italic;
-	font-family: Garamond, Times, serif;
-	font-size: 1.10em;
-	margin-top: 1em;
-	margin-bottom: 0;
-	font-style: italic;
-	letter-spacing: 0.08em
-}
-
-.content {
-    padding: 1em;
-    font-size: 0.8em
-}
 
 
-/*------------------Shop Banner------------------*/
+/* Shop Banner */
 
 .shop-banner{
 	margin: 0 1em;
@@ -353,7 +351,7 @@ input[type=radio]{
 	width: 100%
 }
 
-/*-------------Sidebar Navigation-----------*/
+/* Sidebar Navigation */
 
 .side-nav {
 	list-style-type: none;
@@ -382,20 +380,24 @@ input[type=radio]{
 
 
 
-/*---------Pagnation---------*/
-
-.page{
-	display: inline-block;
-	padding: 2em;
-	font-size: 1em;
-}
+/* Pagnation -*/
 
 .pagnation {
     border-top: 1px solid #ededed;
     clear: left;
     margin-top: 40px;
     padding: 14px 0;
-     text-align: center;
+    text-align: center;
+}
+
+.pagnation a {
+    color: #111;
+}
+
+.page{
+	display: inline-block;
+	padding: 2em;
+	font-size: 1em;
 }
 
 .next-page {
@@ -408,9 +410,8 @@ input[type=radio]{
     text-decoration: underline;
 }
 
-.toolbar-bottom a {
-    color: #111;
-}
+
+/* DONT NEED
 
 .clear {
     clear: both;
@@ -420,7 +421,7 @@ input[type=radio]{
     width: 0;
     height: 0;
 }
-
+*/
 
 /* ------------------- Interactive Elements ------------------- */
 
@@ -626,8 +627,6 @@ input.cancel-button {
 /* ------------------- Colour Palette Elements ------------------- */
 
 /** Styling for Colour Palette**/
-
-
 .swatch{
 	margin: 0.25em 0.25em;
   	padding: 0.75em 1em;
@@ -825,7 +824,6 @@ figcaption {
 }
 
 .area-button {
-
 }
 
 .area-description p {
@@ -840,8 +838,9 @@ figcaption {
 }
 
 .area-chart {
-
 }
+
+/* Colour Selection */
 
 .colour-swatch{
 	float: left;
@@ -856,6 +855,7 @@ figcaption {
 	border-color: #000;
 }
 
+/* Size and Quantity Selection */
 
 .size-button{
     background-color: #FFF;
@@ -879,7 +879,6 @@ figcaption {
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 12;
 }
-
 
 .dropdown-size-button-content a {
     color: #000;
@@ -914,6 +913,8 @@ figcaption {
 	font-weight: normal;
 }
 
+/* Recommendations */
+
 .recommended-container h4{
 	width: 100%;
 	position: relative;
@@ -925,6 +926,7 @@ figcaption {
 
 /*-----------------------------Landing------------------------*/
 
+/* Global Navigation */
 #global-nav {
 	position:relative;
 	padding:0;
@@ -972,9 +974,10 @@ figcaption {
 	position: absolute;
 	top: -30%;
 	width: 100%;
-
 }
 
+
+/* Footer */
 #global-footer {
 	border: none;
 	background-color: #F7F7F7;
@@ -982,7 +985,6 @@ figcaption {
 	padding: 3em;
 	width: auto;
 	color: #000;
-
 }
 
 .footer-nav li{
@@ -990,12 +992,10 @@ figcaption {
 	padding-bottom: 1em;
 }
 
-
 .footer-nav {
 	padding-left: 0;
 	margin:0;
 }
-
 
 .newsletter-form {
 	float: right;
@@ -1006,8 +1006,6 @@ figcaption {
 	margin-bottom: 0.5em;
 
 }
-
-
 
 .newsletter-form input.submit-button{
 	display: inline;
@@ -1027,7 +1025,7 @@ textarea#styled{
 }
 
 
-/*Featured Section*/
+/* Featured Section */
 
 #featured {
 	border: none;
@@ -1049,7 +1047,6 @@ textarea#styled{
 	z-index: 1;
 	top: 50%;
 	transform: translateY(-50%);
-
 }
 
 
@@ -1087,10 +1084,9 @@ textarea#styled{
 	transform: translate(-50%, -50%);
 	top: 60%;
 	left: 50%; 
-
 }
 
-/*-------------------------Blog-------------------*/
+/*-------------------------Blog-----------------------*/
 
 .title {
 	text-align: center;
