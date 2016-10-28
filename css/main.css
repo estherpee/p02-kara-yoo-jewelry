@@ -335,6 +335,10 @@ input[type=radio]{
 
 }
 
+.order-confirmation p {
+	padding-bottom: 2em;
+}
+
 
 /* Shop Banner */
 
@@ -346,9 +350,9 @@ input[type=radio]{
 }
 .shop-banner img{
 	position: absolute;
-	transform: translateY(-50%);
-	top: 50%;
-	width: 100%
+	object-fit: cover;
+	height:100%;
+	width: 100%;
 }
 
 /* Sidebar Navigation */
@@ -1002,8 +1006,6 @@ figcaption {
 }
 
 .landing-banner img{
-/*	position: absolute;
-	top: -30%;*/
 	object-fit: cover;
 	height:100%;
 	width: 100%;
@@ -1011,13 +1013,15 @@ figcaption {
 
 
 /* Footer */
+
 #global-footer {
 	border: none;
 	background-color: #F7F7F7;
 	margin: 3.5em -3% -3% -3%;
 	padding: 3em;
-	width: auto;
+	width: auto:;
 	color: #000;
+
 }
 
 .footer-nav li{
@@ -1068,35 +1072,38 @@ textarea#styled{
 
 .large-featured, .small-featured {
 	width: 100%;
-	height: 350px;
 	overflow: hidden;
 	position: relative;
 }
-
+.small-featured {
+	height: 300px;
+}
 .large-featured {
-	height: 730px;
+	height: 630px;
 	margin-top: 1em;
+	margin-bottom: -1em;
 }
 
 .img-featured {
 	position: absolute;
-	top: 2vw;
 	left: 2vw;
 }
+
 .large-featured img, .small-featured img{
 	width: 100%;
 	height: 100%;
 	object-fit: cover;
 
-
 }
+
+
 
 .featured-content {
 	position: absolute;
-	top: 30%;
+	top: 50%;
 	width: 50%;
 	z-index: 2;
-
+	transform: translateY(-50%);
 }
 .large-featured p, .small-featured p {
 	font-size: 1.3rem; 
@@ -1105,7 +1112,6 @@ textarea#styled{
 	letter-spacing: 0.05rem;
 	text-transform: uppercase;
 	position: relative;
-
 	
 }
 
@@ -1113,7 +1119,7 @@ textarea#styled{
 	border-bottom: 2px solid #000;
 	width: 50px;
 }
-.overlay-button {
+/*.overlay-button {
   display: inline-block;
   padding: 0.7em 1em;
   margin-right: -3em;
@@ -1137,7 +1143,7 @@ textarea#styled{
 	transform: translate(-50%, -50%);
 	top: 55%;
 	left: 50%; 
-}
+}*/
 
 /*-------------------------Blog-----------------------*/
 
@@ -1214,4 +1220,8 @@ textarea#styled{
 
 .email-confirm {
 	text-align: center;
+}
+
+.email-confirm p {
+	padding-bottom: 2em;
 }
