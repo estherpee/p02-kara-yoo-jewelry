@@ -42,6 +42,12 @@
 .send-email{
 	margin: 0 5%;
 }
+
+
+.landing-banner {
+	height: 300px;
+}
+
 @media (min-width: 30em){
 
 	footer .grid-col-3of12 {
@@ -88,7 +94,9 @@
 	}	
 
 
-
+	.landing-banner {
+	height: 40vw;
+	}
 
 }
 

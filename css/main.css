@@ -231,10 +231,10 @@ nav h4 {
 	letter-spacing: 0.08em
 }
 
-.content {
+/*.content {
     padding: 1em;
-    font-size: 0.8em
-}
+ 
+}*/
 
 
 
@@ -986,9 +986,26 @@ figcaption {
 	position: relative;
 }
 
+.landing-banner p {
+	font-size: 1.3rem; 
+	font-family: "Circular Std", Verdana, sans-serif;
+	font-weight: bold;
+	letter-spacing: 0.05rem;
+	text-transform: uppercase;
+	position: relative;
+}
+
+.landing-banner .featured-content {
+	left: 3vw;
+	top: 70%;
+
+}
+
 .landing-banner img{
-	position: absolute;
-	top: -30%;
+/*	position: absolute;
+	top: -30%;*/
+	object-fit: cover;
+	height:100%;
 	width: 100%;
 }
 
@@ -1050,42 +1067,52 @@ textarea#styled{
 }
 
 .large-featured, .small-featured {
-	background-color: #C0C0C0;
 	width: 100%;
-	height: 310px;
-	overflow: hidden; /*crops excess image*/
+	height: 350px;
+	overflow: hidden;
 	position: relative;
 }
 
+.large-featured {
+	height: 730px;
+	margin-top: 1em;
+}
 
-.large-featured img, .small-featured img {
+.img-featured {
 	position: absolute;
-	object-fit: cover;
+	top: 2vw;
+	left: 2vw;
+}
+.large-featured img, .small-featured img{
 	width: 100%;
 	height: 100%;
-	z-index: 1;
-	top: 50%;
-	transform: translateY(-50%);
+	object-fit: cover;
+
+
 }
 
+.featured-content {
+	position: absolute;
+	top: 30%;
+	width: 50%;
+	z-index: 2;
 
+}
 .large-featured p, .small-featured p {
-	font-size: 1.2rem;
+	font-size: 1.3rem; 
 	font-family: "Circular Std", Verdana, sans-serif;
 	font-weight: bold;
-	position: absolute;
-	color: white;
-	text-shadow: 0 0 10px rgba(0,0,0,0.4);
-	top: 40%;
-	transform: translateY(-50%);
-	width: 80%;
-	left: 10%;
-	z-index: 2;
 	letter-spacing: 0.05rem;
 	text-transform: uppercase;
-	text-align: center;
+	position: relative;
+
+	
 }
 
+.featured-underline {
+	border-bottom: 2px solid #000;
+	width: 50px;
+}
 .overlay-button {
   display: inline-block;
   padding: 0.7em 1em;
@@ -1103,11 +1130,12 @@ textarea#styled{
 
 }
 
+
 .large-featured .overlay-button, .small-featured .overlay-button{
 	position: absolute;
 	z-index: 3;
 	transform: translate(-50%, -50%);
-	top: 60%;
+	top: 55%;
 	left: 50%; 
 }
 
