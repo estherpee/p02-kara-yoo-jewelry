@@ -183,24 +183,24 @@ nav h4 {
 	border: 0.5px solid #f1f1f1;
 }
 
-.add-review input[type=text] {
+.add-review input[type=text], .send-email input[type=text] {
 	width: 100%;
 
 	border: 0.5px solid #f1f1f1;
 	padding: 0.5em;
 
 }
-.add-review label {
+.add-review label, .send-email label {
 	display: block;
 	padding: 0 0 0.5em 0;
 	font-weight: normal;
 }
 
-.add-review textarea{
+.add-review textarea, .send-email textarea{
 	margin-top: 1em;
 
 }
-#review-card{
+#review-card {
 	border-bottom: 1px solid #f1f1f1
 }
 
@@ -1036,8 +1036,9 @@ textarea#styled{
 	border: 0.5px solid #f1f1f1;
 	background-color: #FFF;
 	color: #000;
+	font-weight: normal;
 	padding: 5px;
-	font-size:0.8em;
+
 }
 
 
@@ -1165,4 +1166,24 @@ textarea#styled{
 
 .store-list{
 	padding-top: 1em;
+}
+
+/*-------------------------Contact-------------------*/
+
+.send-email{
+	margin: 0 20%;
+}
+
+.send-email form{
+	width: 100%;
+	margin-top: 3em;
+
+}
+
+.send-email .submit-button {
+	float: right;
+}
+
+.email-confirm {
+	text-align: center;
 }

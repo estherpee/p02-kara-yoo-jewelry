@@ -38,6 +38,10 @@
 .dropdown-nav:hover .dropdown-content {
 		display: none;
 	}
+
+.send-email{
+	margin: 0 5%;
+}
 @media (min-width: 30em){
 
 	footer .grid-col-3of12 {
@@ -54,6 +58,9 @@
 		width: 50%;
 	}
 	
+	.send-email{
+		margin: 0 20%;
+	}
 
 }
 
@@ -79,6 +86,8 @@
 	width: 50%;
 
 	}	
+
+
 
 
 }
