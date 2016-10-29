@@ -1057,6 +1057,7 @@ figcaption {
 
 #global-footer h4, h2, p {
 	margin: 0;
+	padding: 0 !important;
 	margin-bottom: 0.5em;
 
 }
@@ -1066,6 +1067,7 @@ figcaption {
   	width: 100px;
   	float: right;
 }
+
 
 .newsletter-form input[type=text]{
 	font-weight: normal;
