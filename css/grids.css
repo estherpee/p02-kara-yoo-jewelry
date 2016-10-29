@@ -58,9 +58,7 @@
 
 @media (min-width: 30em){
 
-	footer .grid-col-3of12 {
-		width: 25%;
-	}
+
 
 	.grid-col-1of4 {
 		width: 50%;
@@ -96,6 +94,10 @@
 	#stockists .grid-col-1of4 {
 		width: 25%;
 	}
+
+		footer .grid-col-3of12 {
+		width: 100%;
+	}
 }
 
 @media (min-width: 40em){
@@ -114,7 +116,7 @@
 	.product-listing .grid-col-1of4 {
 		width: 50%;
 	}
-}
+
 
 
 @media (min-width: 55em){
@@ -152,7 +154,9 @@
 	.large-featured .featured-content {
 		top: 30%;
 	}
-
+	footer .grid-col-3of12 {
+		width: 25%;
+	}
 
 }
 

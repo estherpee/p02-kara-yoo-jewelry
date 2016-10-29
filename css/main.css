@@ -976,6 +976,8 @@ figcaption {
 
 }
 
+
+
 .material-icons:hover {
 	color: #000;
 	-webkit-transition: color 0.2s ease-out;
@@ -1024,6 +1026,25 @@ figcaption {
 
 }
 
+.fa  {
+	font-size: 1.5em  !important;
+	color: #000;
+	width: 3rem;
+
+}
+
+.social-icon {
+	text-align: center;
+}
+
+.fa:hover {
+	color: #303030;
+	-webkit-transition: color 0.2s ease-out;
+	transition: color 0.2s ease-out;
+
+}
+
+
 .footer-nav li{
 	list-style: none;
 	padding-bottom: 1em;
@@ -1032,10 +1053,6 @@ figcaption {
 .footer-nav {
 	padding-left: 0;
 	margin:0;
-}
-
-.newsletter-form {
-	float: right;
 }
 
 #global-footer h4, h2, p {
@@ -1047,6 +1064,12 @@ figcaption {
 .newsletter-form input.submit-button{
 	display: inline;
   	width: 100px;
+  	float: right;
+}
+
+.newsletter-form input[type=text]{
+	font-weight: normal;
+	padding: 0.5em 0.5em 0.1em 0.5em;
 }
 
 textarea#styled{
