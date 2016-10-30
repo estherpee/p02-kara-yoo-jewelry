@@ -715,6 +715,10 @@ figcaption {
 	margin-bottom: 2em;
 }
 
+.about-content p {
+	font-size: 0.8em;
+}
+
 
 /*-------------------------Product Listing-------------------*/
 
