@@ -190,6 +190,12 @@ nav h4 {
 	padding: 0.5em;
 
 }
+
+.add-review p {
+	font-weight: normal;
+	font-size: 1em;
+
+}
 .add-review label, .send-email label {
 	display: block;
 	padding: 0 0 0.5em 0;
@@ -203,6 +209,7 @@ nav h4 {
 #review-card {
 	border-bottom: 1px solid #f1f1f1
 }
+
 
 .review-container {
 	width: 100%;
@@ -1055,7 +1062,7 @@ figcaption {
 	margin:0;
 }
 
-#global-footer h4, h2, p {
+#global-footer h4, #global-footer h2, #global-footer p {
 	margin: 0;
 	padding: 0 !important;
 	margin-bottom: 0.5em;
