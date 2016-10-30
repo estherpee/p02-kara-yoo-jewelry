@@ -1219,11 +1219,11 @@ textarea#styled{
 /*-------------------------Stockists-------------------*/
 
 .store-name {
-	font-weight: 700;
+	font-weight: bold;
 }
 
 .store-contact p, .store-location p {
-	margin-bottom: 0;
+	margin:0;
 }
 
 #stockists h2{
@@ -1237,7 +1237,7 @@ textarea#styled{
 /*-------------------------Contact-------------------*/
 
 .send-email{
-	margin: 0 20%;
+
 }
 
 .send-email form{
