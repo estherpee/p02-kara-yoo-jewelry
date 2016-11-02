@@ -832,9 +832,6 @@ figcaption {
 	letter-spacing: 0.04em;
 }
 
-.extra-thumbnail .grid-col-1of4{
-
-}
 
 [class^='area-'] {
 	margin: 0em 0 1.5em 0;
@@ -925,14 +922,10 @@ figcaption {
 }
 
 .quantity-form input[type=text]{
-	display: inline-block;
-	margin-bottom: 1em;
+	display: block;
+	margin: 0 1em 0 1em;
 	padding: 16px;
-	width: 106px;
     border: 0.5px solid #f1f1f1;
-	color: #000;
-	background-color: #FFF;
-	font-size: 0.8rem;
 	font-weight: normal;
 }
 
