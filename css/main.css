@@ -843,11 +843,12 @@ figcaption {
 
 .area-selection .grid-col-1of3 {
 	padding: 0;
-
+	margin: 0 1em 1em 0;
 }
 
 .area-description p {
 	font-size: 0.8em;
+	width: 75%;
 }
 
 .area-additional p, ul {
@@ -923,8 +924,9 @@ figcaption {
 
 .quantity-form input[type=text]{
 	display: block;
-	margin: 0 1em 0 1em;
+	margin: 0 1em 0 0;
 	padding: 16px;
+	width: 50px;
     border: 0.5px solid #f1f1f1;
 	font-weight: normal;
 }
