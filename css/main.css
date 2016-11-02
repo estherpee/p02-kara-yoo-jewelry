@@ -203,7 +203,8 @@ nav h4 {
 
 }
 #review-card {
-	border-bottom: 1px solid #f1f1f1
+	border-bottom: 1px solid #f1f1f1;
+	padding-left: 1em
 }
 
 
@@ -233,11 +234,6 @@ nav h4 {
 	font-style: italic;
 	letter-spacing: 0.08em
 }
-
-/*.content {
-    padding: 1em;
- 
-}*/
 
 
 
@@ -745,8 +741,8 @@ figcaption {
   	opacity: 0;
 }
 
-.thumbnails .grid-col-1of4 {
-	padding: 0.5em 1em 0 0;
+.product-preview .grid-col-1of4 {
+	padding: 0.5em 1em 1em 0;
 }
 
 .product-name{
@@ -764,22 +760,16 @@ figcaption {
 	transition: color 0.2s ease-out;
 }
 
-.product-details{
-    float: left;
-    margin: 1em;
-    width: 350px;
-}
 
-
-.product-details h4 {
+/*.product-details h4 {
 	font-family: "Circular Std", Verdana, sans-serif;
 	font-size: 1.4em;
 	margin: 0.5em 0;
 	letter-spacing: 0.07em;
-}
+}*/
 
 .product-details .price-tag {
-	font-size: 1.2em;
+	font-size: 1.5em;
 
 }
 
@@ -787,7 +777,7 @@ figcaption {
 	font-family: "Circular Std", Verdana, sans-serif;
 	font-size: 0.8em;
 	margin-top: 0;
-	margin-bottom: 1em;
+	margin-bottom: 0.5em;
 	letter-spacing: 0.07em;
 	text-transform: uppercase;
 }
@@ -814,7 +804,7 @@ figcaption {
 .addtocart-button {
 	display: inline-block;
 	padding: 0.7em 1em;
-	width: 280px;
+	width: 75%;
 	color: #FFF;
 	background-color: #000;
 	border: 2px solid #000;
@@ -834,14 +824,21 @@ figcaption {
 }
 
 .sizechart-link:hover {
-	color: #f1f1f1;
+	color: #909090;
 	text-decoration: underline;
 }
 
 
-.ticket {
+.product-detail-header {
 	margin: 0 0 1.5em 0;
 }
+
+.product-detail-title {
+	font-size: 1.4em;
+	margin: 0.5em 0 1em 0;
+	letter-spacing: 0.04em;
+}
+
 
 [class^='area-'] {
 	margin: 0em 0 1.5em 0;
@@ -851,23 +848,27 @@ figcaption {
 	
 }
 
-.area-selection .grid-col-1of2 {
+.area-selection .grid-col-1of3 {
 	padding: 0;
-
-}
-
-.area-button {
+	margin: 0 1em 1em 0;
 }
 
 .area-description p {
 	font-size: 0.8em;
+	width: 75%;
+	margin: 0;
+	color: #707070;
+	letter-spacing: 0.03em;
 }
 
 .area-additional p, ul {
 	letter-spacing: 0.05em;
 	font-size: 0.8em;
 	list-style: circle;
-	padding-left: 0.5em;
+	padding: 0 0 0.5em 1em;
+	margin: 0;
+	color: #707070;
+
 }
 
 .area-chart {
@@ -892,16 +893,16 @@ figcaption {
 
 .size-button{
     background-color: #FFF;
-    color: #000;
+    color: #909090;
     padding: 16px;
     font-size: 0.8em;
     border: 0.5px solid #f1f1f1;
 }
 
 .dropdown-size-button{
-	position: relative;
+/*	position: relative;
     display: inline-block;
-    padding-bottom: 1em;
+    padding-bottom: 1em;*/
 }
 
 .dropdown-size-button-content {
@@ -935,14 +936,11 @@ figcaption {
 }
 
 .quantity-form input[type=text]{
-	display: inline-block;
-	margin-bottom: 1em;
+	display: block;
+	margin: 0 1em 0 0;
 	padding: 16px;
-	width: 106px;
+	width: 50px;
     border: 0.5px solid #f1f1f1;
-	color: #000;
-	background-color: #FFF;
-	font-size: 0.8rem;
 	font-weight: normal;
 }
 
