@@ -475,7 +475,7 @@ input[type=radio]{
   font-weight: normal;
 }
 
-.button:hover, .button:focus, .secondary-button:hover, .secondary-button:focus, .addtocart-button:hover, .remove-button:hover, .addtocart-button:focus, .remove-button:focus {
+.button:hover, .button:focus, .secondary-button:hover, .secondary-button:focus, .addtocart-button:hover, .viewcart-button:hover, .remove-button:hover, .addtocart-button:focus, .viewcart-button:focus, .remove-button:focus {
   background-color: #F8F8F8;
   color: #000;
 
@@ -808,6 +808,20 @@ figcaption {
 	text-align: center;
 }
 
+.viewcart-button {
+	display: inline-block;
+	padding: 0.7em 1em;
+	width: 75%;
+	color: #fff;
+	background-color: #505050;
+	border: 2px solid #505050;
+	font-size: 1rem;
+	text-decoration: none;
+	letter-spacing: 0.05rem;
+	font-weight: normal;
+	text-align: center;
+}
+
 .sizechart-link {
 	font-size: 0.8em;
 	font-weight: lighter;
@@ -893,9 +907,8 @@ figcaption {
 }
 
 .dropdown-size-button{
-/*	position: relative;
+	/*position: relative;*/
     display: inline-block;
-    padding-bottom: 1em;*/
 }
 
 .dropdown-size-button-content {
