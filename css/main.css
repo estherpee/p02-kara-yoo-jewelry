@@ -455,15 +455,22 @@ input[type=radio]{
 /** Styling for Navigation Button **/
 .main-nav-item {
   display: inline-block;
-  color: #303030;
+  color: #000;
   font-size: 0.9em;
   font-weight: normal;
   text-decoration: none;
   letter-spacing: 0.08rem;
+
 }
 
 .main-nav-item:hover, .main-nav-item:focus {
-  text-decoration: line-through;
+	border-bottom: 2px solid #C0C0C0;
+  	color: #C0C0C0;
+/*  	-webkit-transition: color 0.2s ease-out;
+  	-moz-transition: color 0.2s ease-out;
+  	-o-transition: color 0.2s ease-out;
+	transition: color 0.2s ease-out;*/
+
 
 }
 
@@ -985,7 +992,7 @@ figcaption {
 
 
 
-.material-icons:hover {
+.material-icons:hover, .material-icons:focus {
 	color: #000;
 	-webkit-transition: color 0.2s ease-out;
 	transition: color 0.2s ease-out;
@@ -1097,6 +1104,8 @@ textarea#styled{
 
 /* Featured Section */
 
+
+
 #featured {
 	border: none;
 	margin-top: 1em;
@@ -1107,6 +1116,7 @@ textarea#styled{
 	overflow: hidden;
 	position: relative;
 }
+
 .small-featured {
 	height: 300px;
 }
@@ -1116,10 +1126,13 @@ textarea#styled{
 	margin-bottom: -1em;
 }
 
+
 .img-featured {
 	position: absolute;
 	left: 2vw;
 }
+
+
 
 .large-featured img, .small-featured img{
 	width: 100%;
@@ -1129,53 +1142,35 @@ textarea#styled{
 }
 
 
-
-.featured-content {
+.featured-content{
 	position: absolute;
 	top: 50%;
 	width: 50%;
 	z-index: 2;
 	transform: translateY(-50%);
+
+
 }
-.large-featured p, .small-featured p {
-	font-size: 1.3rem; 
+
+
+
+.large-featured p, .small-featured p  {
+	font-size: 1.4rem; 
 	font-family: "Circular Std", Verdana, sans-serif;
 	font-weight: bold;
 	letter-spacing: 0.05rem;
 	text-transform: uppercase;
 	position: relative;
-	
+
 }
+
+
 
 .featured-underline {
 	border-bottom: 2px solid #000;
 	width: 50px;
 }
-/*.overlay-button {
-  display: inline-block;
-  padding: 0.7em 1em;
-  margin-right: -3em;
-  color: #000;
-  background-color: #FFF;
-  font-size: 1rem;
-  text-decoration: none;
-  letter-spacing: 0.05rem;
-}
 
-.overlay-button:hover, .overlay-button:focus {
-  background-color: #000;
-  color: #FFF;
-
-}
-
-
-.large-featured .overlay-button, .small-featured .overlay-button{
-	position: absolute;
-	z-index: 3;
-	transform: translate(-50%, -50%);
-	top: 55%;
-	left: 50%; 
-}*/
 
 /*-------------------------Blog-----------------------*/
 
