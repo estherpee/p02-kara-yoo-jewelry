@@ -203,7 +203,8 @@ nav h4 {
 
 }
 #review-card {
-	border-bottom: 1px solid #f1f1f1
+	border-bottom: 1px solid #f1f1f1;
+	padding-left: 1em
 }
 
 
@@ -233,11 +234,6 @@ nav h4 {
 	font-style: italic;
 	letter-spacing: 0.08em
 }
-
-/*.content {
-    padding: 1em;
- 
-}*/
 
 
 
@@ -738,8 +734,8 @@ figcaption {
   	opacity: 0;
 }
 
-.thumbnails .grid-col-1of4 {
-	padding: 0.5em 1em 0 0;
+.product-preview .grid-col-1of4 {
+	padding: 0.5em 1em 1em 0;
 }
 
 .product-name{
@@ -757,19 +753,13 @@ figcaption {
 	transition: color 0.2s ease-out;
 }
 
-.product-details{
-    float: left;
-    margin: 1em;
-    width: 350px;
-}
 
-
-.product-details h4 {
+/*.product-details h4 {
 	font-family: "Circular Std", Verdana, sans-serif;
 	font-size: 1.4em;
 	margin: 0.5em 0;
 	letter-spacing: 0.07em;
-}
+}*/
 
 .product-details .price-tag {
 	font-size: 1.2em;
@@ -807,7 +797,7 @@ figcaption {
 .addtocart-button {
 	display: inline-block;
 	padding: 0.7em 1em;
-	width: 280px;
+	width: 75%;
 	color: #FFF;
 	background-color: #000;
 	border: 2px solid #000;
@@ -832,8 +822,18 @@ figcaption {
 }
 
 
-.ticket {
+.product-detail-header {
 	margin: 0 0 1.5em 0;
+}
+
+.product-detail-title {
+	font-size: 1.4em;
+	margin: 0 0 0.5em 0;
+	letter-spacing: 0.04em;
+}
+
+.extra-thumbnail .grid-col-1of4{
+
 }
 
 [class^='area-'] {
@@ -844,12 +844,9 @@ figcaption {
 	
 }
 
-.area-selection .grid-col-1of2 {
+.area-selection .grid-col-1of3 {
 	padding: 0;
 
-}
-
-.area-button {
 }
 
 .area-description p {
@@ -892,9 +889,9 @@ figcaption {
 }
 
 .dropdown-size-button{
-	position: relative;
+/*	position: relative;
     display: inline-block;
-    padding-bottom: 1em;
+    padding-bottom: 1em;*/
 }
 
 .dropdown-size-button-content {
