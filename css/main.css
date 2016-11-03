@@ -267,12 +267,12 @@ nav h4 {
 }
 .breadcrumbs p{
 	color: #c0c0c0;
-	
 	display: inline-block;
-	margin: 0 1em 0 0;
 
 }
-
+.breadcrumbs-arrow {
+	margin: 0 0.8em;
+}
 
 .breadcrumbs .active{
 	color: #000;
@@ -284,7 +284,9 @@ nav h4 {
 	color: #c0c0c0;
 }
 
-
+.breadcrumbs a:hover .breadcrumbs a:focus{
+	text-decoration: underline;
+}
 
 .checkout {
 	margin: 1em;
@@ -314,7 +316,7 @@ select {
 
 .checkout-title {
 	border-bottom: 1px solid #000;
-	padding-bottom: 0.45em;
+	padding-bottom: 0.3em;
 
 }
 
@@ -359,9 +361,10 @@ label[for=form-card-number] {
 	border: 0.5px solid #C0C0C0;
 
 
+
 }
 
-input[type=radio]{
+input[type=checkbox]{
 	margin-right: 0.5em;
 
 }
@@ -373,6 +376,12 @@ input[type=radio]{
 
 .billing-address-section p{
 	font-weight: normal;
+}
+
+
+.shorten-input input[type=text]{
+	width: 50%;
+	min-width: 260px;
 }
 
 .shipping-info-summary, .payment-info-summary {
@@ -653,6 +662,8 @@ input[type=text]{
 	border-bottom: 0.15rem solid #000;
 	color: #000;
 	background-color: transparent;
+	font-weight: 400; 
+
 
 }
 
@@ -677,7 +688,7 @@ input.submit-button {
   color: #FFF;
   background-color: #000;
   border-color: #000;
-  font-size: 0.90em;
+
   text-decoration: none;
   letter-spacing: 0.05rem;
 
@@ -698,7 +709,6 @@ input.cancel-button {
   color: #000;
   background-color: #FFF;
   border-color: #000;
-  font-size: 0.90em;
   text-decoration: none;
   letter-spacing: 0.05rem;
   opacity: 0.5;
@@ -1022,7 +1032,7 @@ figcaption {
 	padding: 16px;
 	width: 50px;
     border: 0.5px solid #f1f1f1;
-	font-weight: normal;
+
 }
 
 /* Recommendations */
@@ -1163,7 +1173,7 @@ figcaption {
 
 
 .newsletter-form input[type=text]{
-	font-weight: normal;
+
 	padding: 0.5em 0.5em 0.1em 0.5em;
 }
 

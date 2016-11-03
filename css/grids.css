@@ -12,7 +12,9 @@
 	
 }
 
-
+body {
+	margin:0;
+}
 
 .grid-row::after {
 	content: "";
@@ -118,6 +120,18 @@
 
 
 @media (min-width: 40em){
+	body {
+		margin: 1em 3% 0;
+	}
+
+	.checkout-section .grid-col-2of3{
+		width: 60%;
+
+	}
+	.checkout-section .grid-col-1of3{
+		width: 40%;
+
+	}
 	.featured-modular-container .grid-col-1of2{
 		width: 50%;
 
@@ -147,6 +161,14 @@
 
 
 @media (min-width: 55em){
+	.checkout-section .grid-col-2of3{
+		width: 66.6666667%;
+
+	}
+	.checkout-section .grid-col-1of3{
+		width: 33.3333333%;
+
+	}
 	.grid-col-1of2 {
 		width: 50%;
 	}
