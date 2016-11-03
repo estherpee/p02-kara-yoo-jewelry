@@ -284,7 +284,7 @@ nav h4 {
 	color: #c0c0c0;
 }
 
-.breadcrumbs a:hover .breadcrumbs a:focus{
+.breadcrumbs a:hover, .breadcrumbs a:focus{
 	text-decoration: underline;
 }
 
