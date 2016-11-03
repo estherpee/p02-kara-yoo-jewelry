@@ -199,10 +199,18 @@ nav h4 {
 
 .add-review input[type=text], .send-email input[type=text] {
 	width: 100%;
-
 	border: 0.5px solid #f1f1f1;
 	padding: 0.5em;
+	outline: none;
+	-webkit-transition: all 0.30s ease-in-out;
+	-moz-transition: all 0.30s ease-in-out;
+	-ms-transition: all 0.30s ease-in-out;
+	-o-transition: all 0.30s ease-in-out;
+}
 
+.add-review input[type=text]:focus, .send-email input[type=text]:focus {
+	 box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+	 border: 1px solid rgba(81, 203, 238, 1);
 }
 
 
@@ -538,7 +546,7 @@ input[type=radio]{
   font-weight: normal;
 }
 
-.button:hover, .button:focus, .secondary-button:hover, .secondary-button:focus, .addtocart-button:hover, .remove-button:hover, .addtocart-button:focus, .remove-button:focus {
+.button:hover, .button:focus, .secondary-button:hover, .secondary-button:focus, .addtocart-button:hover, .viewcart-button:hover, .remove-button:hover, .addtocart-button:focus, .viewcart-button:focus, .remove-button:focus {
   background-color: #F8F8F8;
   color: #000;
 
@@ -627,6 +635,7 @@ input[type=radio]{
 
 
 
+
 /** Styling for Forms and Submit/Reset **/
 form {
 	margin: 0;
@@ -655,7 +664,10 @@ label {
 }
 
 textarea:focus, input:focus{
-    outline: 0;
+	outline: 0;
+	box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+	border: 1px solid rgba(81, 203, 238, 1);
+
 }
 
 input.submit-button {
@@ -871,6 +883,20 @@ figcaption {
 	text-align: center;
 }
 
+.viewcart-button {
+	display: inline-block;
+	padding: 0.7em 1em;
+	width: 75%;
+	color: #fff;
+	background-color: #505050;
+	border: 2px solid #505050;
+	font-size: 1rem;
+	text-decoration: none;
+	letter-spacing: 0.05rem;
+	font-weight: normal;
+	text-align: center;
+}
+
 .sizechart-link {
 	font-size: 0.8em;
 	font-weight: lighter;
@@ -956,9 +982,8 @@ figcaption {
 }
 
 .dropdown-size-button{
-/*	position: relative;
+	/*position: relative;*/
     display: inline-block;
-    padding-bottom: 1em;*/
 }
 
 .dropdown-size-button-content {
@@ -1142,7 +1167,7 @@ figcaption {
 	padding: 0.5em 0.5em 0.1em 0.5em;
 }
 
-textarea#styled{
+textarea{
 	width: 100%;
 	height: 150px;
 	max-width: 100%;
@@ -1152,7 +1177,7 @@ textarea#styled{
 	color: #000;
 	font-weight: normal;
 	padding: 5px;
-
+	outline: none;
 }
 
 

@@ -8,7 +8,7 @@
 		<link rel="stylesheet" href="css/normalize.css">
 		<link rel="stylesheet" href="css/main.css">
 		<link rel="stylesheet" href="css/grids.css">
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+	
 		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 		<!-- FONTS //-->
    		<link rel="stylesheet" href="css/fonts.css">
@@ -116,12 +116,12 @@
 		</header>
 		
 <!-- Main Container-->
-		
+
 <div class="center-container">
 	
 	<div class="grid-row">
-		<!--Product Images Portion-->
 
+		<!--Product Images Portion-->
 		<div class="product-preview">
 			<div class="grid-col-1of2">
 				<!--Large Thumbnail Photo-->
@@ -147,7 +147,6 @@
 				</div>
 			</div>
 		</div>
-
 
 		<!--Product Details Portion-->
 		
@@ -186,11 +185,13 @@
 							<h4>Quantity</h4>
 							<form method="post" action="#" class="quantity-form">
 								<label for="quantity-form"></label>
-								<input type="text" id="quantity-form" placeholder="0">
+								<input type="text" maxlength="2" id="quantity-form" placeholder="0">
 							</form>
 						</div>
 
 						<a href="#" class="addtocart-button">Add to Cart</a>
+
+						<a href="#" class="viewcart-button">View Your Cart</a>
 					</div>
 				</div>
 
@@ -241,7 +242,7 @@
 				<label for="form-first-name">Name:</label>
 				<input type="text" placeholder="">
 
-				<textarea name="styled-textarea" id="styled">Leave your comment here...</textarea>
+				<textarea name="styled-textarea">Leave your comment here...</textarea>
 				<input type="submit" class="submit-button" value="Submit">
 			</form>
 			</div>

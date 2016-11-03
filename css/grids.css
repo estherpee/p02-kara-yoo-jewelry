@@ -51,6 +51,11 @@
 	top: 50%;
 }
 
+.product-listing .grid-col-1of4{
+	width: 50%;
+}
+
+
 .center-container .grid-col-1of4{
 	width: 25%;
 }
@@ -58,6 +63,8 @@
 .recommended-container .grid-col-2of12{
 		width: 50%;
 	}
+
+
 
 
 
@@ -83,7 +90,7 @@
 	}
 
 	.product-listing .grid-col-1of4 {
-		width: 100%;
+		width: 50%;
 	}
 
 	#stockists .grid-col-2of3 {
