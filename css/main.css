@@ -310,14 +310,11 @@ select {
 
 }
 
-.size-sel
-
 
 
 .checkout-title {
 	border-bottom: 1px solid #000;
 	padding-bottom: 0.3em;
-
 }
 
 .checkout input[type=text]{
@@ -344,8 +341,9 @@ select {
 	padding: 0 1em 1em 0;
 }
 
-.add-gift-card .secondary-button {
+.add-gift-card .submit-button {
 	float: right;
+	margin:0;
 }
 
 label[for=form-card-number] {
@@ -360,10 +358,11 @@ label[for=form-card-number] {
 	min-width: 0;
 	border: 0.5px solid #C0C0C0;
 
-
-
 }
 
+.short, .shorten-input {
+	padding-top: 1em;
+}
 input[type=checkbox]{
 	margin-right: 0.5em;
 
@@ -397,6 +396,9 @@ input[type=checkbox]{
 	margin: 1em 0;
 }
 
+.checkout-review .text-link{
+	color: #c0c0c0;
+}
 .order-confirmation {
 	margin: 0 10%;
 	text-align: center;
@@ -1201,6 +1203,10 @@ textarea{
 	margin-top: 1em;
 }
 
+#featured .text-link{
+	
+}
+
 .large-featured, .small-featured {
 	width: 100%;
 	overflow: hidden;
@@ -1219,7 +1225,7 @@ textarea{
 
 .img-featured {
 	position: absolute;
-	left: 2vw;
+	left: 3vw;
 }
 
 
@@ -1230,6 +1236,8 @@ textarea{
 	object-fit: cover;
 
 }
+
+
 
 
 .featured-content{
@@ -1311,12 +1319,8 @@ textarea{
 	margin:0;
 }
 
-#stockists h2{
-	padding: 0 0.6em;
-}
-
-.store-list{
-	padding-top: 1em;
+#stockists h3{
+	padding: 0 0.7em;
 }
 
 /*-------------------------Contact-------------------*/
