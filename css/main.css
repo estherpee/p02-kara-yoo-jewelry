@@ -303,14 +303,14 @@ nav h4 {
 
 select {
     width: 100%;
-
     border-radius: 1px;
     height: 31.5px;
     background-color: #ffffff;
 	border: 0.5px solid #C0C0C0;
 
-
 }
+
+.size-sel
 
 
 
@@ -1026,14 +1026,15 @@ figcaption {
     background-color: #f1f1f1;
 }
 
-.quantity-form input[type=text]{
+.quantity-form input[type=number]{
 	display: block;
 	margin: 0 1em 0 0;
 	padding: 16px;
-	width: 50px;
+	width: 75px;
+	height: 31px;
     border: 0.5px solid #f1f1f1;
-
 }
+
 
 /* Recommendations */
 

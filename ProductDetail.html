@@ -168,7 +168,7 @@
 				
 				<div class="area-selection">
 					<div class="description-title grid-row">
-						<div class="grid-col-1of3">
+						<!-- <div class="grid-col-1of3">
 							<h4>Size</h4>
 							<div class="dropdown-size-button">
 								<button class="size-button">Select a Size</button>
@@ -180,15 +180,37 @@
 									<a href="#">7</a>
 								</div>
 							</div>
-						</div>
-						
+						</div> 
+
+
 						<div class="grid-col-1of3">
 							<h4>Quantity</h4>
 							<form method="post" action="#" class="quantity-form">
 								<label for="quantity-form"></label>
 								<input type="text" maxlength="2" id="quantity-form" placeholder="0">
 							</form>
+						</div>-->
+
+						<div class="grid-col-1of3">
+							<h4>Size</h4>
+							<label for="form-size"></label>
+							<select id="sizing" name="size">
+							    <option value="1">5</option>
+							    <option value="2">6</option>
+							    <option value="3">7</option>
+							</select>
 						</div>
+
+						<div class="grid-col-1of3">
+							<h4>Quantity:</h4>
+							<form class="quantity-form">
+								
+								<label for="quantity-form"></label>
+								<input type="number" name="quantity" placeholder="0" min="1" max="20"><br>
+							</form>
+							
+						</div>
+
 
 						<a href="#" class="addtocart-button">Add to Cart</a>
 
