@@ -137,9 +137,11 @@ nav h4 {
 
 }*/
 .summary-title h4{
+	padding: 0.5em 0;
+	margin: 0 0 0.5em 0;
 	text-align: center;
+	font-size: 0.8em;
 	border-bottom: 1px solid #000;
-	padding:0 0 1em 0;
 }
 
 .summary-cost {
@@ -158,13 +160,25 @@ nav h4 {
 }
 .summary-sub {
 	color: #C0C0C0;
+
 }
 
 .summary-total {
 	color: #000;
+	font-size: 1em !important;
 	font-weight: bold;
+
 }
 
+.summary-total-divider .grid-col-1of1{
+
+	padding: 0 1em;
+
+}
+
+.summary-total-divider p{
+	border-top: 1px solid black;
+}
 .cart-description-grid .grid-col-1of3{
 	padding: 0 1em 1em 1em;
 }
@@ -219,7 +233,7 @@ nav h4 {
 .add-review label, .send-email label {
 	display: block;
 	padding: 0 0 0.5em 0;
-	font-weight: normal;
+	
 }
 
 .add-review textarea, .send-email textarea{
@@ -384,8 +398,9 @@ input[type=checkbox]{
 	min-width: 260px;
 }
 
-.shipping-info-summary, .payment-info-summary {
-	margin-top: 2em;
+.item-summary h3 {
+	font-size: 1em;
+	margin: 3em 0 0 1em;
 }
 
 .checkout-review{
@@ -400,6 +415,13 @@ input[type=checkbox]{
 .checkout-review .text-link{
 	color: #c0c0c0;
 }
+
+.info-summary .grid-col-1of2 {
+	padding: 0;
+
+}
+
+
 .order-confirmation {
 	margin: 0 10%;
 	text-align: center;
@@ -1140,7 +1162,7 @@ figcaption {
 	border: none;
 	background-color: #F7F7F7;
 	margin: 3.5em -3% -3% -3%;
-	padding: 3em;
+	padding: 2em;
 	width: auto:;
 	color: #000;
 
