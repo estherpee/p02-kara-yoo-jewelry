@@ -1,46 +1,22 @@
 'use strict';
 
 
-// var s = $(".summary");
-// var   ss = "summary-stop";
-// var   fh = $(".footer").height();
-// var	position = s.position();
+var s = $(".summary");
+var   ss = "summary-stop";
+var   fh = $("#global-footer").height();
+var csh = $(".checkout-section").height();
+var cah = $(".cart-section").height();
 
 
-// $(window).scroll(function() {
-//   if( $(s)position.bottom > fh ) {
-//     s.addClass(ss);
-//   } else {
-//     s.removeClass(ss);
-//   }
-// });
 
+$(window).scroll(function() {
+  if( $(this).scrollTop() > fh) {
+    s.addClass(ss);
+    $(".summary-container").css("height", csh);
+    $(".summary-container-cart").css("height", cah);
 
-// Position of fixed element from top of the document
-var fixedElementOffset = $('.summary').offset().top;
-// Position of footer element from top of the document.
-// You can add extra distance from the bottom if needed,
-// must match with the bottom property in CSS
-var footerOffset = $('.footer').offset().top - 36;
+  } else {
+    s.removeClass(ss);
+  }
+});
 
-var fixedElementHeight = $('.summary').height(); 
-
-// Check every time the user scrolls
-$(window).scroll(function (event) {
-
-    // Y position of the vertical scrollbar
-    var y = $(this).scrollTop();
-
-    if ( y >= fixedElementOffset && ( y + fixedElementHeight ) < footerOffset ) {
-        $('.summary').addClass('fixed');
-        $('.summary').removeClass('bottom');          
-    }
-    else if ( y >= fixedElementOffset && ( y + fixedElementHeight ) >= footerOffset ) {
-        $('.summary').removeClass('fixed');           
-        $('.summary').addClass('bottom');
-    }
-    else {
-        $('.summary').removeClass('fixed bottom');
-    }
-
- });
