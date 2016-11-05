@@ -64,8 +64,6 @@ section h3 {
 section h4 {
 	font-family: "Circular Std", Verdana, sans-serif;
 	font-size: .75rem;
-	margin-top: 1.25rem;
-	margin-bottom: 0.75rem;
 	text-transform: uppercase;
 	letter-spacing: 0.08em;
 }
@@ -81,10 +79,8 @@ nav h4 {
 /*-------------------------Cart------------------------*/
 
 .tester-title h4{
-	width: 100%;
-	height: 50%;
 	padding: 0.5em 0;
-	/*margin: 0 0 0.5em 0;*/
+	margin: 0 0 0.5em 0;
 	text-align: center;
 	font-size: 0.8em;
 	border-bottom: 1px solid #000;
@@ -177,7 +173,7 @@ nav h4 {
 }
 
 .summary-total-divider p{
-	border-top: 1px solid black;
+	border-top: 1px solid #c0c0c0;
 }
 .cart-description-grid .grid-col-1of4{
 	padding: 0 1em 1em 1em;
@@ -280,6 +276,7 @@ nav h4 {
 .breadcrumbs p{
 	color: #c0c0c0;
 	display: inline-block;
+	margin-bottom: 0;
 
 }
 .breadcrumbs-arrow {
@@ -339,6 +336,7 @@ select {
 .add-gift-card, .credit-card-info {
 	border-bottom: 1px solid #f1f1f1;
 }
+
 .add-gift-card input[type=text] {
 	width: 100%;
 	min-width: 0;
@@ -352,9 +350,13 @@ select {
 	padding: 0 1em 1em 0;
 }
 
-.add-gift-card .submit-button {
+.add-gift-card .submit-button, .checkout .submit-button, .checkout .cancel-button {
 	float: right;
 	margin:0;
+}
+
+.checkout .submit-button, .checkout .cancel-button{
+	margin: 1em;
 }
 
 label[for=form-card-number] {
@@ -363,6 +365,10 @@ label[for=form-card-number] {
 
 .credit-card-info {
 	padding-bottom: 2em;
+}
+
+.credit-card-info h4{
+	margin-bottom: 0;
 }
 .credit-card-info .short input[type=text] {
 	width: 50px;
@@ -724,7 +730,7 @@ input.submit-button {
 
 }
 
-
+/*
 input.cancel-button {
   display: inline-block;
   margin: 0.25em 0.25em;
@@ -737,19 +743,27 @@ input.cancel-button {
   letter-spacing: 0.05rem;
   opacity: 0.5;
 
-}
+}*/
 
+.cancel-button {
+  display: inline-block;
+  margin: 0.25em 0.25em;
+  padding: 0.5em 0.5em;
+  padding: 1em 2em;
+  color: #000;
+  background-color: #FFF;
+  border: 2px solid #000;
+  text-decoration: none;
+  letter-spacing: 0.05rem;
+  opacity: 0.5;
+
+}
 .cancel-button:hover, .cancel-button:focus {
 	opacity: 1;
 
 
 }
 
-.cancel-button:hover, .cancel-button:focus {
-	opacity: 1;
-
-
-}
 
 /* ------------------- Colour Palette Elements ------------------- */
 
@@ -1166,7 +1180,7 @@ option:checked {
 	border: none;
 	background-color: #F7F7F7;
 	margin: 3.5em -3% -3% -3%;
-	padding: 2em;
+	padding: 2em 3em;
 	width: auto:;
 	color: #000;
 
