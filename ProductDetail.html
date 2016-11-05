@@ -127,7 +127,7 @@
 			<div class="grid-col-1of2">
 				<!--Large Thumbnail Photo-->
 				<div class="product-img">
-					<a href="ProductDetail.html"><img class="main-img" src="images/gladiator-ring-gold-1.jpg" alt="Gladiator Ring Gold"></a>
+					<!-- <a href="ProductDetail.html"> --><img class="main-img" src="images/gladiator-ring-gold-1.jpg" alt="Gladiator Ring Gold"><!-- </a> -->
 					<img class="alternate-img" src="images/gladiator-ring-gold-2.jpg" alt="Gladiator Ring Gold">
 				</div>
 				<!-- Small Thumbnail Photos -->
@@ -158,14 +158,13 @@
 					<div class="price-tag">$120.00</div>
 				</div>
 					
-
+			
 				<div class="area-selection">
+					<form class="choices" action="Cart.html">
 					<div class="description-title">
 						<div class="grid-row">
-
 							<div class="grid-col-1of4">
-								<h4>Colour</h4>
-								<label for="colour-choice"></label>
+								<label for="colour-choice"><h4>Colour</h4></label>
 								<select id="colour-choice" name="colour" required>
 									<option value="" disabled selected>Select</option>
 								    <option value="gg">Gold</option>
@@ -174,8 +173,7 @@
 							</div>
 
 							<div class="grid-col-1of4">
-								<h4>Size</h4>
-								<label for="form-size"></label>
+								<label for="form-size"><h4>Size</h4></label>
 								<select id="sizing" name="size" required>
 								    <option value="" disabled selected>Select</option>
 								    <option value="1">5</option>
@@ -185,11 +183,10 @@
 							</div>
 
 							<div class="grid-col-1of4">
-								<h4>Quantity:</h4>
-								<form class="quantity-form">
-									<label for="quantity-form"></label>
-									<input type="number" name="quantity" placeholder="0" min="1" max="20">
-								</form>
+								<div class="quantity-form">
+									<label for="quantity-form"><h4>Quantity<h4></label>
+									<input type="number" name="quantity" placeholder="0" min="1" max="20" required>
+								</div>
 							</div>
 
 						</div>
@@ -197,9 +194,9 @@
 				</div>
 
 				<div class="area-selection">
-					<a href="#" class="addtocart-button">Add to Cart</a>
-					<a href="#" class="viewcart-button">View Your Cart</a>
+					<input type="submit" class="submit-button" value="Add to Cart" required>
 				</div>
+			</form>
 
 				
 				<div class="area-blurb area-description">

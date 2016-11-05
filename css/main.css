@@ -585,7 +585,7 @@ input[type=checkbox]{
   font-weight: normal;
 }
 
-.button:hover, .button:focus, .secondary-button:hover, .secondary-button:focus, .addtocart-button:hover, .viewcart-button:hover, .remove-button:hover, .addtocart-button:focus, .viewcart-button:focus, .remove-button:focus {
+.button:hover, .button:focus, .secondary-button:hover, .secondary-button:focus, .viewcart-button:hover, .remove-button:hover, .viewcart-button:focus, .remove-button:focus {
   background-color: #F8F8F8;
   color: #000;
 
@@ -899,8 +899,9 @@ figcaption {
 }
 
 .description-title select{
-	font-size: 0.8em;
+	font-size: 1em;
 	width: 75%;
+	font-weight: normal;
 }
 
 .product-description {
@@ -921,20 +922,6 @@ figcaption {
 	 color: #303030;
 }
 
-
-.addtocart-button {
-	display: inline-block;
-	padding: 0.7em 1em;
-	width: 75%;
-	color: #FFF;
-	background-color: #000;
-	border: 2px solid #000;
-	font-size: 1rem;
-	text-decoration: none;
-	letter-spacing: 0.05rem;
-	font-weight: normal;
-	text-align: center;
-}
 
 .viewcart-button {
 	display: inline-block;
@@ -979,6 +966,13 @@ figcaption {
 	padding: 1.5em 0 0.5em 0;
 
 }
+
+.area-selection input.submit-button{
+	margin: 0;
+	padding: 0.7em 1em;
+	width: 75%;
+}
+
 
 .area-selection .grid-col-1of4 {
 	padding: 0;
@@ -1390,7 +1384,8 @@ textarea{
 
 }
 
-.send-email .submit-button {
+.send-email .
+ {
 	float: right;
 }
 
