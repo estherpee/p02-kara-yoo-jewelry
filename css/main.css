@@ -900,7 +900,7 @@ figcaption {
 
 .description-title select{
 	font-size: 0.8em;
-	width: 50%;
+	width: 75%;
 }
 
 .product-description {
@@ -975,23 +975,23 @@ figcaption {
 }
 
 
-[class^='area-'] {
-	margin: 0em 0 1.5em 0;
+.area-selection {
+	padding: 1.5em 0 0.5em 0;
+
 }
 
-.area-color {
-	
-}
-
-.area-selection .grid-col-1of3 {
+.area-selection .grid-col-1of4 {
 	padding: 0;
 	margin: 0 1em 1em 0;
+}
+
+.area-blurb {
+	margin: 1em 0 2em 0;
 }
 
 .area-description p {
 	font-size: 0.8em;
 	width: 75%;
-	margin: 0;
 	color: #707070;
 	letter-spacing: 0.03em;
 }
@@ -1001,12 +1001,8 @@ figcaption {
 	font-size: 0.8em;
 	list-style: circle;
 	padding: 0 0 0.5em 1em;
-	margin: 0;
 	color: #707070;
 
-}
-
-.area-chart {
 }
 
 /* Colour Selection */

@@ -182,55 +182,59 @@
 				
 				
 				<div class="area-selection">
-					<div class="description-title grid-row">
+					<div class="description-title">
+						<div class="grid-row">
 
-						<div class="grid-col-1of3">
-							<h4>Size</h4>
-							<label for="form-size"></label>
-							<select id="sizing" name="size" required>
-							    <option value="" disabled selected>Select</option>
-							    <option value="1">5</option>
-							    <option value="2">6</option>
-							    <option value="3">7</option>
-							</select>
+
+
+						<div class="grid-col-1of4">
+								<h4>Colour</h4>
+								<label for="colour-choice"></label>
+								<select id="colour-choice" name="colour" required>
+									<option value="" disabled selected>Select</option>
+								    <option value="gg">Gold</option>
+								    <option value="ss">Silver</option>
+								</select>
+							</div>
+
+							<div class="grid-col-1of4">
+								<h4>Size</h4>
+								<label for="form-size"></label>
+								<select id="sizing" name="size" required>
+								    <option value="" disabled selected>Select</option>
+								    <option value="1">5</option>
+								    <option value="2">6</option>
+								    <option value="3">7</option>
+								</select>
+							</div>
+
+							<div class="grid-col-1of4">
+								<h4>Quantity:</h4>
+								<form class="quantity-form">
+									<label for="quantity-form"></label>
+									<input type="number" name="quantity" placeholder="0" min="1" max="20">
+								</form>
+							</div>
+
+
 						</div>
-
-						<div class="grid-col-1of3">
-							<h4>Quantity:</h4>
-							<form class="quantity-form">
-								<label for="quantity-form"></label>
-								<input type="number" name="quantity" placeholder="0" min="1" max="20"><br>
-							</form>
-						</div>
-
-						<div class="grid-col-1of3">
-							<h4>Colour</h4>
-							<label for="colour-choice"></label>
-							<select id="colour-choice" name="colour" required>
-								<option value="" disabled selected>Select</option>
-							    <option value="gg">Gold</option>
-							    <option value="ss">Silver</option>
-							</select>
-						</div>
-
-
-
-
-						<a href="#" class="addtocart-button">Add to Cart</a>
-
-						<a href="#" class="viewcart-button">View Your Cart</a>
 					</div>
 				</div>
 
+				<div class="area-selection">
+					<a href="#" class="addtocart-button">Add to Cart</a>
+					<a href="#" class="viewcart-button">View Your Cart</a>
+				</div>
+
 				
-				<div class="area-description">
+				<div class="area-blurb area-description">
 					<div class="description-title">
 						<h4>Description</h4>
 						<p>The three bands are connected on the sides in two ways. Choose which side you want to feature, fully connected or with a little breathing room. It makes a killer statement ring.</p>
 					</div>
 				</div>
 
-				<div class="area-additional">
+				<div class="area-blurb area-additional">
 					<div class="description-title">
 						<h4>Materials</h4>
 						<ul>
@@ -430,14 +434,12 @@
 				<div class="grid-col-3of12">
 					<h2>Sign-Up for Our Newsletter</h2>
 					<form method="post" action="#" class="newsletter-form">
-
-							<label for="form-email">Email:</label>
-							<input type="text" id="form-email" placeholder="">
-							<input type="submit" class="submit-button" value="Submit">
-
+						<label for="form-email">Email:</label>
+						<input type="text" id="form-email" placeholder="">
+						<input type="submit" class="submit-button" value="Submit">
 					</form>
-
 				</div>
+
 				<div class="grid-col-3of12">
 					<div class="social-icon">
 					<a href="https://www.facebook.com/KaraYooJewelry/" class="text-link"><i class="fa fa-facebook-square"></i></a>
