@@ -179,12 +179,8 @@ nav h4 {
 .summary-total-divider p{
 	border-top: 1px solid black;
 }
-.cart-description-grid .grid-col-1of3{
+.cart-description-grid .grid-col-1of4{
 	padding: 0 1em 1em 1em;
-}
-
-.all-cards .grid-col-2of3 {
-	border-right: 0.5px solid #f1f1f1;
 }
 
 .cart-card{
@@ -405,7 +401,10 @@ input[type=checkbox]{
 
 .checkout-review{
 	font-size: 0.8em;
+}
 
+.cart-review{
+	font-size: 0.8em;
 }
 
 .checkout-review p {
@@ -1071,8 +1070,13 @@ figcaption {
 
 .tester-title select{
     height: 45px;
+    font-size: 0.8em;
 }
 
+
+option:checked {
+	display:none;
+}
 
 /* Recommendations */
 
