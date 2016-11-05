@@ -130,8 +130,17 @@ nav h4 {
 
 /*.summary {
 	position: fixed;
+}
+*/
+.summary {
+	position: absolute;
+	bottom: -20em;
+}
 
-}*/
+.summary-container {
+	height: 100vh;
+}
+
 .summary-title h4{
 	padding: 0.5em 0;
 	margin: 0 0 0.5em 0;
