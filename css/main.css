@@ -80,7 +80,7 @@ nav h4 {
 
 .tester-title h4{
 	padding: 0.5em 0;
-	margin: 0 0 0.5em 0;
+	margin: 0 0 1em 0;
 	text-align: center;
 	font-size: 0.8em;
 	border-bottom: 1px solid #000;
@@ -88,7 +88,7 @@ nav h4 {
 
 .cart-img{
 	width: 100%;
-	height: 200px;
+	height: 160px;
 
 }
 
@@ -115,6 +115,7 @@ nav h4 {
 
 .tester-description .current-price h4{
 	border: none;
+	font-size:1em;
 }
 
 /*---Something weird is going on here at the cart */
@@ -123,7 +124,7 @@ nav h4 {
 	margin: 0;
 	padding: 0;
 	color: #000;
-	font-size: 0.8em;
+	font-size: 1em;
 	font-weight: normal;
 }
 
@@ -194,16 +195,17 @@ nav h4 {
 
 .remove-button {
 	display: inline-block;
-	padding: 0.7em 1em;
+	padding: 0.5em;
 	margin: 1em;
-	color: #000;
+	color: #909090;
 	background-color: #FFF;
-	border: 2px solid #000;
-	font-size: 1rem;
+	border: 1.5px solid #c0c0c0;
+	font-size: 1em;
 	text-decoration: none;
 	letter-spacing: 0.05rem;
 	font-weight: normal;
 	text-align: center;
+	float:right;
 }
 
 /* Review */
@@ -594,7 +596,7 @@ input[type=checkbox]{
   font-weight: normal;
 }
 
-.button:hover, .button:focus, .secondary-button:hover, .secondary-button:focus, .addtocart-button:hover, .viewcart-button:hover, .remove-button:hover, .addtocart-button:focus, .viewcart-button:focus, .remove-button:focus {
+.button:hover, .button:focus, .secondary-button:hover, .secondary-button:focus, .viewcart-button:hover, .remove-button:hover, .viewcart-button:focus, .remove-button:focus {
   background-color: #F8F8F8;
   color: #000;
 
@@ -907,6 +909,12 @@ figcaption {
 	text-transform: uppercase;
 }
 
+.description-title select{
+	font-size: 1em;
+	width: 75%;
+	font-weight: normal;
+}
+
 .product-description {
 	margin: 0em;
 	font-size: 0.70rem;
@@ -925,20 +933,6 @@ figcaption {
 	 color: #303030;
 }
 
-
-.addtocart-button {
-	display: inline-block;
-	padding: 0.7em 1em;
-	width: 75%;
-	color: #FFF;
-	background-color: #000;
-	border: 2px solid #000;
-	font-size: 1rem;
-	text-decoration: none;
-	letter-spacing: 0.05rem;
-	font-weight: normal;
-	text-align: center;
-}
 
 .viewcart-button {
 	display: inline-block;
@@ -979,23 +973,42 @@ figcaption {
 }
 
 
-[class^='area-'] {
-	margin: 0em 0 1.5em 0;
+.area-selection {
+	padding: 1.5em 0 0.5em 0;
+
 }
 
-.area-color {
-	
+.saved-choice input.submit-button{
+
+    padding: 0.5em;
+
+    background-color: #fff;
+    border: 1.5px solid #000;
+
+    color: #909090;
+    float: right;
+    font-weight: normal;
 }
 
-.area-selection .grid-col-1of3 {
+.area-selection input.submit-button{
+	margin: 0;
+	padding: 0.7em 1em;
+	width: 75%;
+}
+
+
+.area-selection .grid-col-1of4 {
 	padding: 0;
 	margin: 0 1em 1em 0;
+}
+
+.area-blurb {
+	margin: 1em 0 2em 0;
 }
 
 .area-description p {
 	font-size: 0.8em;
 	width: 75%;
-	margin: 0;
 	color: #707070;
 	letter-spacing: 0.03em;
 }
@@ -1005,12 +1018,8 @@ figcaption {
 	font-size: 0.8em;
 	list-style: circle;
 	padding: 0 0 0.5em 1em;
-	margin: 0;
 	color: #707070;
 
-}
-
-.area-chart {
 }
 
 /* Colour Selection */
@@ -1093,7 +1102,8 @@ figcaption {
 
 .tester-title select{
     height: 45px;
-    font-size: 0.8em;
+    font-size: 1em;
+    font-weight: normal;
 }
 
 
@@ -1398,7 +1408,8 @@ textarea{
 
 }
 
-.send-email .submit-button {
+.send-email .
+ {
 	float: right;
 }
 
