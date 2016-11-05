@@ -158,13 +158,28 @@
 					<div class="price-tag">$120.00</div>
 				</div>
 					
-				<div class="area-colour">
+				<!-- <div class="area-colour">
 					<div class="description-title grid-row">
 						<h4>Colour</h4>
 						<a href="#" class="colour-swatch gold"></a>
 						<a href="#" class="colour-swatch silver"></a>
 					</div>
-				</div>
+				</div> -->
+
+
+			<!-- 	<div class="area-colour">
+					<div class="description-title grid-row">
+						<h4>Colour</h4>
+						<label for="colour-choice"></label>
+						<select id="colour-choice" name="colour" required>
+							<option value="" disabled selected>Select</option>
+						    <option value="gg">Gold</option>
+						    <option value="ss">Silver</option>
+						</select>
+					</div>
+				</div> -->
+
+				
 				
 				<div class="area-selection">
 					<div class="description-title grid-row">
@@ -172,7 +187,8 @@
 						<div class="grid-col-1of3">
 							<h4>Size</h4>
 							<label for="form-size"></label>
-							<select id="sizing" name="size">
+							<select id="sizing" name="size" required>
+							    <option value="" disabled selected>Select</option>
 							    <option value="1">5</option>
 							    <option value="2">6</option>
 							    <option value="3">7</option>
@@ -185,8 +201,19 @@
 								<label for="quantity-form"></label>
 								<input type="number" name="quantity" placeholder="0" min="1" max="20"><br>
 							</form>
-							
 						</div>
+
+						<div class="grid-col-1of3">
+							<h4>Colour</h4>
+							<label for="colour-choice"></label>
+							<select id="colour-choice" name="colour" required>
+								<option value="" disabled selected>Select</option>
+							    <option value="gg">Gold</option>
+							    <option value="ss">Silver</option>
+							</select>
+						</div>
+
+
 
 
 						<a href="#" class="addtocart-button">Add to Cart</a>

@@ -898,6 +898,11 @@ figcaption {
 	text-transform: uppercase;
 }
 
+.description-title select{
+	font-size: 0.8em;
+	width: 50%;
+}
+
 .product-description {
 	margin: 0em;
 	font-size: 0.70rem;
