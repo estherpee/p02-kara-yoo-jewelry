@@ -88,7 +88,7 @@ nav h4 {
 
 .cart-img{
 	width: 100%;
-	height: 200px;
+	height: 160px;
 
 }
 
@@ -115,6 +115,7 @@ nav h4 {
 
 .tester-description .current-price h4{
 	border: none;
+	font-size:1em;
 }
 
 /*---Something weird is going on here at the cart */
@@ -123,7 +124,7 @@ nav h4 {
 	margin: 0;
 	padding: 0;
 	color: #000;
-	font-size: 0.8em;
+	font-size: 1em;
 	font-weight: normal;
 }
 
@@ -185,16 +186,17 @@ nav h4 {
 
 .remove-button {
 	display: inline-block;
-	padding: 0.7em 1em;
+	padding: 0.5em;
 	margin: 1em;
-	color: #000;
+	color: #909090;
 	background-color: #FFF;
-	border: 2px solid #000;
-	font-size: 1rem;
+	border: 1.5px solid #c0c0c0;
+	font-size: 1em;
 	text-decoration: none;
 	letter-spacing: 0.05rem;
 	font-weight: normal;
 	text-align: center;
+	float:right;
 }
 
 /* Review */
@@ -967,6 +969,18 @@ figcaption {
 
 }
 
+.saved-choice input.submit-button{
+
+    padding: 0.5em;
+
+    background-color: #fff;
+    border: 1.5px solid #000;
+
+    color: #909090;
+    float: right;
+    font-weight: normal;
+}
+
 .area-selection input.submit-button{
 	margin: 0;
 	padding: 0.7em 1em;
@@ -1079,7 +1093,8 @@ figcaption {
 
 .tester-title select{
     height: 45px;
-    font-size: 0.8em;
+    font-size: 1em;
+    font-weight: normal;
 }
 
 
