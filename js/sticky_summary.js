@@ -11,10 +11,17 @@ var width = $(window).width();
 
 // s.css("width", s.parent().width());
 
+// if (width < 879) {
+//  	$(".summary-stop").css("position", "relative"); 
+//  	$(".summary").css("position", "relative");
+//  	s.css("width", "100%");
+// }
 
 
 $(window).scroll(function() {
-  if( $(this).scrollTop() > ($(window).height() - (fh + 10))) {
+  if( $(this).scrollTop() > ($(window).height() - (fh + 15))) {
+  // if( (s.position().top + s.height()) > ($("#global-footer").position().top)) {
+
     s.addClass(ss);
     $(".summary-container").css("height", csh);
    	$(".summary-container-cart").css("height", cah);
@@ -26,7 +33,7 @@ $(window).scroll(function() {
 
 
   }
-
+	console.log("summary" + (s.position().top + s.height()));
     console.log($(this).scrollTop());
-  	console.log(fh);
+  	console.log("footer" + ($("#global-footer").position().top));
 });
