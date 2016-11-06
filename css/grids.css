@@ -246,9 +246,9 @@ body {
 	.grid-col-1of4 {
 		width: 25%;
 	}
-	.dropdown-nav:hover .dropdown-content {
+/*	.dropdown-nav:hover .dropdown-content {
 		display: block;
-	}
+	}*/
 
 
 	.dropdown-content .grid-col-3of12{
