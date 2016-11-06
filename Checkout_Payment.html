@@ -47,8 +47,8 @@
 								<div id="shop" class="dropdown-content">
 									<div class="grid-row">
 										<div class="grid-col-3of12">
+											<h4><a href="ProductListing.html">Categories</a></h4>
 											<ul>
-												<h4><a href="ProductListing.html">Categories</a></h4>
 												<li><a href="ProductListing.html">New Arrivals</a></li>
 												<li><a href="ProductListing.html">Earrings</a></li>
 												<li><a href="ProductListing.html">Rings</a></li>
@@ -60,8 +60,8 @@
 											</ul>
 										</div>
 										<div class="grid-col-3of12">
+											<h4><a href="ProductListing.html">Collections</a></h4>
 											<ul>
-												<h4><a href="ProductListing.html">Collections</a></h4>
 												<li><a href="ProductListing.html">Rose Gold</a></li>
 												<li><a href="ProductListing.html">Two-Tone</a></li>
 												<li><a href="ProductListing.html">Lollipops</a></li>
@@ -93,8 +93,8 @@
 										</div>
 							
 										<div class="grid-col-1of2">
+											<h4><a href="About.html">About</a></h4>
 											<ul>
-												<h4><a href="About.html">About</a></h4>
 												<li><a href="About.html">Kara Yoo</a></li>
 												<li><a href="#">Materials</a></li>
 												<li><a href="Blog.html">Blog and Events</a></li>
@@ -143,12 +143,14 @@
 									<h4>Add a Gift Card</h4>
 									<div class="grid-col-1of2">
 									<label for="form-gift-card-number">Gift Card Number</label>
-							      	<input type="text" class="checkout-input" placeholder="">
+							      	<input type="text" id="form-gift-card-number" class="checkout-input" placeholder="">
 							      	</div>
+
 							      	<div class="grid-col-1of2">
 									<label for="form-gift-card-pin">PIN:</label>
-							      	<input type="text" class="checkout-input" placeholder="">
+							      	<input type="text" id="form-gift-card-pin" class="checkout-input" placeholder="">
 							      	</div>
+
 							        <div class="grid-col-1of1">
 							        <input type="submit" class="submit-button" value="Apply Gift Card">
 									<!-- <a href="#" class="secondary-button">Apply Gift Card</a> -->
@@ -160,21 +162,21 @@
 
 					    		<div class="shorten-input">
 									<label for="form-first-name">Full Name</label>
-						      		<input type="text" class="checkout-input" placeholder="">
+						      		<input type="text" id="form-first-name" class="checkout-input" placeholder="">
 						    	</div>
 						    	<div class="shorten-input">
 									<label for="form-card-number">Card Number:</label>
-						      		<input type="text" class="checkout-input" placeholder="">
+						      		<input type="text" id="form-card-number" class="checkout-input" placeholder="">
 						    	</div>
 							    
 							    <div class="short">
 									<label for="form-expiry-date">Expiry Date:</label>
-							      	<input type="text" class="checkout-input" placeholder="MM">
-							      	<input type="text" class="checkout-input" placeholder="YY">
+							      	<input type="text" id="form-expiry-date1" class="checkout-input" placeholder="MM">
+							      	<input type="text" id="form-expiry-date2" class="checkout-input" placeholder="YY">
 							    </div>
 							    <div class="short">
 									<label for="form-security-code">Security Code:</label>
-							      	<input type="text" class="checkout-input" placeholder="CVC">
+							      	<input type="text" id="form-security-code" class="checkout-input" placeholder="CVC">
 							    </div>
 							</div>
 
@@ -201,14 +203,14 @@
 							    <div class="grid-col-1of1">
 								<div>
 									<label for="form-address-1">Address Line 1:</label>
-							      	<input type="text" class="checkout-input" placeholder="">
+							      	<input type="text" id="form-address-1" class="checkout-input" placeholder="">
 							    </div>
 							    </div>
 							    <div class="grid-col-1of1">
 		
 							    <div>
 									<label for="form-address-2">Address Line 2:</label>
-							      	<input type="text" class="checkout-input" placeholder="">
+							      	<input type="text" id="form-address-2" class="checkout-input" placeholder="">
 							    </div>
 							    </div>
 						 
@@ -216,26 +218,26 @@
 						    
 								    <div>
 										<label for="form-city">City/Town:</label>
-								      	<input type="text" class="checkout-input" placeholder="">
+								      	<input type="text" id="form-city" class="checkout-input" placeholder="">
 								    </div>
 							    </div>
 							    <div class="grid-col-1of2">
 								    <div>
 										<label for="form-province">State/Province:</label>
-								      	<input type="text" class="checkout-input" placeholder="">
+								      	<input type="text" id="form-province" class="checkout-input" placeholder="">
 								    </div>
 							    </div>
 
 								<div class="grid-col-1of2">
 								    <div>
 										<label for="form-postal-code">Postal Code:</label>
-								      	<input type="text" class="checkout-input" placeholder="">
+								      	<input type="text" id="form-postal-code"  class="checkout-input" placeholder="">
 								    </div>
 							    </div>
 							    <div class="grid-col-1of2">
 							    	<div>
 										<label for="form-country">Country:</label>
-										<select id="country" name="country">
+										<select id="form-country" name="country">
 										    <option value="ca">Canada</option>
 										    <option value="usa">United States</option>
 										</select>
