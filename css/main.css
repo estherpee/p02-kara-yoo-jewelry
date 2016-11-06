@@ -143,9 +143,9 @@ nav h4 {
 }
 .summary {
 	position: fixed;
-	width: 29.5%;
+	width: 29%;
 
-
+	
 
 }
 
@@ -592,6 +592,7 @@ input[type=checkbox]{
   font-weight: normal;
   text-decoration: none;
   letter-spacing: 0.08rem;
+  	border-bottom: 2px solid transparent;
 
 }
 
