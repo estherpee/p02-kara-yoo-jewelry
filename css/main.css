@@ -616,23 +616,28 @@ input[type=checkbox]{
 
 /** Styling for Navigation Button **/
 .main-nav-item {
-  display: inline-block;
-  color: #000;
-  font-size: 0.9em;
-  font-weight: normal;
-  text-decoration: none;
-  letter-spacing: 0.08rem;
-  	border-bottom: 2px solid transparent;
+	display: inline-block;
+	color: #000;
+	font-size: 0.9em;
+	font-weight: normal;
+	text-decoration: none;
+	letter-spacing: 0.08rem;
+	border-bottom: 2px solid transparent;
+
+	-webkit-transition: opacity 0.2s ease-out;
+	-moz-transition: opacity 0.2s ease-out;
+	-o-transition: opacity 0.2s ease-out;
+	transition: opacity 0.2s ease-out;
+/*	-webkit-transition: border-bottom 0.2s ease-out;
+	-moz-transition: border-bottom 0.2s ease-out;
+	-o-transition: border-bottom 0.2s ease-out;
+	transition: border-bottom 0.2s ease-out;*/
 
 }
 
 .main-nav-item:hover, .main-nav-item:focus {
-	border-bottom: 2px solid #C0C0C0;
-  	color: #C0C0C0;
-/*  	-webkit-transition: color 0.2s ease-out;
-  	-moz-transition: color 0.2s ease-out;
-  	-o-transition: color 0.2s ease-out;
-	transition: color 0.2s ease-out;*/
+/*	border-bottom: 2px solid #C0C0C0;*/
+  	opacity: 0.5;
 
 
 }
@@ -732,10 +737,6 @@ input[type=checkbox]{
 
 }
 
-/*.main-nav-item:hover .dropdown-content {
-	display: block;
-}
-*/
 
 
 
@@ -1193,6 +1194,16 @@ option:checked {
 	height: auto;
 	width: 165px;
 	padding: 0.7rem 1em;
+	-webkit-transition: opacity 0.2s ease-out;
+  	-moz-transition: opacity 0.2s ease-out;
+  	-o-transition: opacity 0.2s ease-out;
+	transition: opacity 0.2s ease-out;
+
+}
+
+#logo:hover {
+	opacity: 0.5;
+
 }
 
 .secondary-nav {
@@ -1205,6 +1216,10 @@ option:checked {
 
 .material-icons {
 	color: #C0C0C0;
+	-webkit-transition: color 0.2s ease-out;
+	-moz-transition: color 0.2s ease-out;
+  	-o-transition: color 0.2s ease-out;
+	transition: color 0.2s ease-out;
 
 }
 
@@ -1212,8 +1227,8 @@ option:checked {
 
 .material-icons:hover, .material-icons:focus {
 	color: #000;
-	-webkit-transition: color 0.2s ease-out;
-	transition: color 0.2s ease-out;
+
+
 }
 
 .landing-banner {
@@ -1262,6 +1277,11 @@ option:checked {
 	font-size: 1.5em  !important;
 	color: #000;
 	width: 3rem;
+	-webkit-transition: opacity 0.2s ease-out;
+	-moz-transition: opacity 0.2s ease-out;
+  	-o-transition: opacity 0.2s ease-out;
+	transition: opacity 0.2s ease-out;
+
 
 }
 
@@ -1270,9 +1290,7 @@ option:checked {
 }
 
 .fa:hover {
-	color: #303030;
-	-webkit-transition: color 0.2s ease-out;
-	transition: color 0.2s ease-out;
+	opacity: 0.5;
 
 }
 
