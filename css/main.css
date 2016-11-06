@@ -228,11 +228,6 @@ nav h4 {
 
 /* Review */
 
-.customer-reviews-container{
-	height: 14em; 
-	overflow: auto;
-	border: 0.5px solid #f1f1f1;
-}
 
 .add-review input[type=text], .send-email input[type=text] {
 	width: 100%;
@@ -254,6 +249,7 @@ nav h4 {
 .add-review label, .send-email label {
 	display: block;
 	padding: 0 0 0.5em 0;
+	font-size: 1em
 	
 }
 
@@ -261,13 +257,25 @@ nav h4 {
 	margin-top: 1em;
 
 }
+
+.add-review .submit-button, .add-review .cancel-button{
+	float: right;
+	margin: 1em;
+}
+
+.add-review .text-link{
+	color: #505050;
+
+}
+
+
 #review-card {
 	border-bottom: 1px solid #f1f1f1;
 	padding-left: 1em
 }
 
 
-.review-container {
+.review-container{
 	width: 100%;
 	position: relative;
 	padding: 0 1em;
@@ -292,6 +300,11 @@ nav h4 {
 	margin-bottom: 0;
 	font-style: italic;
 	letter-spacing: 0.08em
+}
+
+.review-login .grid-col-1of1 {
+	padding: 0 1em 1em 0;
+
 }
 
 
@@ -551,6 +564,12 @@ input[type=checkbox]{
 
 .next-page:hover {
     text-decoration: underline;
+}
+
+.customer-reviews-container .pagnation {
+	border: none;
+	margin: 0;
+	padding: 0;
 }
 
 
