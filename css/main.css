@@ -587,7 +587,6 @@ select {
 
 }
 
->>>>>>> origin/master
 .add-gift-card, .credit-card-info {
 	border-bottom: 1px solid #f1f1f1;
 }
@@ -693,7 +692,7 @@ input[type=checkbox]{
 .order-confirmation {
 	margin: 0 10%;
 	text-align: center;
-	margin-bottom: 3em;
+
 }
 
 .order-confirmation .button, .order-confirmation .secondary-button{
@@ -795,7 +794,7 @@ input[type=checkbox]{
     border-top: 1px solid #ededed;
     clear: left;
     margin-top: 40px;
-    padding: 14px 0;
+    padding: 14px 0 0 0;
     text-align: center;
 }
 
@@ -806,6 +805,7 @@ input[type=checkbox]{
 .page{
 	display: inline-block;
 	padding: 2em;
+	padding-bottom: 0;
 	font-size: 1em;
 }
 
@@ -1438,12 +1438,13 @@ option:checked {
 #global-footer {
 	border: none;
 	background-color: #F7F7F7;
-/*	margin: 3.5em -3% -3% -3%;*/
+	margin-top: 3em;
 	padding: 2em 3em;
 	color: #000;
 	position: absolute;
 	width: 100%;
-	left:0;
+	left: 0;
+
 }
 
 .fa  {
@@ -1665,7 +1666,6 @@ option:checked {
 .email-confirm {
 	text-align: center;
 	padding: 1em;
-	margin-bottom: 3em;
 }
 
 .email-confirm img {

@@ -89,8 +89,11 @@ body {
 @media (min-width: 30em){
 	.checkout-section .submit-button, .checkout-section .cancel-button, .checkout-section .secondary-button {
 		width: auto;
-	margin: 1em;
-	text-align: center;
+		margin: 1em;
+		text-align: center;
+	}
+	.add-gift-card .secondary-button {
+		margin:0;
 	}
 
 	.grid-col-1of4 {
