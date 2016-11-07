@@ -2,33 +2,33 @@
 
 @font-face {
 	font-family: 'Circular Std';
-	src: url('CircularStdBold.eot');
-	src: url('CircularStdBold.eot?#iefix') format('embedded-opentype'),
-		url('CircularStdBold.woff2') format('woff2'),
-		url('CircularStdBold.woff') format('woff'),
-		url('CircularStdBold.ttf') format('truetype');
+	src: url('../fonts/CircularStdBold.eot');
+	src: url('../fonts/CircularStdBold.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/CircularStdBold.woff2') format('woff2'),
+		url('../fonts/CircularStdBold.woff') format('woff'),
+		url('../fonts/CircularStdBold.ttf') format('truetype');
 	font-weight: bold;
 	font-style: normal;
 }
 
 @font-face {
 	font-family: 'Circular Std';
-	src: url('CircularStdMedium.eot');
-	src: url('CircularStdMedium.eot?#iefix') format('embedded-opentype'),
-		url('CircularStdMedium.woff2') format('woff2'),
-		url('CircularStdMedium.woff') format('woff'),
-		url('CircularStdMedium.ttf') format('truetype');
+	src: url('../fonts/CircularStdMedium.eot');
+	src: url('../fonts/CircularStdMedium.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/CircularStdMedium.woff2') format('woff2'),
+		url('../fonts/CircularStdMedium.woff') format('woff'),
+		url('../fonts/CircularStdMedium.ttf') format('truetype');
 	font-weight: 500;
 	font-style: normal;
 }
 
 @font-face {
 	font-family: 'Circular Std';
-	src: url('CircularStdBlack.eot');
-	src: url('CircularStdBlack.eot?#iefix') format('embedded-opentype'),
-		url('CircularStdBlack.woff2') format('woff2'),
-		url('CircularStdBlack.woff') format('woff'),
-		url('CircularStdBlack.ttf') format('truetype');
+	src: url('../fonts/CircularStdBlack.eot');
+	src: url('../fonts/CircularStdBlack.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/CircularStdBlack.woff2') format('woff2'),
+		url('../fonts/CircularStdBlack.woff') format('woff'),
+		url('../fonts/CircularStdBlack.ttf') format('truetype');
 	font-weight: 900;
 	font-style: normal;
 }
