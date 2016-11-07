@@ -86,7 +86,7 @@ textarea{
 	border: 0.5px solid #c0c0c0;
 	background-color: #FFF;
 	color: #000;
-	font-weight: normal;
+	font-weight: 500 !important;
 	padding: 5px;
 	outline: none;
 }
@@ -328,9 +328,13 @@ figcaption {
 	border-top: 1px solid #c0c0c0;
 }
 
-.summary .button {
+.summary .button, .summary .cancel-button {
 	text-align: center;
 	width:100%;
+}
+
+.summary .cancel-button {
+	font-size: 0.8em;
 }
 
 .remove-button {
@@ -603,18 +607,19 @@ form {
 input[type=text]{
 	display: inline-block;
 	margin-bottom: 0;
-	padding: 1em 1em 0 1em;
 	width: 100%;
-	border: none;
-	border-bottom: 0.15rem solid #000;
-	color: #000;
+	border: 0.5px solid #C0C0C0;
+	padding: 0.5em;
+	color.: #000;
 	background-color: transparent;
-	font-weight: 400; 
+	font-weight: 500 !important;
+
 }
 
 label {
 	font-size: 1.2em;
-	margin-bottom: 0;
+	display: block;
+	padding: 0.5em 0 0.5em 0;
 	vertical-align: bottom;
 }
 
@@ -957,11 +962,6 @@ option:checked {
 	padding-bottom: 0.3em;
 }
 
-.checkout input[type=text]{
-	width: 100%;
-	border: 0.5px solid #C0C0C0;
-	padding: 0.5em;
-}
 
 .checkout .select-style {
 	height: 31px;
@@ -972,11 +972,7 @@ option:checked {
 	padding-bottom: 0.3em;
 }
 
-.checkout input[type=text]{
-	width: 100%;
-	border: 0.5px solid #C0C0C0;
-	padding: 0.5em;
-}
+
 
 .add-gift-card, .credit-card-info {
 	border-bottom: 1px solid #f1f1f1;
@@ -1074,7 +1070,7 @@ input[type=checkbox]{
 }
 
 .checkout-review .text-link{
-	color: #c0c0c0;
+	opacity: 0.4;
 }
 
 .required-field .grid-col-1of1{
@@ -1244,9 +1240,7 @@ input[type=checkbox]{
   	float: right;
 }
 
-.newsletter-form input[type=text]{
-	padding: 0.5em 0.5em 0.1em 0.5em;
-}
+
 
 
 /*-------------------------Landing Page-----------------------*/
