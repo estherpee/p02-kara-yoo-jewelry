@@ -19,7 +19,7 @@
 		<h1>Kara Yoo Style Guide Template</h1>
 		<p>This styleguide is a resource for our designers, managers, and developers, in order to provide a common language around Kara Yoo's design patterns. It is used to maintain code structure and visual consistency across platforms.</p>
 
-		<section class="grid-row">
+		<div class="grid-row">
 			<nav class="main-nav">
 				<div class="grid-col-1of4">
 					<a href="#text_styling_elements" class="main-nav-item">Typography</a>
@@ -28,20 +28,23 @@
 	       			<a href="#interactive_elements" class="main-nav-item">Buttons and Forms</a>
 	       		</div>
 	       		<div class="grid-col-1of4">
-	       			<a href="#colour_palette" class="main-nav-item">Colour Palette</a>
+	       			<a href="#colour_palette" class="main-nav-item">Branding</a>
 	       		</div>
 	       		<div class="grid-col-1of4">
 	       			<a href="#combined_elements" class="main-nav-item">Combined Elements</a>
 	       		</div>
 			</nav>
-		</section>
+		</div>
 
 
 <!-- BEGIN // Text Styling Elements Section -->
 		<section id="text_styling_elements">
-			<h2>Text Styling Elements</h2>
+			<h1>Typography</h1>
 			<section>
-				<h4>Typography</h4>
+				<h2>Heading</h2>
+
+				<h4>CSS Selector:</h4>
+				<p>h1, h2, h3, h4<p>
 
 				<h4>Sample Code:</h4>
 				<code>
@@ -59,10 +62,10 @@
 			</section>
 
 			<section>
-				<h4>Paragraph</h4>
+				<h2>Paragraph</h2>
 
 				<h4>CSS Selector:</h4>
-				<p>&lt;p&gt;&lt;/p&gt;</p>
+				<p>p</p>
 
 				<h4>Sample Code:</h4>
 					<code>
@@ -74,11 +77,10 @@
 			</section>
 
 			<section>
-				<h4>Bulleted Lists</h4>
+				<h2>Bulleted Lists</h2>
 
 				<h4>CSS Selector:</h4>
-				<p>&lt;ul&gt;&lt;/ul&gt;</p>
-				<p>&lt;li&gt;&lt;/li&gt;</p>
+				<p>ul, li</p>
 
 				<h4>Sample Code:</h4>
 				<code>
@@ -102,9 +104,9 @@
 
 <!-- BEGIN // Interactive Elements Section-->
 		<section id="interactive_elements">
-			<h2>Interactive Elements</h2>
+			<h1>Interactive Elements</h1>
 			<section>
-				<h4>In-text Link</h4>
+				<h2>In-text Link</h2>
 
 				<h4>CSS Selector:</h4>
 				<p>.text-link<p>
@@ -119,7 +121,7 @@
 			</section>
 
 			<section>
-				<h4>Navigation Button</h4>
+				<h2>Navigation Button</h2>
 
 				<h4>CSS Selector:</h4>
 				<p>.main-nav-item<p>
@@ -134,7 +136,7 @@
 			</section>
 
 			<section>
-				<h4>Text Input</h4>
+				<h2>Text Input</h2>
 				<h4>CSS Selector:</h4>
 				<p>input<p>
 
@@ -165,19 +167,20 @@
 			</section>
 
 			<section>
-				<h4>Submit and Reset</h4>
+				<h2>Submit</h2>
 				<h4>CSS Selector:</h4>
 					<p>.cancel-button<p>
 					<p>.submit-button<p>
 
 				<h4>Sample Code:</h4>
 					<code>
+						&lt;input type="submit" class="cancel-button" value="Cancel"&gt;<br>
 						&lt;input type="submit" class="submit-button" value="Submit"&gt;
-						<br>&lt;input type="reset" class="cancel-button" value="Cancel"&gt;
+						
 					</code>
 
 				<h4>Example:</h4>
-					<input type="reset" class="cancel-button" value="Cancel">
+					<input type="submit" class="cancel-button" value="Cancel">
 					<input type="submit" class="submit-button" value="Submit">
 			</section>
 
@@ -187,9 +190,9 @@
 
 <!-- BEGIN // Colour Palette Section-->
 		<section id="colour_palette">
-			<h2>Colour Palette</h2>
+			<h1>Branding</h1>
 			<section>
-				<h4>Colour Palette</h4>
+				<h2>Colour Palette</h2>
 <!--First Row-->
 				<div class="grid-row">
 					<h4>Shades</h4>
@@ -201,7 +204,7 @@
 
 					<div class="grid-col-1of4">
 						<div class="swatch grey">
-							<h4>#303030</h4>
+							<h4>#707070</h4>
 						</div>
 					</div>
 
@@ -212,38 +215,12 @@
 					</div>
 
 					<div class="grid-col-1of4">
-						<div class="swatch off-white">
-							<h4>#F8F8F8</h4>
+						<div class="swatch white">
+							<h4>#FFFFF</h4>
 						</div>
 					</div>
 				</div>
-<!--Second Row-->
-				<div class="grid-row">
-					<h4>Accent Colours</h4>
-					<div class="grid-col-1of4">
-						<div class="swatch navy">
-							<h4>#290066</h4>
-						</div>
-					</div>
 
-					<div class="grid-col-1of4">
-						<div class="swatch periwinkle">
-							<h4>#9999ff</h4>
-						</div>
-					</div>
-
-					<div class="grid-col-1of4">
-						<div class="swatch lavendar">
-							<h4>#e6e6ff</h4>
-						</div>
-					</div>
-
-					<div class="grid-col-1of4">
-						<div class="swatch peach">
-							<h4>#ffe6e6</h4>
-						</div>
-					</div>
-				</div>
 			</section>
 
 		</section>
@@ -314,7 +291,7 @@
 				
 
 				<section>
-					<h4>Main Navigation</h4>
+					<h2>Main Navigation</h2>
 					<div class="grid-row">
 						<nav class="main-nav">
 							<div class="grid-col-1of4">
