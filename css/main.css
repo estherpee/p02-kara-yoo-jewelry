@@ -3,7 +3,6 @@ body {
 	font-family: 'Circular Std', Verdana, sans-serif;
 	font-size: 1em;
 	margin: 1em 3% 0;
-
 }
 
 section {
@@ -12,7 +11,6 @@ section {
 	padding-bottom: 1em;
 	border-bottom: 0.05em solid #303030;
 }
-
 
 section ol, ul {
 	margin: 0.8em;
@@ -153,6 +151,7 @@ figcaption {
 .silver{
 	background-color: #C0C0C0;
 }
+
 
 /*-------------------------Cart Page------------------------*/
 
@@ -331,407 +330,17 @@ figcaption {
 	font-weight: normal;
 	text-align: center;
 	float:right;
-}*/
-
-
-
-/*-------------------------Review Page------------------------*/
-
-
-.add-review .grid-col-1of1{
-	margin: 1em 0 0 0;
-	padding: 0;
-}
-
-.add-review .text-link{
-	color: #505050;
-}
-
-.add-review label, .send-email label {
-	display: block;
-	padding: 0 0 0.5em 0;
-	font-size: 1em
-	
-}
-
-.add-review textarea, .send-email textarea{
-	margin-top: 1em;
-
-}
-
-.add-review .submit-button, .add-review .cancel-button{
-	float: right;
-	margin: 1em;
-}
-
-
-.add-review input[type=text], .send-email input[type=text] {
-	width: 100%;
-	border: 0.5px solid #c0c0c0;
-	padding: 0.5em;
-	outline: none;
-	-webkit-transition: all 0.30s ease-in-out;
-	-moz-transition: all 0.30s ease-in-out;
-	-ms-transition: all 0.30s ease-in-out;
-	-o-transition: all 0.30s ease-in-out;
-}
-
-.add-review input[type=text]:focus, .send-email input[type=text]:focus {
-	 box-shadow: 0 0 5px rgba(81, 203, 238, 1);
-	 border: 1px solid rgba(81, 203, 238, 1);
-}
-
-
-.review-container{
-	width: 100%;
-	position: relative;
-	padding: 0 1em;
-	margin: 1em 0 0 0;
-	border-top: 2px solid #f1f1f1;
-}
-
-.review-card {
-	border-bottom: 1px solid #f1f1f1;
-	padding-left: 1em
-}
-
-.review-description h4 {
-	margin: 0.5em 0;
-}
-
-.review-description p{
-	font-size: 0.8em;
-	margin-bottom: 1em;
-}
-
-.review-date {
-	font-style: italic;
-	font-family: Garamond, Times, serif;
-	font-size: 1.10em;
-	margin-top: 1em;
-	margin-bottom: 0;
-	font-style: italic;
-	letter-spacing: 0.08em
-}
-
-.review-login .grid-col-1of1 {
-	padding: 0 1em 1em 0;
-
-}
-
-fieldset {
-    border: none;
-    margin: 0;
-    padding: 0;
-}
-
-.stars{
-	font-size: 80%;
-	letter-spacing: 0.1em;
-}
-
-.rating {
-    float:left;
-}
-
-.rating:not(:checked) > input {
-    position:absolute;
-    top:-9999px;
-    clip:rect(0,0,0,0);
-}
-
-.rating:not(:checked) > label {
-    float:right;
-    width:1em;
-    padding:1em;
-    overflow:hidden;
-    white-space:nowrap;
-    cursor:pointer;
-    font-size: 120%;
-    line-height:1.2;
-    color:#ddd;
-}
-
-.rating:not(:checked) > label:before {
-    content: "\2605";
-}
-
-.rating > input:checked ~ label {
-    color: #f70;
-}
-
-.rating:not(:checked) > label:hover,
-.rating:not(:checked) > label:hover ~ label {
-    color: gold;
-}
-
-.rating > input:checked + label:hover,
-.rating > input:checked + label:hover ~ label,
-.rating > input:checked ~ label:hover,
-.rating > input:checked ~ label:hover ~ label,
-.rating > label:hover ~ input:checked ~ label {
-    color: #ea0;
-}
-
-.rating > label:active {
-    position:relative;
-    top:2px;
-    left:2px;
-}
-
-.rating > label[for=star1] {
-	padding-left: 0;
-}
-
-
-
-/*-------------------------Checkout Pages------------------------*/
-
-.breadcrumbs{
-	margin-left:2em;
-}
-
-.breadcrumbs p{
-	color: #c0c0c0;
-	display: inline-block;
-	margin-bottom: 0;
-}
-
-.breadcrumbs-arrow {
-	margin: 0 0.8em;
-}
-
-.breadcrumbs .active{
-	color: #000;
-}
-
-.breadcrumbs .inactive {
-	color: #c0c0c0;
-}
-
-.breadcrumbs a:hover, .breadcrumbs a:focus{
-	text-decoration: underline;
-}
-
-
-.checkout {
-	margin: 1em;
-}
-
-.checkout label {
-	display: block;
-	padding: 0.5em 0 0.5em 0;
-}
-
-<<<<<<< HEAD
-.checkout-name .grid-col-1of2, .checkout-name .grid-col-1of1{
-	padding: 0 1em 1em 0;
-}
-=======
->>>>>>> origin/master
-
-.checkout-title {
-	border-bottom: 1px solid #000;
-	padding-bottom: 0.3em;
 }
 
-.checkout input[type=text]{
-	width: 100%;
-	border: 0.5px solid #C0C0C0;
-	padding: 0.5em;
-}
-
-
-select {
-    width: 100%;
-    border-radius: 1px;
-    height: 31.5px;
-    background-color: #ffffff;
-	border: 0.5px solid #C0C0C0;
-}
-
-.select-style select{
-  background: transparent;
-  padding: 0.5em;
-  line-height: 1;
-  border: 0;
-  border-radius: 0;
-  -webkit-appearance: none;
-  color: #000;
-}
-
-.select-style {
-  height: 34px;
-  overflow: hidden;
-  background: url(../images/down-arrow.png) no-repeat 98% #fff;
-  background-size: 2em;
-  border: 1px solid #C0C0C0;
-}
-
-<<<<<<< HEAD
-=======
-.checkout .select-style {
-	height: 31px;
-
-}
-.checkout-title {
-	border-bottom: 1px solid #000;
-	padding-bottom: 0.3em;
-}
-
-.checkout input[type=text]{
-	width: 100%;
-
-	border: 0.5px solid #C0C0C0;
-	padding: 0.5em;
-
-}
-
-.add-gift-card, .credit-card-info {
-	border-bottom: 1px solid #f1f1f1;
-}
-
-.add-gift-card input[type=text] {
-	width: 100%;
-	min-width: 0;
-}
-
-.add-gift-card label {
-	padding: 0 0 0.5em 0;
-}
-
-.add-gift-card .grid-col-1of2 {
-	padding: 0 1em 1em 0;
-}
-
-.checkout .secondary-button {
-	font-size: 1em;
-}
-
-.add-gift-card .secondary-button, .checkout .submit-button, .checkout .cancel-button {
-	float: right;
-	margin:0;
-}
-
-.checkout .submit-button, .checkout .cancel-button{
-	margin: 1em;
-}
-
-label[for=form-card-number] {
-	padding-top: 0;
-}
-
-.credit-card-info {
-	padding-bottom: 2em;
-}
-
-.credit-card-info h4{
-	margin-bottom: 0;
-}
-.credit-card-info .short input[type=text] {
-	width: 50px;
-	min-width: 0;
-	border: 0.5px solid #C0C0C0;
-
-}
-
-.short, .shorten-input {
-	padding-top: 1em;
-}
-input[type=checkbox]{
-	margin-right: 0.5em;
-
-}
-
-.billing-address {
-
-	margin-top: 1em;
-}
-
-.billing-address-form {
-	display: none;
-}
-
-.billing-address-section p{
-	font-weight: normal;
-}
-
-
-.shorten-input input[type=text]{
-	width: 50%;
-	min-width: 260px;
-}
-
-.item-summary h3 {
-	font-size: 1em;
-	margin: 3em 0 0 1em;
-}
-
-.checkout-review{
-	font-size: 0.8em;
-}
-
-.cart-review{
-	font-size: 0.8em;
-}
-
-.checkout-review p {
-	margin: 1em 0;
-}
-
-.checkout-review .text-link{
-	color: #c0c0c0;
-}
-
-.info-summary .grid-col-1of2 {
-	padding: 0;
-
-}
-
-
-.order-confirmation {
-	margin: 0 10%;
-	text-align: center;
-
-}
-
-.order-confirmation .button, .order-confirmation .secondary-button{
-	margin: 1em;
-
-}
-
-.order-confirmation p {
-	padding-bottom: 2em;
-}
-
-
-/* Shop Banner */
-
-.shop-banner{
-	margin: 0 1em;
-	position: relative;
-	height: 30vw;
-	overflow: hidden;
-}
-.shop-banner img{
-	position: absolute;
-	object-fit: cover;
-	height:100%;
-	width: 100%;
-}
 
 /* Sidebar Navigation */
-
-
 .side-nav-mobile {
 	list-style-type: none;
-
 }
 
 .side-nav-dropdown-content, .side-nav-dropdown-content-2 {
 	display: none;
 	margin: 0.5em 2em 1em 2em;
-
 }
 
 .side-nav-target, .side-nav-target-2 {
@@ -756,13 +365,11 @@ input[type=checkbox]{
 	float: right;
 	padding-top: 0.2em;
 	text-align: right;
-
 }
 .side-nav {
 	list-style-type: none;
 	float:left;
 	padding: 1em;
-
 }
 
 .side-nav h4{
@@ -786,27 +393,24 @@ input[type=checkbox]{
 	font-weight: bold;
 }
 
-
-
-/* Pagnation -*/
-
-.pagnation {
+/* Pagination -*/
+.pagination {
     border-top: 1px solid #ededed;
     clear: left;
     margin-top: 40px;
-    padding: 14px 0 0 0;
+    padding: 14px 0;
     text-align: center;
 }
 
-.pagnation a {
+.pagination a {
     color: #111;
 }
 
 .page{
 	display: inline-block;
 	padding: 2em;
-	padding-bottom: 0;
 	font-size: 1em;
+	padding-bottom: 0;
 }
 
 .next-page {
@@ -819,11 +423,12 @@ input[type=checkbox]{
     text-decoration: underline;
 }
 
-.customer-reviews-container .pagnation {
+.customer-reviews-container .pagination {
 	border: none;
 	margin: 0;
 	padding: 0;
 }
+
 
 /* ------------------- Interactive Elements ------------------- */
 
@@ -838,12 +443,13 @@ input[type=checkbox]{
 .text-link:hover {
   text-decoration: underline;
 }
+
 .mobile-main-nav {
 	background-color: #fff;
 	display: none;
 	text-align: center;
-
 }
+
 .main-nav{
 	text-align: center;
 }
@@ -852,6 +458,7 @@ input[type=checkbox]{
 	padding-left: 0;
 	padding-right: 0;
 }
+
 /** Styling for Navigation Button **/
 .main-nav-item {
 	display: inline-block;
@@ -921,7 +528,6 @@ input[type=checkbox]{
 	object-fit: cover;
 	width: 100%;
 	height: 100%;
-
 }
 
 .dropdown-nav {
@@ -969,12 +575,10 @@ input[type=checkbox]{
 
 .dropdown-content h4{
 	padding: 0 1em;
-
 }
 
 .dropdown-content a:hover {
 	text-decoration: underline;
-
 }
 
 
@@ -998,22 +602,18 @@ input[type=text]{
 	color: #000;
 	background-color: transparent;
 	font-weight: 400; 
-
-
 }
 
 label {
 	font-size: 1.2em;
 	margin-bottom: 0;
 	vertical-align: bottom;
-
 }
 
 textarea:focus, input:focus{
 	outline: 0;
 	box-shadow: 0 0 5px rgba(81, 203, 238, 1);
 	border: 1px solid rgba(81, 203, 238, 1);
-
 }
 
 input.submit-button {
@@ -1030,29 +630,12 @@ input.submit-button {
 	-moz-transition: background-color 0.2s ease-out;
 	-o-transition: background-color 0.2s ease-out;
 	transition: background-color 0.2s ease-out;
-
 }
 
 .submit-button:hover, .submit-button:focus {
-  background-color: #F8F8F8;
-  color: #000;
-
+	background-color: #F8F8F8;
+	color: #000;
 }
-
-/*
-input.cancel-button {
-  display: inline-block;
-  margin: 0.25em 0.25em;
-  padding: 0.5em 0.5em;
-  padding: 1em 2em;
-  color: #000;
-  background-color: #FFF;
-  border-color: #000;
-  text-decoration: none;
-  letter-spacing: 0.05rem;
-  opacity: 0.5;
-
-}*/
 
 .cancel-button {
 	display: inline-block;
@@ -1069,16 +652,56 @@ input.cancel-button {
 	-moz-transition: opacity 0.2s ease-out;
 	-o-transition: opacity 0.2s ease-out;
 	transition: opacity 0.2s ease-out;
-
 }
+
 .cancel-button:hover, .cancel-button:focus {
 	opacity: 1;
-
-
 }
+
+select {
+    width: 100%;
+    border-radius: 1px;
+    height: 31.5px;
+    background-color: #ffffff;
+	border: 0.5px solid #C0C0C0;
+}
+
+.select-style select{
+  background: transparent;
+  padding: 0.5em;
+  line-height: 1;
+  border: 0;
+  border-radius: 0;
+  -webkit-appearance: none;
+  color: #000;
+}
+
+.select-style {
+  height: 34px;
+  overflow: hidden;
+  background: url(../images/down-arrow.png) no-repeat 98% #fff;
+  background-size: 2em;
+  border: 1px solid #C0C0C0;
+}
+
 
 
 /*-------------------------Product Listing-------------------*/
+
+/* Shop Banner */
+.shop-banner{
+	margin: 0 1em;
+	position: relative;
+	height: 30vw;
+	overflow: hidden;
+}
+
+.shop-banner img{
+	position: absolute;
+	object-fit: cover;
+	height:100%;
+	width: 100%;
+}
 
 .product-img {
   	background-color: #FFF;
@@ -1114,17 +737,8 @@ input.cancel-button {
 	transition: color 0.2s ease-out;
 }
 
-
-/*.product-details h4 {
-	font-family: "Circular Std", Verdana, sans-serif;
-	font-size: 1.4em;
-	margin: 0.5em 0;
-	letter-spacing: 0.07em;
-}*/
-
 .product-details .price-tag {
 	font-size: 1.5em;
-
 }
 
 .description-title h4 {
@@ -1159,7 +773,6 @@ input.cancel-button {
 	 color: #303030;
 }
 
-
 .viewcart-button {
 	display: inline-block;
 	padding: 0.7em 1em;
@@ -1187,7 +800,6 @@ input.cancel-button {
 	text-decoration: underline;
 }
 
-
 .product-detail-header {
 	margin: 0 0 1.5em 0;
 }
@@ -1198,20 +810,9 @@ input.cancel-button {
 	letter-spacing: 0.04em;
 }
 
-
 .area-selection {
 	padding: 1.5em 0 0.5em 0;
-
 }
-
-/*.saved-choice input.submit-button{
-    padding: 0.5em;
-    background-color: #fff;
-    border: 1.5px solid #000;
-    color: #909090;
-    float: right;
-    font-weight: normal;
-}*/
 
 .saved-choice .secondary-button {
 	font-size: 1em;
@@ -1225,7 +826,6 @@ input.cancel-button {
 	margin: 0.5em 1em 0 0;
 	padding: 0.8em;
 }
-
 
 .area-selection input.submit-button{
 	margin: 0;
@@ -1256,67 +856,7 @@ input.cancel-button {
 	list-style: circle;
 	padding: 0 0 0.5em 1em;
 	color: #707070;
-
 }
-
-/* Colour Selection */
-
-.colour-swatch{
-	float: left;
-	margin: 0 1.5em 0 0;
-	width: 50px;
-	height: 45px;
-	border: none;
-}
-
-.colour-swatch:focus{
-	border: 2px solid;
-	border-color: #000;
-}
-
-/* Size and Quantity Selection */
-
-/*.size-button{
-    background-color: #FFF;
-    color: #909090;
-    padding: 16px;
-    font-size: 0.8em;
-    border: 0.5px solid #f1f1f1;
-}
-
-.dropdown-size-button{
-    display: inline-block;
-}
-
-.dropdown-size-button-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 106px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 12;
-}
-
-.dropdown-size-button-content a {
-    color: #000;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    font-size: 0.8em;
-    text-align: center;
-}
-
-.dropdown-size-button-content a:hover {
-	background-color: #f1f1f1
-}
-
-.dropdown-size-button:hover .dropdown-size-button-content {
-    display: block;
-}
-
-.dropdown-size-button:hover .size-button {
-    background-color: #f1f1f1;
-}*/
 
 .quantity-form input[type=number]{
 	display: block;
@@ -1353,6 +893,183 @@ option:checked {
 	border-top: 2px solid #f1f1f1;
 }
 
+/*-------------------------Checkout Pages------------------------*/
+
+.breadcrumbs{
+	margin-left:2em;
+}
+
+.breadcrumbs p{
+	color: #c0c0c0;
+	display: inline-block;
+	margin-bottom: 0;
+}
+
+.breadcrumbs-arrow {
+	margin: 0 0.8em;
+}
+
+.breadcrumbs .active{
+	color: #000;
+}
+
+.breadcrumbs .inactive {
+	color: #c0c0c0;
+}
+
+.breadcrumbs a:hover, .breadcrumbs a:focus{
+	text-decoration: underline;
+}
+
+.checkout {
+	margin: 1em;
+}
+
+.checkout label {
+	display: block;
+	padding: 0.5em 0 0.5em 0;
+}
+
+.checkout-name .grid-col-1of2, .checkout-name .grid-col-1of1{
+	padding: 0 1em 1em 0;
+}
+
+.checkout-title {
+	border-bottom: 1px solid #000;
+	padding-bottom: 0.3em;
+}
+
+.checkout input[type=text]{
+	width: 100%;
+	border: 0.5px solid #C0C0C0;
+	padding: 0.5em;
+}
+
+.checkout .select-style {
+	height: 31px;
+}
+
+.checkout-title {
+	border-bottom: 1px solid #000;
+	padding-bottom: 0.3em;
+}
+
+.checkout input[type=text]{
+	width: 100%;
+	border: 0.5px solid #C0C0C0;
+	padding: 0.5em;
+}
+
+.add-gift-card, .credit-card-info {
+	border-bottom: 1px solid #f1f1f1;
+}
+
+.add-gift-card input[type=text] {
+	width: 100%;
+	min-width: 0;
+}
+
+.add-gift-card label {
+	padding: 0 0 0.5em 0;
+}
+
+.add-gift-card .grid-col-1of2 {
+	padding: 0 1em 1em 0;
+}
+
+.checkout .secondary-button {
+	font-size: 1em;
+}
+
+.add-gift-card .secondary-button, .checkout .submit-button, .checkout .cancel-button {
+	float: right;
+	margin:0;
+}
+
+.checkout .submit-button, .checkout .cancel-button{
+	margin: 1em;
+}
+
+label[for=form-card-number] {
+	padding-top: 0;
+}
+
+.credit-card-info {
+	padding-bottom: 2em;
+}
+
+.credit-card-info h4{
+	margin-bottom: 0;
+}
+
+.credit-card-info .short input[type=text] {
+	width: 50px;
+	min-width: 0;
+	border: 0.5px solid #C0C0C0;
+}
+
+.short, .shorten-input {
+	padding-top: 1em;
+}
+input[type=checkbox]{
+	margin-right: 0.5em;
+}
+
+.billing-address {
+	margin-top: 1em;
+}
+
+.billing-address-form {
+	display: none;
+}
+
+.billing-address-section p{
+	font-weight: normal;
+}
+
+.shorten-input input[type=text]{
+	width: 50%;
+	min-width: 260px;
+}
+
+.item-summary h3 {
+	font-size: 1em;
+	margin: 3em 0 0 1em;
+}
+
+.checkout-review{
+	font-size: 0.8em;
+}
+
+.cart-review{
+	font-size: 0.8em;
+}
+
+.checkout-review p {
+	margin: 1em 0;
+}
+
+.checkout-review .text-link{
+	color: #c0c0c0;
+}
+
+.info-summary .grid-col-1of2 {
+	padding: 0;
+}
+
+.order-confirmation {
+	margin: 0 10%;
+	text-align: center;
+
+}
+
+.order-confirmation .button, .order-confirmation .secondary-button{
+	margin: 1em;
+}
+
+.order-confirmation p {
+	padding-bottom: 2em;
+}
 
 
 /*-----------------------------Globals------------------------*/
@@ -1438,13 +1155,12 @@ option:checked {
 #global-footer {
 	border: none;
 	background-color: #F7F7F7;
-	margin-top: 3em;
 	padding: 2em 3em;
 	color: #000;
 	position: absolute;
 	width: 100%;
-	left: 0;
-
+	left:0;
+	margin-top: 3em;
 }
 
 .fa  {
@@ -1586,6 +1302,154 @@ option:checked {
 }
 
 
+/*-------------------------Review Page------------------------*/
+
+
+.add-review .grid-col-1of1{
+	margin: 1em 0 0 0;
+	padding: 0;
+}
+
+.add-review .text-link{
+	color: #505050;
+}
+
+.add-review label, .send-email label {
+	display: block;
+	padding: 0 0 0.5em 0;
+	font-size: 1em
+}
+
+.add-review textarea, .send-email textarea{
+	margin-top: 1em;
+}
+
+.add-review .submit-button, .add-review .cancel-button{
+	float: right;
+	margin: 1em;
+}
+
+
+.add-review input[type=text], .send-email input[type=text] {
+	width: 100%;
+	border: 0.5px solid #c0c0c0;
+	padding: 0.5em;
+	outline: none;
+	-webkit-transition: all 0.30s ease-in-out;
+	-moz-transition: all 0.30s ease-in-out;
+	-ms-transition: all 0.30s ease-in-out;
+	-o-transition: all 0.30s ease-in-out;
+}
+
+.add-review input[type=text]:focus, .send-email input[type=text]:focus {
+	 box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+	 border: 1px solid rgba(81, 203, 238, 1);
+}
+
+
+.review-container{
+	width: 100%;
+	position: relative;
+	padding: 0 1em;
+	margin: 1em 0 0 0;
+	border-top: 2px solid #f1f1f1;
+}
+
+.review-card {
+	border-bottom: 1px solid #f1f1f1;
+	padding-left: 1em
+}
+
+.review-description h4 {
+	margin: 0.5em 0;
+}
+
+.review-description p{
+	font-size: 0.8em;
+	margin-bottom: 1em;
+}
+
+.review-date {
+	font-style: italic;
+	font-family: Garamond, Times, serif;
+	font-size: 1.10em;
+	margin-top: 1em;
+	margin-bottom: 0;
+	font-style: italic;
+	letter-spacing: 0.08em
+}
+
+.review-login .grid-col-1of1 {
+	padding: 0 1em 1em 0;
+
+}
+
+fieldset {
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+.stars{
+	font-size: 80%;
+	letter-spacing: 0.1em;
+}
+
+.rating {
+    float:left;
+}
+
+.rating:not(:checked) > input {
+    position:absolute;
+    top:-9999px;
+    clip:rect(0,0,0,0);
+}
+
+.rating:not(:checked) > label {
+    float:right;
+    width:1em;
+    padding:1em;
+    overflow:hidden;
+    white-space:nowrap;
+    cursor:pointer;
+    font-size: 120%;
+    line-height:1.2;
+    color:#ddd;
+}
+
+.rating:not(:checked) > label:before {
+    content: "\2605";
+}
+
+.rating > input:checked ~ label {
+    color: #f70;
+}
+
+.rating:not(:checked) > label:hover,
+.rating:not(:checked) > label:hover ~ label {
+    color: gold;
+}
+
+.rating > input:checked + label:hover,
+.rating > input:checked + label:hover ~ label,
+.rating > input:checked ~ label:hover,
+.rating > input:checked ~ label:hover ~ label,
+.rating > label:hover ~ input:checked ~ label {
+    color: #ea0;
+}
+
+.rating > label:active {
+    position:relative;
+    top:2px;
+    left:2px;
+}
+
+.rating > label[for=star1] {
+	padding-left: 0;
+}
+
+
+
 /*-------------------------About-----------------------------*/
 
 .about-img {
@@ -1640,9 +1504,7 @@ option:checked {
 .store-contact p, .store-location p {
 	margin:0;
 }
-#stockists {
-	margin-bottom: 3em;
-}
+
 #stockists h3{
 	padding: 0 0.7em;
 }
