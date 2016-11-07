@@ -7,33 +7,39 @@ var scw = $(".summary-container").width();
 var fh = $("#global-footer").height();
 var csh = $(".checkout-section").height();
 var cah = $(".cart-section").height();
-var width = $(window).width();
+var ww = $(window).width();
 
 // s.css("width", s.parent().width());
 
-// if (width < 879) {
+// if (ww < 879) {
 //  	$(".summary-stop").css("position", "relative"); 
 //  	$(".summary").css("position", "relative");
 //  	s.css("width", "100%");
+//  	$(".summary-container-cart").css("height", "10px");
 // }
 
+if (ww > 879) {
+	$(window).scroll(function() {
+	  if( $(this).scrollTop() > ($(window).height() - (fh + 15))) {
+	  // if( (s.position().top + s.height()) > ($("#global-footer").position().top)) {
 
-$(window).scroll(function() {
-  if( $(this).scrollTop() > ($(window).height() - (fh + 15))) {
-  // if( (s.position().top + s.height()) > ($("#global-footer").position().top)) {
-
-    s.addClass(ss);
-    $(".summary-container").css("height", csh);
-   	$(".summary-container-cart").css("height", cah);
-
-
-  } else {
-    s.removeClass(ss);
-    // s.css("width", s.parent().width());
+	    s.addClass(ss);
+	    $(".summary-container").css("height", csh);
+	   	$(".summary-container-cart").css("height", cah);
 
 
-  }
-	console.log("summary" + (s.position().top + s.height()));
-    console.log($(this).scrollTop());
-  	console.log("footer" + ($("#global-footer").position().top));
-});
+	  } else {
+	    s.removeClass(ss);
+	    // s.css("width", s.parent().width());
+
+
+	  }
+		console.log("summary" + (s.position().top + s.height()));
+	    console.log($(this).scrollTop());
+	  	console.log("footer" + ($("#global-footer").position().top));
+	});
+} else {
+	$(".summary").css("position", "relative");
+  	s.css("width", "100%");
+}
+
