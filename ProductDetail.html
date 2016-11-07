@@ -217,21 +217,25 @@
 						<div class="grid-row">
 							<div class="grid-col-1of4">
 								<h4><label for="colour-choice">Colour</label></h4>
-								<select id="colour-choice" name="colour" required>
-									<option value="" disabled selected>Select</option>
-								    <option value="gg">Gold</option>
-								    <option value="ss">Silver</option>
-								</select>
+								<div class="select-style">
+									<select id="colour-choice" name="colour" required>
+										<option value="" disabled selected>Select</option>
+									    <option value="gg">Gold</option>
+									    <option value="ss">Silver</option>
+									</select>
+								</div>
 							</div>
 
 							<div class="grid-col-1of4">
 								<h4><label for="form-size">Size</label></h4>
+								<div class="select-style">
 								<select id="form-size" name="size" required>
-								    <option value="" disabled selected>Select</option>
-								    <option value="1">5</option>
-								    <option value="2">6</option>
-								    <option value="3">7</option>
-								</select>
+									    <option value="" disabled selected>Select</option>
+									    <option value="1">5</option>
+									    <option value="2">6</option>
+									    <option value="3">7</option>
+									</select>
+								</div>
 							</div>
 
 							<div class="grid-col-1of4">
@@ -297,12 +301,12 @@
 					<form class="add-review" action="Review.html">
 						<div class="grid-col-1of1">
 							<label for="form-email">Email:</label>
-							<input type="text" placeholder="">
+							<input type="text" placeholder="" required>
 						</div>
 
 						<div class="grid-col-1of1">
 							<label for="form-email">Password:</label>
-							<input type="text" placeholder="">
+							<input type="text" placeholder="" required>
 						</div>
 
 						<div class="grid-col-1of1">
@@ -327,6 +331,9 @@
 								10/30/16
 							</p>
 							<h4>Chelsea M:</h4>
+							<div class="stars">
+								<span>&#9733</span><span>&#9733</span><span>&#9733</span><span>&#9733</span><span>&#9733</span>
+							</div>
 							<p class="review-preview">
 								I love this ring! I bought the gold one, and it goes well with everything. I’ve had it for about two weeks now and there hasn’t been any discoloration or tarnish! Highly recommend.
 							</p>
@@ -339,6 +346,9 @@
 								09/27/16
 							</p>
 							<h4>Jenny A:</h4>
+							<div class="stars">
+								<span>&#9733</span><span>&#9733</span><span>&#9733</span><span>&#9733</span><span>&#9734</span>
+							</div>
 							<p class="review-preview">
 								I’ve been looking for a ring like this forever! It really adds a pop of flare to my outfits.
 							</p>
@@ -351,6 +361,9 @@
 								09/8/16
 							</p>
 							<h4>Sarah K:</h4>
+							<div class="stars">
+								<span>&#9733</span><span>&#9733</span><span>&#9733</span><span>&#9733</span><span>&#9733</span>
+							</div>
 							<p class="review-preview">
 								I was a bit hesitant about buying this at first because it seemed a bit pricey, and I thought I could find something similar at H&M, but it was so worth it buying this one instead. I found that cheaper rings at other stores would discolour really quickly, but this one is still as shiny and gold as the day I bought it.
 							</p>
@@ -423,22 +436,22 @@
 
 			<div class="grid-col-2of12">
 				<div class="product-img">
-					<a href="ProductDetail.html"><img class="main-img" src="images/chronos-earclimber-1.jpg" alt="Chronos Ear Climber"></a>
-					<img class="alternate-img" src="images/chronos-earclimber-2.jpg" alt="Chronos Ear Climber">
+					<a href="ProductDetail.html"><img class="main-img" src="images/amora-bracelet-1.jpg" alt="Amora Bracelet 1"></a>
+					<img class="alternate-img" src="images/amora-bracelet-2.jpg" alt="Amora Bracelet 2">
 				</div>
 
-				<a href="#" class="product-name">Chronos Ear Climber</a>
-				<div class="price-tag">$42.00</div>
+				<a href="#" class="product-name">Amora Bracelet</a>
+				<div class="price-tag">$50.00</div>
 			</div>
 
 			<div class="grid-col-2of12">
 				<div class="product-img">
-					<a href="ProductDetail.html"><img class="main-img" src="images/chronos-earclimber-1.jpg" alt="Chronos Ear Climber"></a>
-					<img class="alternate-img" src="images/chronos-earclimber-2.jpg" alt="Chronos Ear Climber">
+					<a href="ProductDetail.html"><img class="main-img" src="images/desiree-earclimber-1.jpg" alt="Desiree Ear Climber"></a>
+					<img class="alternate-img" src="images/desiree-earclimber-2.jpg" alt="Desiree Ear Climber">
 				</div>
 
-				<a href="#" class="product-name">Chronos Ear Climber</a>
-				<div class="price-tag">$42.00</div>
+				<a href="#" class="product-name">Desiree Ear Climber</a>
+				<div class="price-tag">$60.00</div>
 			</div>
 		</div>
 	</div>
