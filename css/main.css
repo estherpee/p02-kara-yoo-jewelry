@@ -736,7 +736,6 @@ input[type=checkbox]{
 }
 
 .dropdown-content h4{
-/*	padding: 0;*/
 	padding: 0 1em;
 
 }
@@ -1194,6 +1193,7 @@ option:checked {
 	padding:0;
 	background: #fff;
     border-bottom: 1px solid #f1f1f1;
+    margin-bottom: 0.5em;
 }
 
 #logo {
@@ -1223,6 +1223,7 @@ option:checked {
 .secondary-nav-test{
 	position: relative;
 	height: 60px;
+	margin-top: 0.5em;
 }
 
 .secondary-nav-test #logo{

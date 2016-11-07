@@ -29,10 +29,10 @@ body {
 	}
 
 
-.dropdown-nav:hover .dropdown-content {
+/*.dropdown-nav:hover .dropdown-content {
 		display: none;
 	}
-
+*/
 
 .landing-banner{
 	height: 300px;
@@ -177,6 +177,9 @@ body {
 	#global-footer {
 		padding: 2em 3em;
 	}
+	.landing-banner {
+		height: 40vw;
+	}
 
 }
 
@@ -245,6 +248,9 @@ body {
 	.mobile-nav {
 		display: none;
 	}
+		.dropdown-content .grid-col-3of12{
+		width: 25%;
+	}
 
 }
 
@@ -266,17 +272,13 @@ body {
 	}*/
 
 
-	.dropdown-content .grid-col-3of12{
-		width: 25%;
-	}
+
 
 	.grid-col-2of3 {
 		width: 66.6666667%;
 	}
 
-	.landing-banner {
-		height: 40vw;
-	}
+
 
 }
 

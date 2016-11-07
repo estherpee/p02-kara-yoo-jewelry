@@ -16,24 +16,75 @@
 	</head>
 
 	<body>
-<!--Global Header Under Here-->	
+<!--Global Header Under Here-->
 		<header>
-			<section id="global-nav">
-
-				<div class="grid-row">
-					<div class="secondary-nav">
-						<div class="secondary-nav-item">
-							<a href="#" class="grid-col-2of12">
-								<i class="material-icons">search</i>
+			<div id="global-nav">
+<!-- mobile-nav -->
+				<div class="mobile-nav">
+					<div class="grid-row">
+						<div class="secondary-nav-test">
+							<div class="secondary-nav-item">
+								<div class="grid-col-2of12">
+									<i class="fa fa-bars" aria-hidden="true"></i>
+								</div>
+							</div>
+							<a href="index.html" id="logo" class="grid-col-4of12">
+								<img src="images/logo.png" alt="Kara Yoo Logo">
 							</a>
-						</div>
-						<div class="secondary-nav-item">
-							<a href="Cart.html" class="grid-col-2of12">
-								<i class="material-icons">shopping_cart</i>
-							</a>
+							<div class="secondary-nav-item">
+								<a href="#" class="grid-col-1of12">
+									<i class="material-icons search-icon">search</i>
+								</a>
+							</div>
+							<div class="secondary-nav-item">
+								<a href="Cart.html" class="grid-col-1of12">
+									<i class="material-icons cart-icon">shopping_cart</i>
+								</a>
+							</div>
 						</div>
 					</div>
+					
+					<div class="grid-row">
+						<nav class="mobile-main-nav">
+							<div class="dropdown-nav">
+								<div class="grid-col-2of12">
+									<a href="ProductListing.html" class="main-nav-item">Shop</a>
+								</div>
+							</div>
+							<div class="grid-col-2of12">
+								<a href="ProductListing.html" class="main-nav-item">Fine Jewelry</a>
+							</div>
+							<div class="dropdown-nav">
+								<div class="grid-col-2of12">
+									<a href="About.html" class="main-nav-item">About</a>
+								</div>
+							</div>
+							<div class="grid-col-2of12">
+								<a href="Stockist.html" class="main-nav-item">Stockist</a>
+							</div>
+
+						</nav>
+
+					</div>
 				</div>
+
+<!-- regular-nav -->
+
+				<div class="regular-nav">
+					<div class="grid-row">
+						<div class="secondary-nav">
+							<div class="secondary-nav-item">
+								<a href="#" class="grid-col-2of12">
+									<i class="material-icons">search</i>
+								</a>
+							</div>
+							<div class="secondary-nav-item">
+								<a href="Cart.html" class="grid-col-2of12">
+									<i class="material-icons">shopping_cart</i>
+								</a>
+							</div>
+						</div>
+					</div>
 				
 				<div class="grid-row">
 					<a href="index.html" id="logo" class="grid-col-2of12">
@@ -42,8 +93,8 @@
 					<nav class="main-nav">
 						<div class="dropdown-nav">
 							<div class="grid-col-2of12">
-									<a href="ProductListing.html" class="main-nav-item">Shop</a>
-							
+									<a href="ProductListing.html" class="main-nav-item shop-target">Shop</a>
+								
 								<div id="shop" class="dropdown-content">
 									<div class="grid-row">
 										<div class="grid-col-3of12">
@@ -83,7 +134,7 @@
 						</div>
 						<div class="dropdown-nav">
 							<div class="grid-col-2of12">
-								<a href="About.html" class="main-nav-item">About</a>
+								<a href="About.html" class="main-nav-item about-target">About</a>
 								<div id="about" class="dropdown-content">
 									<div class="grid-row">
 										<div class="grid-col-1of2">
@@ -112,8 +163,9 @@
 					</nav>
 
 				</div>
-			</section>
-		</header>	
+				</div>
+			</div>
+		</header>
 			
 <!-- EMAIL FORM-->
 		

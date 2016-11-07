@@ -4,13 +4,14 @@
 
 var width = $(window).width();
 
-if (width > 1055){
+if (width > 879){
 $(document).ready(function(){
 
 	
 	    $(".shop-target").mouseenter(function(){
 	        // $("#shop").css("display", "block");
 	        $("#shop").slideDown("normal");
+	        console.log("yes");
 	    });
 
 	    $("#shop").mouseleave(function(){
