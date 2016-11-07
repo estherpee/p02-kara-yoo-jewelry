@@ -295,6 +295,7 @@ section code {
 
 .summary p {
 	margin:0;
+	font-weight: normal;
 }
 
 .summary-sub {
@@ -305,7 +306,7 @@ section code {
 .summary-total {
 	color: #000;
 	font-size: 1em !important;
-	font-weight: bold;
+	font-weight: 900 !important;
 }
 
 .summary-total-divider p {
@@ -439,7 +440,7 @@ section code {
 /** Styling for In-text Links **/
 .text-link {
   font-size: 0.9em;
-  font-weight: lighter;
+  font-weight: normal;
   color: #000;
   text-decoration: none;
 }
@@ -911,6 +912,8 @@ option:checked {
 	display: inline-block;
 	margin-bottom: 0;
 	font-size: 1em;
+	font-weight: 500;
+
 }
 
 .breadcrumbs-arrow {
