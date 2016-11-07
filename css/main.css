@@ -789,9 +789,9 @@ input[type=checkbox]{
 
 
 
-/* Pagnation -*/
+/* Pagination -*/
 
-.pagnation {
+.pagination {
     border-top: 1px solid #ededed;
     clear: left;
     margin-top: 40px;
@@ -799,7 +799,7 @@ input[type=checkbox]{
     text-align: center;
 }
 
-.pagnation a {
+.pagination a {
     color: #111;
 }
 
@@ -1069,12 +1069,10 @@ input.cancel-button {
 	-moz-transition: opacity 0.2s ease-out;
 	-o-transition: opacity 0.2s ease-out;
 	transition: opacity 0.2s ease-out;
-
 }
+
 .cancel-button:hover, .cancel-button:focus {
 	opacity: 1;
-
-
 }
 
 
@@ -1114,17 +1112,8 @@ input.cancel-button {
 	transition: color 0.2s ease-out;
 }
 
-
-/*.product-details h4 {
-	font-family: "Circular Std", Verdana, sans-serif;
-	font-size: 1.4em;
-	margin: 0.5em 0;
-	letter-spacing: 0.07em;
-}*/
-
 .product-details .price-tag {
 	font-size: 1.5em;
-
 }
 
 .description-title h4 {
@@ -1256,67 +1245,7 @@ input.cancel-button {
 	list-style: circle;
 	padding: 0 0 0.5em 1em;
 	color: #707070;
-
 }
-
-/* Colour Selection */
-
-.colour-swatch{
-	float: left;
-	margin: 0 1.5em 0 0;
-	width: 50px;
-	height: 45px;
-	border: none;
-}
-
-.colour-swatch:focus{
-	border: 2px solid;
-	border-color: #000;
-}
-
-/* Size and Quantity Selection */
-
-/*.size-button{
-    background-color: #FFF;
-    color: #909090;
-    padding: 16px;
-    font-size: 0.8em;
-    border: 0.5px solid #f1f1f1;
-}
-
-.dropdown-size-button{
-    display: inline-block;
-}
-
-.dropdown-size-button-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 106px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 12;
-}
-
-.dropdown-size-button-content a {
-    color: #000;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    font-size: 0.8em;
-    text-align: center;
-}
-
-.dropdown-size-button-content a:hover {
-	background-color: #f1f1f1
-}
-
-.dropdown-size-button:hover .dropdown-size-button-content {
-    display: block;
-}
-
-.dropdown-size-button:hover .size-button {
-    background-color: #f1f1f1;
-}*/
 
 .quantity-form input[type=number]{
 	display: block;
@@ -1438,7 +1367,6 @@ option:checked {
 #global-footer {
 	border: none;
 	background-color: #F7F7F7;
-/*	margin: 3.5em -3% -3% -3%;*/
 	padding: 2em 3em;
 	color: #000;
 	position: absolute;
