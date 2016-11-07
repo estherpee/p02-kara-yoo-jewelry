@@ -1547,6 +1547,12 @@ fieldset {
 
 .email-confirm {
 	text-align: center;
+	margin: 0 1em;
+}
+
+.email-confirm .text-link{
+	opacity: 0.4;
+
 }
 
 .email-confirm img {
