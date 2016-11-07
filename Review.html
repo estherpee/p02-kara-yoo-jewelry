@@ -121,32 +121,71 @@
 			<h2>Reviews</h2>
 		</div>
 
+<div class="center-container">
 		<div class="grid-row">
 
 			<div class="grid-col-1of3">
 				<h4>Product Review:</h4>
-				<div class="tester-title">
-					<h4>Gladiator Ring</h4>
-				</div>
+
 				<div class="review-img">
-					<img src="images/gladiator-ring-gold-2.jpg" alt="Blog Post 1">
+					<div class="grid-col-1of1">
+					
+					<h4>Gladiator Ring</h4>
+
+					<div class="review-img">
+						<img src="images/gladiator-ring-gold-2.jpg" alt="Blog Post 1">
+					</div>
+				</div>
+
 				</div>
 			</div>
 
 			<div class="grid-col-2of3">
 				<h4>Tell Us What You Think:</h4>
+				
 				<form class="add-review">
-					<label for="form-nickname">Nickname:</label>
-					<input type="text" id="form-nickname" placeholder="">
+					
+					<div class="grid-col-1of1">
+						<label for="form-name">Name:</label>
+						<input type="text" id="form-name" placeholder="">
+					</div>
 
-					<textarea name="styled-textarea">Leave your comment here...</textarea>
+					<div class="grid-col-1of1">
+						<label for="form-country">Country:</label>
+						<select id="form-country" name="country">
+						    <option value="ca">Canada</option>
+						    <option value="usa">United States</option>
+						</select>
+					</div>
+
+					<div class="grid-col-1of1">
+						<label for="form-time">How long have you had it for:</label>
+						<select id="form-time" name="time">
+						    <option value="1" disabled selected>Select a time frame</option>
+						    <option value="2">Recently purchased</option>
+						    <option value="2">Less than a year</option>
+						    <option value="3">More than a year</option>
+						</select>
+					</div>
+
+					<div class="rating">
+						<span>&#9734</span><span>&#9734</span><span>&#9734</span><span>&#9734</span><span>&#9734</span>
+					</div>
+
+					<div class="grid-col-1of1">
+						<textarea name="styled-textarea">Leave your comment here...</textarea>
+					</div>
+
+
+
 					<input type="submit" class="submit-button" value="Submit">
 					<input type="submit" class="cancel-button" value="Cancel">
+
 				</form>
 			</div>
 			
 		</div>
-
+</div>
 
 
 
@@ -214,8 +253,4 @@
 	</body>
 
 </html>
-
-
-
-
 
