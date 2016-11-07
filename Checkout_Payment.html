@@ -190,17 +190,21 @@
 								Your Payment Info
 							</h2>
 					    </div>
+					     <div class="grid-row required-field grid-col-1of1">
+					    	<p>* Required field
+					    	</p>
+					    </div>
 						<div class="add-gift-card">
 							<div class="grid-row">
 								<h4>Add a Gift Card</h4>
 								<div class="grid-col-1of2">
 									<label for="form-gift-card-number">Gift Card Number</label>
-							      	<input type="text" id="form-gift-card-number" class="checkout-input" placeholder="">
+							      	<input type="text" id="form-gift-card-number" class="checkout-input" placeholder="" maxlength="10"required>
 						      	</div>
 
 						      	<div class="grid-col-1of2">
 									<label for="form-gift-card-pin">PIN:</label>
-							      	<input type="text" id="form-gift-card-pin" class="checkout-input" placeholder="">
+							      	<input type="text" id="form-gift-card-pin" class="checkout-input" placeholder="" maxlength="10" required>
 						      	</div>
 
 						        <div class="grid-col-1of1">
@@ -214,22 +218,22 @@
 					    	<h4>Credit Card</h4>
 
 				    		<div class="shorten-input">
-								<label for="form-first-name">Full Name</label>
-					      		<input type="text" id="form-first-name" class="checkout-input" placeholder="">
+								<label for="form-first-name">Full Name*</label>
+					      		<input type="text" id="form-first-name" class="checkout-input" placeholder="" minlength="2" maxlength="35" required>
 					    	</div>
 					    	<div class="shorten-input">
-								<label for="form-card-number">Card Number:</label>
-					      		<input type="text" id="form-card-number" class="checkout-input" placeholder="">
+								<label for="form-card-number">Card Number*</label>
+					      		<input type="text" id="form-card-number" class="checkout-input" placeholder="" minlength="12" maxlength="20" required>
 					    	</div>
 						    
 						    <div class="short">
-								<label for="form-expiry-date">Expiry Date:</label>
-						      	<input type="text" id="form-expiry-date1" class="checkout-input" placeholder="MM">
-						      	<input type="text" id="form-expiry-date2" class="checkout-input" placeholder="YY">
+								<label for="form-expiry-date">Expiry Date*</label>
+						      	<input type="text" id="form-expiry-date1" class="checkout-input" placeholder="MM" maxlength="2" required>
+						      	<input type="text" id="form-expiry-date2" class="checkout-input" placeholder="YY" minlength="2" maxlength="4" required>
 						    </div>
 						    <div class="short">
-								<label for="form-security-code">Security Code:</label>
-						      	<input type="text" id="form-security-code" class="checkout-input" placeholder="CVC">
+								<label for="form-security-code">Security Code*</label>
+						      	<input type="text" id="form-security-code" class="checkout-input" placeholder="CVC" minlength="3" maxlength="3" required>
 						    </div>
 						</div>
 
@@ -398,7 +402,7 @@
 					<form method="post" action="#" class="newsletter-form">
 
 						<label for="form-email">Email:</label>
-						<input type="text" id="form-email" placeholder="">
+						<input type="text" id="form-email" placeholder="" required>
 						<input type="submit" class="submit-button" value="Submit">
 
 					</form>

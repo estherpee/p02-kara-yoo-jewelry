@@ -190,52 +190,56 @@
 					      	Your Shipping Info
 					      </h2>
 					    </div>
+					    <div class="grid-row required-field grid-col-1of1">
+					    	<p>* Required field
+					    	</p>
+					    </div>
 						<div class="grid-row checkout-name">
 							<div class="grid-col-1of2">
-								<label for="form-first-name">First Name:</label>
-						      	<input type="text" id="form-first-name" class="checkout-input" placeholder="">
+								<label for="form-first-name">First Name *</label>
+						      	<input type="text" id="form-first-name" class="checkout-input" minlength="2" maxlength="20" placeholder="" required>
 						    </div>
 						    <div class="grid-col-1of2">
-								<label for="form-last-name">Last Name:</label>
-						      	<input type="text" id="form-last-name" class="checkout-input" placeholder="">
+								<label for="form-last-name">Last Name *</label>
+						      	<input type="text" id="form-last-name" class="checkout-input" minlength="2" maxlength="20" placeholder="" required>
 						    </div>
 						    <div class="grid-col-1of1">
 								<div>
-									<label for="form-address-1">Address Line 1:</label>
-							      	<input type="text" id="form-address-1" class="checkout-input" placeholder="">
+									<label for="form-address-1">Address Line 1 *</label>
+							      	<input type="text" id="form-address-1" class="checkout-input" minlength="2" maxlength="20" placeholder="" required>
 							    </div>
 						    </div>
 						    <div class="grid-col-1of1">
 							    <div>
-									<label for="form-address-2">Address Line 2:</label>
-							      	<input type="text" id="form-address-2" class="checkout-input" placeholder="">
+									<label for="form-address-2">Address Line 2</label>
+							      	<input type="text" id="form-address-2" class="checkout-input" minlength="2" maxlength="20" placeholder="">
 							    </div>
 						    </div>
 					 
 					    	<div class="grid-col-1of2">
 							    <div>
-									<label for="form-city">City/Town:</label>
-							      	<input type="text" id="form-city" class="checkout-input" placeholder="">
+									<label for="form-city">City/Town *</label>
+							      	<input type="text" id="form-city" class="checkout-input" minlength="2" maxlength="20" placeholder="" required>
 							    </div>
 						    </div>
 						    <div class="grid-col-1of2">
 							    <div>
-									<label for="form-province">State/Province:</label>
-							      	<input type="text" id="form-province" class="checkout-input" placeholder="">
+									<label for="form-province">State/Province *</label>
+							      	<input type="text" id="form-province" class="checkout-input" minlength="2" maxlength="20" placeholder="" required>
 							    </div>
 						    </div>
 
 							<div class="grid-col-1of2">
 							    <div>
-									<label for="form-postal-code">Postal Code:</label>
-							      	<input type="text" id="form-postal-code" class="checkout-input" placeholder="">
+									<label for="form-postal-code">Postal Code *</label>
+							      	<input type="text" id="form-postal-code" class="checkout-input" minlength="4" maxlength="10"placeholder="" required>
 							    </div>
 						    </div>
 						    <div class="grid-col-1of2">
 						    	<div>
-									<label for="form-country">Country:</label>
+									<label for="form-country">Country *</label>
 									<div class="select-style">
-										<select id="form-country" name="country">
+										<select id="form-country" name="country" required>
 											<option value="" disabled selected>Select a Country</option>
 										    <option value="ca">Canada</option>
 										    <option value="usa">United States</option>
@@ -246,14 +250,14 @@
 
 							<div class="grid-col-1of2">
 							   	<div>
-									<label for="form-phone-number">Phone Number:</label>
-							      	<input type="text" id="form-phone-number" class="checkout-input" placeholder="">
+									<label for="form-phone-number">Phone Number *</label>
+							      	<input type="text" id="form-phone-number" class="checkout-input" maxlength="12" placeholder="" required>
 							    </div>
 						    </div>
 					    	<div class="grid-col-1of2">
 							    <div>
-									<label for="form-email">Email:</label>
-							      	<input type="text" class="checkout-input" placeholder="">
+									<label for="form-email">Email *</label>
+							      	<input type="text" class="checkout-input" placeholder="" maxlength="35"required>
 							    </div>
 						    </div>
 					    </div>
