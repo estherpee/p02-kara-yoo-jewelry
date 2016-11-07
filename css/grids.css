@@ -98,7 +98,7 @@ body {
 }
 
 @media (min-width: 30em){
-	.checkout-section .submit-button, .checkout-section .cancel-button, .checkout-section .secondary-button {
+	.checkout .submit-button, .checkout .cancel-button, .checkout .secondary-button {
 		width: auto;
 		margin: 1em;
 		text-align: center;
