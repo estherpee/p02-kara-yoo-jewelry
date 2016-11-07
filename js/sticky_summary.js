@@ -45,6 +45,7 @@ if (ww > 879) {
   	s.css("width", "100%");
 }
 
+
 // if (ww > 879) {
 // 	$(window).scroll(function() {
 // 	  if( $(this).scrollTop() > ($(window).height() - (fh + 15))) {
