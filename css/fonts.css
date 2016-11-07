@@ -23,6 +23,18 @@
 }
 
 @font-face {
+	font-family: 'Circular Std Book';
+	src: url('../fonts/CircularStd-Book.eot');
+	src: url('../fonts/CircularStd-Book.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/CircularStd-Book.woff2') format('woff2'),
+		url('../fonts/CircularStd-Book.woff') format('woff'),
+		url('../fonts/CircularStd-Book.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+@font-face {
 	font-family: 'Circular Std';
 	src: url('../fonts/CircularStdBlack.eot');
 	src: url('../fonts/CircularStdBlack.eot?#iefix') format('embedded-opentype'),
