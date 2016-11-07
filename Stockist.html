@@ -176,17 +176,37 @@
 		</div>
 
 		<div class="grid-row">
-			
-			<div class="grid-col-1of4">
-				<nav class="side-nav">
-					<h4>Stockists</h4>
+			<!-- side-nav mobile -->
+				<div class="product-item-nav-mobile">
+					<nav class="side-nav-mobile">
+
+						<div class="side-nav-dropdown categories-target">
+							<h4>Area</h4>
+							<i class="fa fa-chevron-down" aria-hidden="true"></i>
+						</div>
+						<div class="categories-side-nav-dropdown-content">
+						  <a href="#" class="side-nav-item">Vancouver</a> 
+						  <a href="#" class="side-nav-item">Edmonton</a> 
+						  <a href="#" class="side-nav-item">Ontario</a>
+						  <a href="#" class="side-nav-item">San Fransisco</a>
+						  <a href="#" class="side-nav-item">New York</a>
+						</div>
+					</nav>
+				</div>
+			<!-- side-nav regular -->
+			<div class="product-item-nav">
+				<div class="grid-col-1of4">
+					<nav class="side-nav">
+					<h4>Area</h4>
 					  <a href="#" class="side-nav-item">Vancouver</a> 
 					  <a href="#" class="side-nav-item">Edmonton</a> 
 					  <a href="#" class="side-nav-item">Ontario</a>
 					  <a href="#" class="side-nav-item">San Fransisco</a>
-					  <a href="#" class="side-nav-item">New York</a>
-				</nav>
+					  <a href="#" class="side-nav-item">New York</a>					
+					</nav>
+				</div>
 			</div>
+
 			<div class="store-list">
 				<div class="grid-col-2of3">
 					<h3 >Vancouver</h3>
@@ -342,6 +362,7 @@
 		<script src="js/jquery.js"></script>
 	    <script src="js/dropdown_nav.js"></script>
 	    <script src="js/hamburger.js"></script>
+	   	<script src="js/side_nav_dropdown.js"></script>
 	</body>
 
 </html>

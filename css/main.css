@@ -654,12 +654,47 @@ input[type=checkbox]{
 
 /* Sidebar Navigation */
 
+
+.side-nav-mobile {
+	list-style-type: none;
+
+}
+
+.categories-side-nav-dropdown-content, .collections-side-nav-dropdown-content {
+	display: none;
+	margin: 0.5em 2.5em 1em 2.5em;
+
+}
+
+.categories-target, .collections-target {
+	border: 1px solid #C0C0C0;
+	padding: 0.8em 1em;
+	margin: 0.5em 2em;
+}
+
+.side-nav-mobile h4{
+	display: inline-block;
+	padding: 0;
+	margin: 0;
+}
+
+.side-nav-mobile .side-nav-item{
+	padding: 1em;
+}
+
+.fa-chevron-down {
+	display: inline !important;
+	font-size: small !important;
+	float: right;
+	padding-top: 0.2em;
+	text-align: right;
+
+}
 .side-nav {
 	list-style-type: none;
 	float:left;
 	padding: 1em;
-	height: 100%;
-	overflow: auto;
+
 }
 
 .side-nav h4{
@@ -1377,6 +1412,7 @@ option:checked {
 
 .fa-bars {
 	position: absolute;
+	font-size: 1.5em !important;
 
 }
 .search-icon {
@@ -1443,21 +1479,27 @@ option:checked {
 #global-footer {
 	border: none;
 	background-color: #F7F7F7;
-	margin: 3.5em -3% -3% -3%;
+/*	margin: 3.5em -3% -3% -3%;*/
 	padding: 2em 3em;
-	width: auto:;
 	color: #000;
+	position: absolute;
+	width: 100%;
+	left:0;
+
 
 }
 
 .fa  {
-	font-size: 1.5em  !important;
 	color: #000;
 	width: 3rem;
 	-webkit-transition: opacity 0.2s ease-out;
 	-moz-transition: opacity 0.2s ease-out;
   	-o-transition: opacity 0.2s ease-out;
 	transition: opacity 0.2s ease-out;
+}
+
+.fa-facebook-square, .fa-instagram {
+	font-size: 1.5em  !important;
 }
 
 .social-icon {
@@ -1637,7 +1679,9 @@ textarea{
 .store-contact p, .store-location p {
 	margin:0;
 }
-
+#stockists {
+	margin-bottom: 3em;
+}
 #stockists h3{
 	padding: 0 0.7em;
 }
@@ -1645,7 +1689,7 @@ textarea{
 /*-------------------------Contact-------------------*/
 
 .send-email{
-
+	padding: 0 1em;
 }
 
 .send-email form{
@@ -1654,15 +1698,17 @@ textarea{
 
 }
 
-.send-email .
- {
+.send-email .submit-button {
 	float: right;
 }
 
+
 .email-confirm {
 	text-align: center;
+	padding: 1em;
+	margin-bottom: 3em;
 }
 
-.email-confirm p {
-	padding-bottom: 2em;
+.email-confirm img {
+	margin-bottom: 1em;
 }
