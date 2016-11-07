@@ -37,6 +37,7 @@ if (ww > 879) {
 
 
 	});
+
 	
 } else {
 		s.addClass(sstacked);
@@ -45,7 +46,11 @@ if (ww > 879) {
   		
 }
 
+if (ww > 400) {
 $(window).bind('resize', function() {
-     location.reload();
+ location.reload();
 });
+}
+
+
 
