@@ -204,31 +204,40 @@
 
 					<div class="grid-col-1of1">
 						<label for="form-country">Country:</label>
-						<select id="form-country" name="country">
-						    <option value="ca">Canada</option>
-						    <option value="usa">United States</option>
-						</select>
+							<div class="select-style">
+								<select id="form-country" name="country">
+									<option value="none" disabled selected>Select a Country</option>
+								    <option value="ca">Canada</option>
+								    <option value="usa">United States</option>
+								</select>
+							</div>
 					</div>
 
 					<div class="grid-col-1of1">
 						<label for="form-time">How long have you had it for:</label>
-						<select id="form-time" name="time">
-						    <option value="1" disabled selected>Select a time frame</option>
-						    <option value="2">Recently purchased</option>
-						    <option value="2">Less than a year</option>
-						    <option value="3">More than a year</option>
-						</select>
-					</div>
-
-					<div class="rating">
-						<span>&#9734</span><span>&#9734</span><span>&#9734</span><span>&#9734</span><span>&#9734</span>
+						<div class="select-style">
+							<select id="form-time" name="time">
+							    <option value="1" disabled selected>Select a time frame</option>
+							    <option value="2">Recently purchased</option>
+							    <option value="2">Less than a year</option>
+							    <option value="3">More than a year</option>
+							</select>
+						</div>
 					</div>
 
 					<div class="grid-col-1of1">
-						<textarea name="styled-textarea">Leave your comment here...</textarea>
+						<fieldset class="rating">
+						    <legend>Rate Quality:</legend>
+						    <input type="radio" id="star5" name="rating" value="5" /><label for="star5" title="Rocks!">5 stars</label>
+						    <input type="radio" id="star4" name="rating" value="4" /><label for="star4" title="Pretty good">4 stars</label>
+						    <input type="radio" id="star3" name="rating" value="3" /><label for="star3" title="Meh">3 stars</label>
+						    <input type="radio" id="star2" name="rating" value="2" /><label for="star2" title="Kinda bad">2 stars</label>
+						    <input type="radio" id="star1" name="rating" value="1" /><label for="star1" title="Sucks big time">1 star</label>
+						</fieldset>
 					</div>
 
 
+					<textarea name="styled-textarea" placeholder="Leave your comment here..."></textarea>
 
 					<input type="submit" class="submit-button" value="Submit">
 					<input type="submit" class="cancel-button" value="Cancel">
