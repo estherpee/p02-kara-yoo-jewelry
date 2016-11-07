@@ -619,6 +619,10 @@ input[type=checkbox]{
 	text-align: center;
 }
 
+.main-nav .grid-col-2of12 {
+	padding-left: 0;
+	padding-right: 0;
+}
 /** Styling for Navigation Button **/
 .main-nav-item {
 	display: inline-block;

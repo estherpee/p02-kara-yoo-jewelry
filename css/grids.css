@@ -67,7 +67,13 @@ body {
 		width: 25%;
 	}
 
+.regular-nav{
+	display: none;
+}
 
+.mobile-nav {
+	display: block;
+}
 
 @media (min-width: 30em){
 
@@ -129,6 +135,9 @@ body {
     .recommended-container {
         display: none !important;
     }
+
+
+
 }
 
 
@@ -226,8 +235,16 @@ body {
 	.recommended-container .grid-col-2of12{
 		width: 16.6%;
 	}
+	.grid-col-2of12{
+		width: 16.6666666666%;
+	}
+	.regular-nav{
+		display: block;
+	}
 
-
+	.mobile-nav {
+		display: none;
+	}
 
 }
 
@@ -239,9 +256,7 @@ body {
 		width: 8.33333333333%;
 	}
 
-	.grid-col-2of12{
-		width: 16.6666666666%;
-	}
+
 	
 	.grid-col-1of4 {
 		width: 25%;
