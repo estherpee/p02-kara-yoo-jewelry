@@ -333,219 +333,7 @@ figcaption {
 }
 
 
-/*-------------------------Checkout Pages------------------------*/
 
-.breadcrumbs{
-	margin-left:2em;
-}
-
-.breadcrumbs p{
-	color: #c0c0c0;
-	display: inline-block;
-	margin-bottom: 0;
-}
-
-.breadcrumbs-arrow {
-	margin: 0 0.8em;
-}
-
-.breadcrumbs .active{
-	color: #000;
-}
-
-.breadcrumbs .inactive {
-	color: #c0c0c0;
-}
-
-.breadcrumbs a:hover, .breadcrumbs a:focus{
-	text-decoration: underline;
-}
-
-
-.checkout {
-	margin: 1em;
-}
-
-.checkout label {
-	display: block;
-	padding: 0.5em 0 0.5em 0;
-}
-
-.checkout-name .grid-col-1of2, .checkout-name .grid-col-1of1{
-	padding: 0 1em 1em 0;
-}
-
-.checkout-title {
-	border-bottom: 1px solid #000;
-	padding-bottom: 0.3em;
-}
-
-.checkout input[type=text]{
-	width: 100%;
-	border: 0.5px solid #C0C0C0;
-	padding: 0.5em;
-}
-
-select {
-    width: 100%;
-    border-radius: 1px;
-    height: 31.5px;
-    background-color: #ffffff;
-	border: 0.5px solid #C0C0C0;
-}
-
-.select-style select{
-  background: transparent;
-  padding: 0.5em;
-  line-height: 1;
-  border: 0;
-  border-radius: 0;
-  -webkit-appearance: none;
-  color: #000;
-}
-
-.select-style {
-  height: 34px;
-  overflow: hidden;
-  background: url(../images/down-arrow.png) no-repeat 98% #fff;
-  background-size: 2em;
-  border: 1px solid #C0C0C0;
-}
-
-
-.checkout .select-style {
-	height: 31px;
-
-}
-.checkout-title {
-	border-bottom: 1px solid #000;
-	padding-bottom: 0.3em;
-}
-
-.checkout input[type=text]{
-	width: 100%;
-
-	border: 0.5px solid #C0C0C0;
-	padding: 0.5em;
-
-}
-
-.add-gift-card, .credit-card-info {
-	border-bottom: 1px solid #f1f1f1;
-}
-
-.add-gift-card input[type=text] {
-	width: 100%;
-	min-width: 0;
-}
-
-.add-gift-card label {
-	padding: 0 0 0.5em 0;
-}
-
-.add-gift-card .grid-col-1of2 {
-	padding: 0 1em 1em 0;
-}
-
-.checkout .secondary-button {
-	font-size: 1em;
-}
-
-.add-gift-card .secondary-button, .checkout .submit-button, .checkout .cancel-button {
-	float: right;
-	margin:0;
-}
-
-.checkout .submit-button, .checkout .cancel-button{
-	margin: 1em;
-}
-
-label[for=form-card-number] {
-	padding-top: 0;
-}
-
-.credit-card-info {
-	padding-bottom: 2em;
-}
-
-.credit-card-info h4{
-	margin-bottom: 0;
-}
-.credit-card-info .short input[type=text] {
-	width: 50px;
-	min-width: 0;
-	border: 0.5px solid #C0C0C0;
-
-}
-
-.short, .shorten-input {
-	padding-top: 1em;
-}
-input[type=checkbox]{
-	margin-right: 0.5em;
-
-}
-
-.billing-address {
-
-	margin-top: 1em;
-}
-
-.billing-address-form {
-	display: none;
-}
-
-.billing-address-section p{
-	font-weight: normal;
-}
-
-
-.shorten-input input[type=text]{
-	width: 50%;
-	min-width: 260px;
-}
-
-.item-summary h3 {
-	font-size: 1em;
-	margin: 3em 0 0 1em;
-}
-
-.checkout-review{
-	font-size: 0.8em;
-}
-
-.cart-review{
-	font-size: 0.8em;
-}
-
-.checkout-review p {
-	margin: 1em 0;
-}
-
-.checkout-review .text-link{
-	color: #c0c0c0;
-}
-
-.info-summary .grid-col-1of2 {
-	padding: 0;
-
-}
-
-
-.order-confirmation {
-	margin: 0 10%;
-	text-align: center;
-	margin-bottom: 3em;
-}
-
-.order-confirmation .button, .order-confirmation .secondary-button{
-	margin: 1em;
-
-}
-
-.order-confirmation p {
-	padding-bottom: 2em;
-}
 
 
 /* Sidebar Navigation */
@@ -626,12 +414,13 @@ input[type=checkbox]{
 .text-link:hover {
   text-decoration: underline;
 }
+
 .mobile-main-nav {
 	background-color: #fff;
 	display: none;
 	text-align: center;
-
 }
+
 .main-nav{
 	text-align: center;
 }
@@ -842,6 +631,33 @@ input.submit-button {
 .cancel-button:hover, .cancel-button:focus {
 	opacity: 1;
 }
+
+select {
+    width: 100%;
+    border-radius: 1px;
+    height: 31.5px;
+    background-color: #ffffff;
+	border: 0.5px solid #C0C0C0;
+}
+
+.select-style select{
+  background: transparent;
+  padding: 0.5em;
+  line-height: 1;
+  border: 0;
+  border-radius: 0;
+  -webkit-appearance: none;
+  color: #000;
+}
+
+.select-style {
+  height: 34px;
+  overflow: hidden;
+  background: url(../images/down-arrow.png) no-repeat 98% #fff;
+  background-size: 2em;
+  border: 1px solid #C0C0C0;
+}
+
 
 
 /*-------------------------Product Listing-------------------*/
@@ -1085,6 +901,184 @@ option:checked {
 	border: none;
 	margin: 0;
 	padding: 0;
+}
+
+/*-------------------------Checkout Pages------------------------*/
+
+.breadcrumbs{
+	margin-left:2em;
+}
+
+.breadcrumbs p{
+	color: #c0c0c0;
+	display: inline-block;
+	margin-bottom: 0;
+}
+
+.breadcrumbs-arrow {
+	margin: 0 0.8em;
+}
+
+.breadcrumbs .active{
+	color: #000;
+}
+
+.breadcrumbs .inactive {
+	color: #c0c0c0;
+}
+
+.breadcrumbs a:hover, .breadcrumbs a:focus{
+	text-decoration: underline;
+}
+
+.checkout {
+	margin: 1em;
+}
+
+.checkout label {
+	display: block;
+	padding: 0.5em 0 0.5em 0;
+}
+
+.checkout-name .grid-col-1of2, .checkout-name .grid-col-1of1{
+	padding: 0 1em 1em 0;
+}
+
+.checkout-title {
+	border-bottom: 1px solid #000;
+	padding-bottom: 0.3em;
+}
+
+.checkout input[type=text]{
+	width: 100%;
+	border: 0.5px solid #C0C0C0;
+	padding: 0.5em;
+}
+
+.checkout .select-style {
+	height: 31px;
+}
+
+.checkout-title {
+	border-bottom: 1px solid #000;
+	padding-bottom: 0.3em;
+}
+
+.checkout input[type=text]{
+	width: 100%;
+	border: 0.5px solid #C0C0C0;
+	padding: 0.5em;
+}
+
+.add-gift-card, .credit-card-info {
+	border-bottom: 1px solid #f1f1f1;
+}
+
+.add-gift-card input[type=text] {
+	width: 100%;
+	min-width: 0;
+}
+
+.add-gift-card label {
+	padding: 0 0 0.5em 0;
+}
+
+.add-gift-card .grid-col-1of2 {
+	padding: 0 1em 1em 0;
+}
+
+.checkout .secondary-button {
+	font-size: 1em;
+}
+
+.add-gift-card .secondary-button, .checkout .submit-button, .checkout .cancel-button {
+	float: right;
+	margin:0;
+}
+
+.checkout .submit-button, .checkout .cancel-button{
+	margin: 1em;
+}
+
+label[for=form-card-number] {
+	padding-top: 0;
+}
+
+.credit-card-info {
+	padding-bottom: 2em;
+}
+
+.credit-card-info h4{
+	margin-bottom: 0;
+}
+
+.credit-card-info .short input[type=text] {
+	width: 50px;
+	min-width: 0;
+	border: 0.5px solid #C0C0C0;
+}
+
+.short, .shorten-input {
+	padding-top: 1em;
+}
+input[type=checkbox]{
+	margin-right: 0.5em;
+}
+
+.billing-address {
+	margin-top: 1em;
+}
+
+.billing-address-form {
+	display: none;
+}
+
+.billing-address-section p{
+	font-weight: normal;
+}
+
+.shorten-input input[type=text]{
+	width: 50%;
+	min-width: 260px;
+}
+
+.item-summary h3 {
+	font-size: 1em;
+	margin: 3em 0 0 1em;
+}
+
+.checkout-review{
+	font-size: 0.8em;
+}
+
+.cart-review{
+	font-size: 0.8em;
+}
+
+.checkout-review p {
+	margin: 1em 0;
+}
+
+.checkout-review .text-link{
+	color: #c0c0c0;
+}
+
+.info-summary .grid-col-1of2 {
+	padding: 0;
+}
+
+.order-confirmation {
+	margin: 0 10%;
+	text-align: center;
+	margin-bottom: 3em;
+}
+
+.order-confirmation .button, .order-confirmation .secondary-button{
+	margin: 1em;
+}
+
+.order-confirmation p {
+	padding-bottom: 2em;
 }
 
 
