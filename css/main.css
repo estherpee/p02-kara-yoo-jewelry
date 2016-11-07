@@ -231,7 +231,7 @@ nav h4 {
 	border-bottom: 1px solid #f1f1f1;
 }
 
-.remove-button {
+/*.remove-button {
 	display: inline-block;
 	padding: 0.5em;
 	margin: 1em;
@@ -244,7 +244,7 @@ nav h4 {
 	font-weight: normal;
 	text-align: center;
 	float:right;
-}
+}*/
 
 /* Review */
 
@@ -478,9 +478,7 @@ fieldset {
 	display: block;
 	padding: 0.5em 0 0.5em 0;
 }
-.checkout-name .grid-col-1of2, .checkout-name .grid-col-1of1{
-	padding: 0 1em 1em 0;
-}
+
 
 
 select {
@@ -510,7 +508,10 @@ select {
   border: 1px solid #C0C0C0;
 }
 
+.checkout .select-style {
+	height: 31px;
 
+}
 .checkout-title {
 	border-bottom: 1px solid #000;
 	padding-bottom: 0.3em;
@@ -541,7 +542,11 @@ select {
 	padding: 0 1em 1em 0;
 }
 
-.add-gift-card .submit-button, .checkout .submit-button, .checkout .cancel-button {
+.checkout .secondary-button {
+	font-size: 1em;
+}
+
+.add-gift-card .secondary-button, .checkout .submit-button, .checkout .cancel-button {
 	float: right;
 	margin:0;
 }
@@ -1224,17 +1229,28 @@ figcaption {
 
 }
 
-.saved-choice input.submit-button{
-
+/*.saved-choice input.submit-button{
     padding: 0.5em;
-
     background-color: #fff;
     border: 1.5px solid #000;
-
     color: #909090;
     float: right;
     font-weight: normal;
+}*/
+
+.saved-choice .secondary-button {
+	font-size: 1em;
+	float: right;
+	margin: 0.5em 0 0 0;
+	padding: 0.8em;
 }
+
+.saved-choice .cancel-button {
+	float: right;
+	margin: 0.5em 1em 0 0;
+	padding: 0.8em;
+}
+
 
 .area-selection input.submit-button{
 	margin: 0;
