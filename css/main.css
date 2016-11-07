@@ -500,6 +500,7 @@ input[type=checkbox]{
 .order-confirmation {
 	margin: 0 10%;
 	text-align: center;
+	margin-bottom: 3em;
 }
 
 .order-confirmation .button, .order-confirmation .secondary-button{
@@ -535,16 +536,16 @@ input[type=checkbox]{
 
 }
 
-.categories-side-nav-dropdown-content, .collections-side-nav-dropdown-content {
+.side-nav-dropdown-content, .side-nav-dropdown-content-2 {
 	display: none;
-	margin: 0.5em 2.5em 1em 2.5em;
+	margin: 0.5em 2em 1em 2em;
 
 }
 
-.categories-target, .collections-target {
+.side-nav-target, .side-nav-target-2 {
 	border: 1px solid #C0C0C0;
 	padding: 0.8em 1em;
-	margin: 0.5em 2em;
+	margin: 0.5em 1em;
 }
 
 .side-nav-mobile h4{
@@ -700,15 +701,18 @@ input[type=checkbox]{
 }
 
 .button {
-  display: inline-block;
-  padding: 0.7em 2em;
-  color: #FFF;
-  background-color: #000;
-  border: 2px solid #000;
-  font-size: 1rem;
-  text-decoration: none;
-  letter-spacing: 0.05rem;
-  font-weight: normal;
+	display: inline-block;
+	padding: 1em 2em;
+	color: #FFF;
+	background-color: #000;
+	border: 2px solid #000;
+	font-size: 0.8em;
+	text-decoration: none;
+	letter-spacing: 0.05rem;
+	-webkit-transition: background-color 0.2s ease-out;
+	-moz-transition: background-color 0.2s ease-out;
+	-o-transition: background-color 0.2s ease-out;
+	transition: background-color 0.2s ease-out;
 }
 
 .button:hover, .button:focus, .secondary-button:hover, .secondary-button:focus, .viewcart-button:hover, .remove-button:hover, .viewcart-button:focus, .remove-button:focus {
@@ -719,9 +723,9 @@ input[type=checkbox]{
 
 .secondary-button {
 	display: inline-block;
-  	padding: 0.7em 2em;
+  	padding: 1em 2em;
   	border: 2px solid #000;
-  	font-size: 1rem;
+  	font-size: 0.8em;
   	text-decoration: none;
   	letter-spacing: 0.05rem;
 	color: #000;
@@ -833,15 +837,19 @@ textarea:focus, input:focus{
 }
 
 input.submit-button {
-  display: inline-block;
-  margin: 1em 0;
-  padding: 1em 2em;
-  color: #FFF;
-  background-color: #000;
-  border-color: #000;
+	display: inline-block;
+	margin: 1em 0;
+	padding: 1em 2em;
+	color: #FFF;
+	background-color: #000;
+	border-color: #000;
 
-  text-decoration: none;
-  letter-spacing: 0.05rem;
+	text-decoration: none;
+	letter-spacing: 0.05rem;
+	-webkit-transition: background-color 0.2s ease-out;
+	-moz-transition: background-color 0.2s ease-out;
+	-o-transition: background-color 0.2s ease-out;
+	transition: background-color 0.2s ease-out;
 
 }
 
@@ -867,16 +875,20 @@ input.cancel-button {
 }*/
 
 .cancel-button {
-  display: inline-block;
-  margin: 0.25em 0.25em;
-  padding: 0.5em 0.5em;
-  padding: 1em 2em;
-  color: #000;
-  background-color: #FFF;
-  border: 2px solid #000;
-  text-decoration: none;
-  letter-spacing: 0.05rem;
-  opacity: 0.5;
+	display: inline-block;
+	margin: 0.25em 0.25em;
+	padding: 0.5em 0.5em;
+	padding: 1em 2em;
+	color: #000;
+	background-color: #FFF;
+	border: 2px solid #000;
+	text-decoration: none;
+	letter-spacing: 0.05rem;
+	opacity: 0.5;
+	-webkit-transition: opacity 0.2s ease-out;
+	-moz-transition: opacity 0.2s ease-out;
+	-o-transition: opacity 0.2s ease-out;
+	transition: opacity 0.2s ease-out;
 
 }
 .cancel-button:hover, .cancel-button:focus {
@@ -1244,7 +1256,7 @@ option:checked {
     margin-bottom: 0.5em;
 }
 
-#logo {
+#logo, #logo-hamburger {
 	margin:0;
 	text-decoration: none;
 	color: black;
@@ -1258,7 +1270,7 @@ option:checked {
 
 }
 
-#logo:hover {
+#logo:hover, #logo-hamburger:hover {
 	opacity: 0.5;
 
 }
@@ -1274,7 +1286,7 @@ option:checked {
 	margin-top: 0.5em;
 }
 
-.secondary-nav-test #logo{
+.secondary-nav-test #logo-hamburger {
 	position: absolute;
 	transform: translateX(-50%);
 	left: 50%;
