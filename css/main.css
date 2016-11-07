@@ -101,14 +101,23 @@ nav h4 {
 .review-img{
 	width: 100%;
 	height: 20em;
+}
 
+.review-img h4{
+    font-size: 0.8em;
+    margin: 0;
+	padding: 0 0 0.5em 0;
+}
+
+.review-img .grid-col-1of1{
+    margin: 1em 0 0 0;
+    padding: 0;
 }
 
 .review-img img{
 	width:100%;
 	height:100%;
 	object-fit: cover;
-
 }
 
 .tester-description h4{
@@ -276,7 +285,11 @@ nav h4 {
 
 .add-review .text-link{
 	color: #505050;
+}
 
+.add-review .grid-col-1of1{
+	margin: 1em 0 0 0;
+	padding: 0;
 }
 
 
