@@ -609,7 +609,12 @@ input[type=checkbox]{
 .text-link:hover {
   text-decoration: underline;
 }
+.mobile-main-nav {
+	background-color: #fff;
+	display: none;
+	text-align: center;
 
+}
 .main-nav{
 	text-align: center;
 }
@@ -1210,6 +1215,36 @@ option:checked {
 	position: absolute;
 	right: 0;
 }
+
+.secondary-nav-test{
+	position: relative;
+	height: 60px;
+}
+
+.secondary-nav-test #logo{
+	position: absolute;
+	transform: translateX(-50%);
+	left: 50%;
+
+}
+
+.search-icon, .cart-icon {
+	position: absolute;
+
+}
+
+.fa-bars {
+	position: absolute;
+
+}
+.search-icon {
+	right: 15%;
+}
+
+.cart-icon {
+	right: 3%;
+}
+
 .secondary-nav-item {
 	float: left;
 }
