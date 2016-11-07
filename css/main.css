@@ -299,7 +299,7 @@ section code {
 }
 
 .summary-sub {
-	color: #C0C0C0;
+	color: #707070;
 
 }
 
@@ -925,7 +925,7 @@ option:checked {
 }
 
 .breadcrumbs .inactive {
-	color: #c0c0c0;
+	color: #707070;
 }
 
 .breadcrumbs a:hover, .breadcrumbs a:focus{
