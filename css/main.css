@@ -773,7 +773,7 @@ select {
 .price-tag{
 	 margin-top: .25em;
 	 font-family: Garamond, Times, serif;
-	 font-size: 0.8em;
+	 font-size: 0.9em;
 	 font-style: italic;
 	 font-weight: bolder;
 	 letter-spacing: 0.08em;
@@ -837,14 +837,24 @@ select {
 
 .area-selection input.submit-button{
 	margin: 0;
-	padding: 0.7em 1em;
-	width: 75%;
+	width: 100%;
 }
 
+.area-selection .cancel-button{
+	margin: 0;
+	width:100%;
+	text-align: center;
+}
+
+.area-selection p{
+	margin:0 0 0.5em 0;
+	color: #505050;
+	font-weight: normal;
+}
 
 .area-selection .grid-col-1of4 {
-	padding: 0;
-	margin: 0 1em 1em 0;
+	padding: 0 0.5em 0 0;
+	margin: 0 1.5em 1em 0;
 }
 
 .area-blurb {
@@ -853,7 +863,7 @@ select {
 
 .area-description p {
 	font-size: 0.8em;
-	width: 75%;
+	min-width: 75%;
 	color: #707070;
 	letter-spacing: 0.03em;
 }
@@ -1053,12 +1063,22 @@ input[type=checkbox]{
 	font-size: 0.8em;
 }
 
+.required-field p{
+	float: right;
+	color: #909090;
+	font-weight: lighter;
+}
+
 .checkout-review p {
 	margin: 1em 0;
 }
 
 .checkout-review .text-link{
 	color: #c0c0c0;
+}
+
+.required-field .grid-col-1of1{
+	margin:0;
 }
 
 .info-summary .grid-col-1of2 {
