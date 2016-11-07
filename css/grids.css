@@ -86,6 +86,13 @@ body {
 	text-align: center;
 }
 
+.large-featured-container .grid-col-1of1 {
+	padding-bottom: 0;
+}
+.large-featured-container .grid-col-1of2 {
+	padding: 0 1em;
+}
+
 @media (min-width: 30em){
 	.checkout-section .submit-button, .checkout-section .cancel-button, .checkout-section .secondary-button {
 		width: auto;
@@ -175,7 +182,6 @@ body {
 		margin: 1em 3% 0;
 	}
 
-
 	.featured-modular-container .grid-col-1of2{
 		width: 50%;
 	}
@@ -205,6 +211,7 @@ body {
 	.checkout-name .grid-col-1of2, .checkout-name .grid-col-1of1{
 		padding: 0 1em 1em 0;
 	}
+
 }
 
 
@@ -249,6 +256,12 @@ body {
 	.large-featured .featured-content {
 		top: 30%;
 	}
+
+	.large-featured-container .grid-col-1of1, .large-featured-container .grid-col-1of2 {
+		padding: 1em;
+		padding-right: 0;
+	}
+
 	footer .grid-col-3of12 {
 		width: 25%;
 	}

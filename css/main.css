@@ -473,18 +473,10 @@ figcaption {
 	-moz-transition: opacity 0.2s ease-out;
 	-o-transition: opacity 0.2s ease-out;
 	transition: opacity 0.2s ease-out;
-/*	-webkit-transition: border-bottom 0.2s ease-out;
-	-moz-transition: border-bottom 0.2s ease-out;
-	-o-transition: border-bottom 0.2s ease-out;
-	transition: border-bottom 0.2s ease-out;*/
-
 }
 
 .main-nav-item:hover, .main-nav-item:focus {
-/*	border-bottom: 2px solid #C0C0C0;*/
   	opacity: 0.5;
-
-
 }
 
 .button {
@@ -703,7 +695,7 @@ select {
 	width: 100%;
 }
 
-.product-img {
+.product-img, .product-img-main, .product-img-sub-1, .product-img-sub-2, .product-img-sub-3 {
   	background-color: #FFF;
   	position: relative;
 }
@@ -1058,10 +1050,11 @@ input[type=checkbox]{
 }
 
 .order-confirmation {
-	margin: 0 10%;
+	margin: 0 20%;
 	text-align: center;
 
 }
+
 
 .order-confirmation .button, .order-confirmation .secondary-button{
 	margin: 1em;
@@ -1069,8 +1062,13 @@ input[type=checkbox]{
 
 .order-confirmation p {
 	padding-bottom: 2em;
+	font-size: 0.8em;
 }
 
+.order-confirmation .text-link{
+	opacity: 0.4;
+	color: #000;
+}
 
 /*-----------------------------Globals------------------------*/
 
@@ -1200,6 +1198,10 @@ input[type=checkbox]{
 	margin-bottom: 0.5em;
 }
 
+#global-footer p {
+	font-size: 0.8em;
+}
+
 .newsletter-form input.submit-button{
 	display: inline;
   	width: 100px;
@@ -1264,13 +1266,18 @@ input[type=checkbox]{
 
 .large-featured {
 	height: 630px;
-	margin-top: 1em;
-	margin-bottom: -1em;
 }
 
 .img-featured {
 	position: absolute;
-	left: 3vw;
+	left: 2.5vw;
+	-webkit-transition: opacity 0.2s ease-out;
+	-moz-transition: opacity 0.2s ease-out;
+	-o-transition: opacity 0.2s ease-out;
+	transition: opacity 0.2s ease-out;
+}
+.img-featured:hover {
+	opacity: 0.7;
 }
 
 .large-featured img, .small-featured img{
@@ -1278,6 +1285,7 @@ input[type=checkbox]{
 	height: 100%;
 	object-fit: cover;
 }
+
 
 .featured-content{
 	position: absolute;
@@ -1503,17 +1511,29 @@ fieldset {
 
 .store-contact p, .store-location p {
 	margin:0;
+
 }
 
 #stockists h3{
 	padding: 0 0.7em;
 }
 
+#stockists p, #stockists .text-link {
+	font-size: 0.8em;
+}
+
+#stockists .text-link {
+	opacity: 0.4;
+}
 
 /*-------------------------Contact Page-------------------*/
 
 .send-email{
 	padding: 0 1em;
+}
+
+.send-email p, .email-confirm p {
+	font-size: 0.8em;
 }
 
 .send-email form{
@@ -1527,7 +1547,6 @@ fieldset {
 
 .email-confirm {
 	text-align: center;
-	padding: 1em;
 }
 
 .email-confirm img {
