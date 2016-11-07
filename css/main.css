@@ -231,7 +231,31 @@ nav h4 {
 	border-bottom: 1px solid #f1f1f1;
 }
 
-/*.remove-button {
+.choices-final{
+	font-size: 0.8em;
+}
+
+.choices-final-title h4{
+	padding: 0.5em 0;
+    margin: 0 0 1em 0;
+    text-align: center;
+    border-bottom: 1px solid #000;
+}
+
+.choices-final-title p{
+	text-align: center;
+}
+
+.all-cards .cancel-button{
+	float: right;
+	margin: 1em;
+    font-size: 0.8em;
+    font-weight: bold;
+
+}
+
+
+.remove-button {
 	display: inline-block;
 	padding: 0.5em;
 	margin: 1em;
@@ -251,7 +275,7 @@ nav h4 {
 
 .add-review input[type=text], .send-email input[type=text] {
 	width: 100%;
-	border: 0.5px solid #f1f1f1;
+	border: 0.5px solid #c0c0c0;
 	padding: 0.5em;
 	outline: none;
 	-webkit-transition: all 0.30s ease-in-out;
@@ -1572,7 +1596,7 @@ textarea{
 	height: 150px;
 	max-width: 100%;
 	max-height: 300px;
-	border: 0.5px solid #f1f1f1;
+	border: 0.5px solid #c0c0c0;
 	background-color: #FFF;
 	color: #000;
 	font-weight: normal;
