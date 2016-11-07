@@ -12,19 +12,16 @@ section {
 	border-bottom: 0.05em solid #303030;
 }
 
-section ol, ul {
-	margin: 0.8em;
+p {
+	font-size: 0.8em;
+}
+
+ul {
 	font-size: 0.8em;
 	letter-spacing: 0.05rem;
 	list-style: none;
+	margin: 0.8em;
 }
-
-section code {
-	background-color: #EEE;
-	padding: 0.5em 0.75em;
-	display: block;
-}
-
 
 a {
     text-decoration: none;
@@ -45,8 +42,6 @@ section h1 {
 section h2 {
 	font-family: "Circular Std", Verdana, sans-serif;
 	font-size: 1.25rem;
-	margin-top: 1.25rem;
-	margin-bottom: 1.25rem;
 	width: 100%;
 }
 
@@ -105,8 +100,17 @@ figcaption {
 	font-family: Garamond, Times, serif;
 	font-style: italic;
 }
+/* ------------------- Style Guide Page -------------------------*/
+.style-guide{
+	margin:1em;
+	padding:1em;
+}
 
-
+section code {
+	background-color: #EEE;
+	padding: 0.5em 0.75em;
+	display: block;
+}
 
 /* ------------------- Colour Palette Elements ------------------- */
 
@@ -227,7 +231,7 @@ figcaption {
     border-bottom: 1px solid #000;
 }
 
-.choices-final-title p{
+.choices-final-title p {
 	text-align: center;
 }
 
@@ -309,7 +313,6 @@ figcaption {
 }
 
 .summary p {
-	font-size: 0.8em;
 	margin:0;
 }
 
@@ -324,7 +327,7 @@ figcaption {
 	font-weight: bold;
 }
 
-.summary-total-divider p{
+.summary-total-divider p {
 	border-top: 1px solid #c0c0c0;
 }
 
@@ -851,7 +854,7 @@ select {
 	text-align: center;
 }
 
-.area-selection p{
+.area-selection p {
 	margin:0 0 0.5em 0;
 	color: #505050;
 	font-weight: normal;
@@ -867,19 +870,18 @@ select {
 }
 
 .area-description p {
-	font-size: 0.8em;
 	min-width: 75%;
 	color: #707070;
 	letter-spacing: 0.03em;
 }
 
 .area-additional p, ul {
-	letter-spacing: 0.05em;
-	font-size: 0.8em;
 	list-style: circle;
 	padding: 0 0 0.5em 1em;
 	color: #707070;
 }
+
+
 
 .quantity-form input[type=number]{
 	display: block;
@@ -922,7 +924,7 @@ option:checked {
 	margin-left:2em;
 }
 
-.breadcrumbs p{
+.breadcrumbs p {
 	color: #c0c0c0;
 	display: inline-block;
 	margin-bottom: 0;
@@ -1037,7 +1039,7 @@ input[type=checkbox]{
 	display: none;
 }
 
-.billing-address-section p{
+.billing-address-section p {
 	font-weight: normal;
 }
 
@@ -1059,7 +1061,7 @@ input[type=checkbox]{
 	font-size: 0.8em;
 }
 
-.required-field p{
+.required-field p {
 	float: right;
 	color: #909090;
 	font-weight: lighter;
@@ -1094,7 +1096,6 @@ input[type=checkbox]{
 
 .order-confirmation p {
 	padding-bottom: 2em;
-	font-size: 0.8em;
 }
 
 .order-confirmation .text-link{
@@ -1230,10 +1231,6 @@ input[type=checkbox]{
 	margin-bottom: 0.5em;
 }
 
-#global-footer p {
-	font-size: 0.8em;
-}
-
 .newsletter-form input.submit-button{
 	display: inline;
   	width: 100px;
@@ -1258,7 +1255,6 @@ input[type=checkbox]{
 	font-size: 1.5rem; 
 	font-weight: bold;
 	letter-spacing: 0.05rem;
-/*	text-transform: uppercase;*/
 	position: relative;
 }
 
@@ -1401,8 +1397,7 @@ input[type=checkbox]{
 	margin: 0.5em 0;
 }
 
-.review-description p{
-	font-size: 0.8em;
+.review-description p {
 	margin-bottom: 1em;
 }
 
@@ -1494,15 +1489,9 @@ fieldset {
 	margin-bottom: 2em;
 }
 
-.about-content p {
-	font-size: 0.8em;
-}
-
-
 /*-------------------------Blog-----------------------*/
 
-.blog-description p{
-	font-size: 0.8em;
+.blog-description p {
 	margin-bottom: 1em;
 }
 
@@ -1543,14 +1532,13 @@ fieldset {
 
 .store-contact p, .store-location p {
 	margin:0;
-
 }
 
 #stockists h3{
 	padding: 0 0.7em;
 }
 
-#stockists p, #stockists .text-link {
+#stockists .text-link {
 	font-size: 0.8em;
 }
 
@@ -1562,10 +1550,6 @@ fieldset {
 
 .send-email{
 	padding: 0 1em;
-}
-
-.send-email p, .email-confirm p {
-	font-size: 0.8em;
 }
 
 .send-email form{
