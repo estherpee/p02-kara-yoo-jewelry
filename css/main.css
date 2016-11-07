@@ -622,11 +622,20 @@ input[type=checkbox]{
 .text-link:hover {
   text-decoration: underline;
 }
+.mobile-main-nav {
+	background-color: #fff;
+	display: none;
+	text-align: center;
 
+}
 .main-nav{
 	text-align: center;
 }
 
+.main-nav .grid-col-2of12 {
+	padding-left: 0;
+	padding-right: 0;
+}
 /** Styling for Navigation Button **/
 .main-nav-item {
 	display: inline-block;
@@ -740,7 +749,6 @@ input[type=checkbox]{
 }
 
 .dropdown-content h4{
-/*	padding: 0;*/
 	padding: 0 1em;
 
 }
@@ -1198,6 +1206,7 @@ option:checked {
 	padding:0;
 	background: #fff;
     border-bottom: 1px solid #f1f1f1;
+    margin-bottom: 0.5em;
 }
 
 #logo {
@@ -1223,6 +1232,37 @@ option:checked {
 	position: absolute;
 	right: 0;
 }
+
+.secondary-nav-test{
+	position: relative;
+	height: 60px;
+	margin-top: 0.5em;
+}
+
+.secondary-nav-test #logo{
+	position: absolute;
+	transform: translateX(-50%);
+	left: 50%;
+
+}
+
+.search-icon, .cart-icon {
+	position: absolute;
+
+}
+
+.fa-bars {
+	position: absolute;
+
+}
+.search-icon {
+	right: 15%;
+}
+
+.cart-icon {
+	right: 3%;
+}
+
 .secondary-nav-item {
 	float: left;
 }
