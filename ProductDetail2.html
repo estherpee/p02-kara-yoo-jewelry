@@ -8,7 +8,7 @@
 		<link rel="stylesheet" href="css/normalize.css">
 		<link rel="stylesheet" href="css/main.css">
 		<link rel="stylesheet" href="css/grids.css">
-
+	
 		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 		<!-- FONTS //-->
    		<link rel="stylesheet" href="css/fonts.css">
@@ -169,6 +169,7 @@
 		
 		
 <!-- Main Container-->
+
 <div class="center-container">
 	
 	<div class="grid-row">
@@ -178,21 +179,21 @@
 			<div class="grid-col-1of2">
 				<!--Large Thumbnail Photo-->
 				<div class="product-img">
-					<a href="ProductDetail2.html"><img class="main-img" src="images/open-heart-ring-gold.jpg" alt="Gladiator Ring Gold"></a>
-					<img class="alternate-img" src="images/open-heart-ring-silver.jpg" alt="Gladiator Ring Gold">
+					<img class="main-img" src="images/open-heart-ring-gold.jpg" alt="Gladiator Ring Gold"></a>
+					<img class="alternate-img" src="images/open-heart-ring-silver.jpg" alt="openheart ring">
 				</div>
 				<!-- Small Thumbnail Photos -->
 				<div class="extra-thumbnails">
 					<div class="grid-col-1of4">
 						<div class="product-img">
-							<a href="ProductDetail2.html"><img class="main-img" src="images/open-heart-ring-silver.jpg" alt="Gladiator Ring Gold"></a>
-							<img class="alternate-img" src="images/open-heart-ring-silver.jpg" alt="Gladiator Ring Silver">
+							<a href="ProductDetail2.html"><img class="main-img" src="images/open-heart-ring-silver.jpg" alt="open heart ring"></a>
+							<img class="alternate-img" src="images/open-heart-ring-silver.jpg" alt="Open Heart Ring">
 						</div>
 					</div>
-
+				
 					<div class="grid-col-1of4">
 						<div class="product-img">
-							<a href="ProductDetail2.html"><img class="main-img" src="images/open-heart-ring-both.jpg" alt="the Meteor Ring"></a>
+							<a href="ProductDetail2.html"><img class="main-img" src="images/open-heart-ring-both.jpg" alt="Open Heart Ring"></a>
 							<img class="alternate-img" src="images/open-heart-ring-both.jpg" alt="Gladiator Ring Silver">
 						</div>
 					</div>
@@ -200,77 +201,83 @@
 			</div>
 		</div>
 
-	<!--Product Details Portion-->
-
+		<!--Product Details Portion-->
+		
 		<div class="grid-col-1of2">
 			<div class="product-details">
 				<div class="product-detail-header">
 					<h4 class="product-detail-title">Open Heart Ring</h4>
 					<div class="price-tag">$38.00</div>
 				</div>
-						
-				<div class="area-colour">
-					<div class="description-title grid-row">
-						<h4>Colour</h4>
-						<a href="#" class="colour-swatch gold"></a>
-						<a href="#" class="colour-swatch silver"></a>
-					</div>
-				</div>
 					
+			<form class="choices" action="Cart.html">
 				<div class="area-selection">
+					
 					<div class="description-title">
-						<div class="grid-col-1of3">
-							<h4>Size</h4>
-							<div class="dropdown-size-button">
-								<button class="size-button">Select a Size</button>
-								<div class="dropdown-size-button-content">
-									<a href="#">5</a>
-									<a href="#">5.5</a>
-									<a href="#">6</a>
-									<a href="#">6.5</a>
-									<a href="#">7</a>
+						<div class="grid-row">
+							<div class="grid-col-1of4">
+								<h4><label for="colour-choice">Colour</label></h4>
+								<div class="select-style">
+									<select id="colour-choice" name="colour" required>
+										<option value="" disabled selected>Select</option>
+									    <option value="gg">Gold</option>
+									    <option value="ss">Silver</option>
+									</select>
 								</div>
 							</div>
-						</div>
-						
-						<div class="grid-col-1of3">
-							<h4>Quantity</h4>
-							<form method="post" action="#" class="quantity-form">
-								<label for="quantity-form"></label>
-								<input type="text" maxlength="2" id="quantity-form" placeholder="0">
-							</form>
-						</div>
 
-						<a href="#" class="addtocart-button">Add to Cart</a>
+							<div class="grid-col-1of4">
+								<h4><label for="form-size">Size</label></h4>
+								<div class="select-style">
+								<select id="form-size" name="size" required>
+									    <option value="" disabled selected>Select</option>
+									    <option value="1">5</option>
+									    <option value="2">6</option>
+									    <option value="3">7</option>
+									</select>
+								</div>
+							</div>
 
-						<a href="#" class="viewcart-button">View Your Cart</a>
+							<div class="grid-col-1of4">
+								<div class="quantity-form">
+									<h4><label for="quantity-form">Quantity</label></h4>
+									<input type="number" id="quantity-form" name="quantity" placeholder="0" min="1" max="20" required>
+								</div>
+							</div>
+
+						</div>
 					</div>
 				</div>
 
+				<div class="area-selection">
+					<input type="submit" class="submit-button" value="Add to Cart">
+				</div>
+			</form>
 
-					<div class="area-description">
-						<div class="description-title grid-row">
-							<h4>Description</h4>
-							<p>So close to connecting, this open style ring with symmetrical round details can be the perfect jewelry highlight.</p>
-						</div>
+				
+				<div class="area-blurb area-description">
+					<div class="description-title">
+						<h4>Description</h4>
+						<p>So close to connecting, this open style ring with symmetrical round details can be the perfect jewelry highlight.</p>
 					</div>
+				</div>
 
-					<div class="area-additional">
-						<div class="description-title">
-							<h4>Materials</h4>
-							<ul>
-								<li>Argentium Sterling Silver</li>
-								<li>14K Yellow Gold-Fill</li>
-							</ul>
-						</div>
+				<div class="area-blurb area-additional">
+					<div class="description-title">
+						<h4>Materials</h4>
+						<ul>
+							<li>Argentium Sterling Silver</li>
+							<li>14K Yellow Gold-Fill</li>
+						</ul>
 					</div>
+				</div>
 
-					<div class="area-chart">
-						<a class="sizechart-link" href="#">View Size Chart</a>
-					</div>
+				<div class="area-chart">
+					<a class="sizechart-link" href="#">View Size Chart</a>
 				</div>
 			</div>
-
+		</div>
+		
 
 	</div>
 </div>
@@ -288,64 +295,97 @@
 		<div class="grid-row">
 
 			<div class="grid-col-1of3">
-			<h4>Tell Us What You Think:</h4>
-			<form class="add-review">
-				<label for="form-first-name">Name:</label>
-				<input type="text" placeholder="">
+				<h4>Write a Review:</h4>
+				
+				<div class="review-login">
+					<form class="add-review" action="Review.html">
+						<div class="grid-col-1of1">
+							<label for="form-email">Email:</label>
+							<input type="text" placeholder="" required>
+						</div>
 
-				<textarea name="styled-textarea" id="styled">Leave your comment here...</textarea>
-				<input type="submit" class="submit-button" value="Submit">
-			</form>
+						<div class="grid-col-1of1">
+							<label for="form-email">Password:</label>
+							<input type="text" placeholder="" required>
+						</div>
+
+						<div class="grid-col-1of1">
+							<a href="" class="text-link">Forgot Your Password?</a>
+						</div>
+						
+						<div class="grid-row">
+							<input type="submit" class="submit-button" value="Sign In">
+							<input type="submit" class="cancel-button" value="Sign Up">
+						</div>
+					</form>
+				</div>
 			</div>
 			
-			
 			<div class="grid-col-2of3">
-			<h4>Other Reviews:</h4>
-				
+				<h4>Other Reviews:</h4>
 				<div class="customer-reviews-container">
 				
-					<section id="review-card">
+					<div class="review-card">
 						<div class="review-description">
 							<p class="review-date">
 								09/30/16
 							</p>
 							<h4>Mel N:</h4>
+							<div class="stars">
+								<span>&#9733</span><span>&#9733</span><span>&#9733</span><span>&#9733</span><span>&#9733</span>
+							</div>
 							<p class="review-preview">
 								So simple to wear, I always stack this one with my other rings!
 							</p>
 						</div>
-					</section>
+					</div>
 					
-					<section id="review-card">
+					<div class="review-card">
 						<div class="review-description">
 							<p class="review-date">
 								8/12/16
 							</p>
 							<h4>Kimberly S:</h4>
+							<div class="stars">
+								<span>&#9733</span><span>&#9733</span><span>&#9733</span><span>&#9733</span><span>&#9734</span>
+							</div>
 							<p class="review-preview">
 								Love this! I thought it wouldn't fit because my friend got me the wrong size, but I adjusted it a bit and I never take it off!
 							</p>
 						</div>
-					</section>
+					</div>
 
-					<section id="review-card">
+					<div class="review-card">
 						<div class="review-description">
 							<p class="review-date">
 								3/22/16
 							</p>
 							<h4>Nessa P:</h4>
+							<div class="stars">
+								<span>&#9733</span><span>&#9733</span><span>&#9733</span><span>&#9733</span><span>&#9733</span>
+							</div>
 							<p class="review-preview">
 								Needed something that wasn't too much to look at all the time but was a bit different than other people's ring. I havent seen one like this so I got it and I love it!
 							</p>
 						</div>
-					</section>
+					</div>
+				
 
+					<!-- Pagnation -->
+					<div class="pagnation">
+						<div class="grid-row">
+							<ul>
+								<li class="page"><a href="#" class="text-link">1</a></li>
+								<li class="page"><a href="#" class="text-link">2</a></li>
+								<li class="page"><a href="#" class="text-link">3</a></li>
+							</ul>
+						</div>
+					</div>
 				</div>
-			</div>
-		
-		</div>
 
+		</div>
 	</div>
+
 
 
 <!--- Recommended Grid Row -->
@@ -366,11 +406,11 @@
 
 			<div class="grid-col-2of12">
 				<div class="product-img">
-					<a href="ProductDetail2.html"><img class="main-img" src="images/gladiator-ring-silver-1.jpg" alt="The Gladiator Ring"></a>
+					<a href="ProductDetail.html"><img class="main-img" src="images/gladiator-ring-silver-1.jpg" alt="The Gladiator Ring"></a>
 					<img class="alternate-img" src="images/gladiator-ring-silver-2.jpg" alt="The Open Heart Ring Silver">
 				</div>
 
-				<a href="ProductDetail2.html" class="product-name">Gladiator Ring</a>
+				<a href="ProductDetail.html" class="product-name">Gladiator Ring</a>
 				<div class="price-tag">$120.00</div>
 			</div>
 
@@ -396,29 +436,29 @@
 
 			<div class="grid-col-2of12">
 				<div class="product-img">
-					<a href="ProductDetail.html"><img class="main-img" src="images/chronos-earclimber-1.jpg" alt="Chronos Ear Climber"></a>
-					<img class="alternate-img" src="images/chronos-earclimber-2.jpg" alt="Chronos Ear Climber">
+					<a href="ProductDetail.html"><img class="main-img" src="images/amora-bracelet-1.jpg" alt="Amora Bracelet 1"></a>
+					<img class="alternate-img" src="images/amora-bracelet-2.jpg" alt="Amora Bracelet 2">
 				</div>
 
-				<a href="#" class="product-name">Chronos Ear Climber</a>
-				<div class="price-tag">$42.00</div>
+				<a href="#" class="product-name">Amora Bracelet</a>
+				<div class="price-tag">$50.00</div>
 			</div>
 
 			<div class="grid-col-2of12">
 				<div class="product-img">
-					<a href="ProductDetail.html"><img class="main-img" src="images/chronos-earclimber-1.jpg" alt="Chronos Ear Climber"></a>
-					<img class="alternate-img" src="images/chronos-earclimber-2.jpg" alt="Chronos Ear Climber">
+					<a href="ProductDetail.html"><img class="main-img" src="images/desiree-earclimber-1.jpg" alt="Desiree Ear Climber"></a>
+					<img class="alternate-img" src="images/desiree-earclimber-2.jpg" alt="Desiree Ear Climber">
 				</div>
 
-				<a href="#" class="product-name">Chronos Ear Climber</a>
-				<div class="price-tag">$42.00</div>
+				<a href="#" class="product-name">Desiree Ear Climber</a>
+				<div class="price-tag">$60.00</div>
 			</div>
 		</div>
 	</div>
 
-
 <!-- Footer -->
 		<footer id="global-footer">
+
 			<div class="grid-row">
 
 				<div class="grid-col-3of12">
@@ -447,25 +487,29 @@
 							<a href="#" class="text-link">Shipping and Returns</a>
 						</li>
 						<li>
-							<a href="Stockists.html" class="text-link">Stockists</a>
+							<a href="Stockist.html" class="text-link">Stockists</a>
 						</li>
 					</ul>
 				</div>
 
 
 				<div class="grid-col-3of12">
-				<h2>Sign-Up for Our Newsletter</h2>
+					<h2>Sign-Up for Our Newsletter</h2>
 					<form method="post" action="#" class="newsletter-form">
-
-							<label for="form-email">Email:</label>
-							<input type="text" id="form-email" placeholder="">
-							<input type="submit" class="submit-button" value="Submit">
-
+						<label for="form-email">Email:</label>
+						<input type="text" id="form-email" placeholder="">
+						<input type="submit" class="submit-button" value="Submit">
 					</form>
+				</div>
 
+				<div class="grid-col-3of12">
+					<div class="social-icon">
+					<a href="https://www.facebook.com/KaraYooJewelry/" class="text-link"><i class="fa fa-facebook-square"></i></a>
+					<a href="https://www.instagram.com/karayoojewelry/" class="text-link"><i class="fa fa-instagram"></i></a>
+					</div>
 				</div>
 			</div>
-
+		
 		</footer>
 		<script src="js/jquery.js"></script>
 	    <script src="js/dropdown_nav.js"></script>

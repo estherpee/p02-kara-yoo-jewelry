@@ -124,7 +124,7 @@ nav h4 {
 	width: 100%;
 	height: 50%;
 	margin: 1em 0 0 0;
-	padding: 1em 0 1em 0;
+	padding: 0.5em 0;
 	color: #000;
 	text-transform: uppercase;
 	text-align: center;
@@ -1327,15 +1327,13 @@ figcaption {
 
 .tester-title .quantity-form input[type=number]{
 	display: block;
-	margin: 1em 0 0 0;
 	padding: 1em;
 	width: 100%;
-	height: 50%;
+	height: 34px;
     border: 0.5px solid #C0C0C0;
 }
 
 .tester-title select{
-    /*height: 45px;*/
     font-size: 1em;
     font-weight: normal;
 }
