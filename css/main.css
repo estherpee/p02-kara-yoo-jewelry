@@ -1226,10 +1226,9 @@ input[type=checkbox]{
 
 .landing-banner p {
 	font-size: 1.3rem; 
-	font-family: "Circular Std", Verdana, sans-serif;
 	font-weight: bold;
 	letter-spacing: 0.05rem;
-	text-transform: uppercase;
+/*	text-transform: uppercase;*/
 	position: relative;
 }
 
@@ -1296,17 +1295,17 @@ input[type=checkbox]{
 }
 
 .large-featured p, .small-featured p  {
-	font-size: 1.4rem; 
-	font-family: "Circular Std", Verdana, sans-serif;
+	font-size: 1.5rem; 
 	font-weight: bold;
 	letter-spacing: 0.05rem;
-	text-transform: uppercase;
+/*	text-transform: uppercase;*/
 	position: relative;
 }
 
 .featured-underline {
 	border-bottom: 2px solid #000;
 	width: 50px;
+	margin-bottom: 0.5em;
 }
 
 
