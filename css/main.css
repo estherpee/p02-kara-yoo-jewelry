@@ -3,7 +3,6 @@ body {
 	font-family: 'Circular Std', Verdana, sans-serif;
 	font-size: 1em;
 	margin: 1em 3% 0;
-
 }
 
 section {
@@ -12,7 +11,6 @@ section {
 	padding-bottom: 1em;
 	border-bottom: 0.05em solid #303030;
 }
-
 
 section ol, ul {
 	margin: 0.8em;
@@ -153,6 +151,7 @@ figcaption {
 .silver{
 	background-color: #C0C0C0;
 }
+
 
 /*-------------------------Cart Page------------------------*/
 
@@ -331,158 +330,7 @@ figcaption {
 	font-weight: normal;
 	text-align: center;
 	float:right;
-}*/
-
-
-
-/*-------------------------Review Page------------------------*/
-
-
-.add-review .grid-col-1of1{
-	margin: 1em 0 0 0;
-	padding: 0;
 }
-
-.add-review .text-link{
-	color: #505050;
-}
-
-.add-review label, .send-email label {
-	display: block;
-	padding: 0 0 0.5em 0;
-	font-size: 1em
-	
-}
-
-.add-review textarea, .send-email textarea{
-	margin-top: 1em;
-
-}
-
-.add-review .submit-button, .add-review .cancel-button{
-	float: right;
-	margin: 1em;
-}
-
-
-.add-review input[type=text], .send-email input[type=text] {
-	width: 100%;
-	border: 0.5px solid #c0c0c0;
-	padding: 0.5em;
-	outline: none;
-	-webkit-transition: all 0.30s ease-in-out;
-	-moz-transition: all 0.30s ease-in-out;
-	-ms-transition: all 0.30s ease-in-out;
-	-o-transition: all 0.30s ease-in-out;
-}
-
-.add-review input[type=text]:focus, .send-email input[type=text]:focus {
-	 box-shadow: 0 0 5px rgba(81, 203, 238, 1);
-	 border: 1px solid rgba(81, 203, 238, 1);
-}
-
-
-.review-container{
-	width: 100%;
-	position: relative;
-	padding: 0 1em;
-	margin: 1em 0 0 0;
-	border-top: 2px solid #f1f1f1;
-}
-
-.review-card {
-	border-bottom: 1px solid #f1f1f1;
-	padding-left: 1em
-}
-
-.review-description h4 {
-	margin: 0.5em 0;
-}
-
-.review-description p{
-	font-size: 0.8em;
-	margin-bottom: 1em;
-}
-
-.review-date {
-	font-style: italic;
-	font-family: Garamond, Times, serif;
-	font-size: 1.10em;
-	margin-top: 1em;
-	margin-bottom: 0;
-	font-style: italic;
-	letter-spacing: 0.08em
-}
-
-.review-login .grid-col-1of1 {
-	padding: 0 1em 1em 0;
-
-}
-
-fieldset {
-    border: none;
-    margin: 0;
-    padding: 0;
-}
-
-.stars{
-	font-size: 80%;
-	letter-spacing: 0.1em;
-}
-
-.rating {
-    float:left;
-}
-
-.rating:not(:checked) > input {
-    position:absolute;
-    top:-9999px;
-    clip:rect(0,0,0,0);
-}
-
-.rating:not(:checked) > label {
-    float:right;
-    width:1em;
-    padding:1em;
-    overflow:hidden;
-    white-space:nowrap;
-    cursor:pointer;
-    font-size: 120%;
-    line-height:1.2;
-    color:#ddd;
-}
-
-.rating:not(:checked) > label:before {
-    content: "\2605";
-}
-
-.rating > input:checked ~ label {
-    color: #f70;
-}
-
-.rating:not(:checked) > label:hover,
-.rating:not(:checked) > label:hover ~ label {
-    color: gold;
-}
-
-.rating > input:checked + label:hover,
-.rating > input:checked + label:hover ~ label,
-.rating > input:checked ~ label:hover,
-.rating > input:checked ~ label:hover ~ label,
-.rating > label:hover ~ input:checked ~ label {
-    color: #ea0;
-}
-
-.rating > label:active {
-    position:relative;
-    top:2px;
-    left:2px;
-}
-
-.rating > label[for=star1] {
-	padding-left: 0;
-}
-
 
 
 /*-------------------------Checkout Pages------------------------*/
@@ -523,12 +371,9 @@ fieldset {
 	padding: 0.5em 0 0.5em 0;
 }
 
-<<<<<<< HEAD
 .checkout-name .grid-col-1of2, .checkout-name .grid-col-1of1{
 	padding: 0 1em 1em 0;
 }
-=======
->>>>>>> origin/master
 
 .checkout-title {
 	border-bottom: 1px solid #000;
@@ -540,7 +385,6 @@ fieldset {
 	border: 0.5px solid #C0C0C0;
 	padding: 0.5em;
 }
-
 
 select {
     width: 100%;
@@ -568,8 +412,7 @@ select {
   border: 1px solid #C0C0C0;
 }
 
-<<<<<<< HEAD
-=======
+
 .checkout .select-style {
 	height: 31px;
 
@@ -587,7 +430,6 @@ select {
 
 }
 
->>>>>>> origin/master
 .add-gift-card, .credit-card-info {
 	border-bottom: 1px solid #f1f1f1;
 }
@@ -787,43 +629,6 @@ input[type=checkbox]{
 	font-weight: bold;
 }
 
-
-
-/* Pagination -*/
-
-.pagination {
-    border-top: 1px solid #ededed;
-    clear: left;
-    margin-top: 40px;
-    padding: 14px 0;
-    text-align: center;
-}
-
-.pagination a {
-    color: #111;
-}
-
-.page{
-	display: inline-block;
-	padding: 2em;
-	font-size: 1em;
-}
-
-.next-page {
-    float: right;
-    margin-right: 10px;
-    padding: 1.5em;
-}
-
-.next-page:hover {
-    text-decoration: underline;
-}
-
-.customer-reviews-container .pagnation {
-	border: none;
-	margin: 0;
-	padding: 0;
-}
 
 /* ------------------- Interactive Elements ------------------- */
 
@@ -1282,6 +1087,40 @@ option:checked {
 	border-top: 2px solid #f1f1f1;
 }
 
+/* Pagination -*/
+.pagination {
+    border-top: 1px solid #ededed;
+    clear: left;
+    margin-top: 40px;
+    padding: 14px 0;
+    text-align: center;
+}
+
+.pagination a {
+    color: #111;
+}
+
+.page{
+	display: inline-block;
+	padding: 2em;
+	font-size: 1em;
+}
+
+.next-page {
+    float: right;
+    margin-right: 10px;
+    padding: 1.5em;
+}
+
+.next-page:hover {
+    text-decoration: underline;
+}
+
+.customer-reviews-container .pagination {
+	border: none;
+	margin: 0;
+	padding: 0;
+}
 
 
 /*-----------------------------Globals------------------------*/
@@ -1511,6 +1350,153 @@ option:checked {
 	border-bottom: 2px solid #000;
 	width: 50px;
 }
+
+/*-------------------------Review Page------------------------*/
+
+
+.add-review .grid-col-1of1{
+	margin: 1em 0 0 0;
+	padding: 0;
+}
+
+.add-review .text-link{
+	color: #505050;
+}
+
+.add-review label, .send-email label {
+	display: block;
+	padding: 0 0 0.5em 0;
+	font-size: 1em
+}
+
+.add-review textarea, .send-email textarea{
+	margin-top: 1em;
+}
+
+.add-review .submit-button, .add-review .cancel-button{
+	float: right;
+	margin: 1em;
+}
+
+
+.add-review input[type=text], .send-email input[type=text] {
+	width: 100%;
+	border: 0.5px solid #c0c0c0;
+	padding: 0.5em;
+	outline: none;
+	-webkit-transition: all 0.30s ease-in-out;
+	-moz-transition: all 0.30s ease-in-out;
+	-ms-transition: all 0.30s ease-in-out;
+	-o-transition: all 0.30s ease-in-out;
+}
+
+.add-review input[type=text]:focus, .send-email input[type=text]:focus {
+	 box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+	 border: 1px solid rgba(81, 203, 238, 1);
+}
+
+
+.review-container{
+	width: 100%;
+	position: relative;
+	padding: 0 1em;
+	margin: 1em 0 0 0;
+	border-top: 2px solid #f1f1f1;
+}
+
+.review-card {
+	border-bottom: 1px solid #f1f1f1;
+	padding-left: 1em
+}
+
+.review-description h4 {
+	margin: 0.5em 0;
+}
+
+.review-description p{
+	font-size: 0.8em;
+	margin-bottom: 1em;
+}
+
+.review-date {
+	font-style: italic;
+	font-family: Garamond, Times, serif;
+	font-size: 1.10em;
+	margin-top: 1em;
+	margin-bottom: 0;
+	font-style: italic;
+	letter-spacing: 0.08em
+}
+
+.review-login .grid-col-1of1 {
+	padding: 0 1em 1em 0;
+
+}
+
+fieldset {
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+.stars{
+	font-size: 80%;
+	letter-spacing: 0.1em;
+}
+
+.rating {
+    float:left;
+}
+
+.rating:not(:checked) > input {
+    position:absolute;
+    top:-9999px;
+    clip:rect(0,0,0,0);
+}
+
+.rating:not(:checked) > label {
+    float:right;
+    width:1em;
+    padding:1em;
+    overflow:hidden;
+    white-space:nowrap;
+    cursor:pointer;
+    font-size: 120%;
+    line-height:1.2;
+    color:#ddd;
+}
+
+.rating:not(:checked) > label:before {
+    content: "\2605";
+}
+
+.rating > input:checked ~ label {
+    color: #f70;
+}
+
+.rating:not(:checked) > label:hover,
+.rating:not(:checked) > label:hover ~ label {
+    color: gold;
+}
+
+.rating > input:checked + label:hover,
+.rating > input:checked + label:hover ~ label,
+.rating > input:checked ~ label:hover,
+.rating > input:checked ~ label:hover ~ label,
+.rating > label:hover ~ input:checked ~ label {
+    color: #ea0;
+}
+
+.rating > label:active {
+    position:relative;
+    top:2px;
+    left:2px;
+}
+
+.rating > label[for=star1] {
+	padding-left: 0;
+}
+
 
 
 /*-------------------------About-----------------------------*/
