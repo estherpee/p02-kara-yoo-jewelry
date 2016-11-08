@@ -46,11 +46,14 @@ if (ww > 879) {
   		
 }
 
+
 if (ww > 400) {
 $(window).bind('resize', function() {
  location.reload();
 });
 }
+
+
 
 
 
