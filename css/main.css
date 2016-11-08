@@ -159,6 +159,14 @@ section code {
 	padding: 0 1em 1em 1em;
 }
 
+.price-cart h4{
+	margin-top: 1em;
+	font-size: 1.1em;
+	display: block;
+    padding: 0.5em 0 0.8em;
+	font-weight: 500;
+
+}
 .all-cards .cancel-button{
 	float: right;
 	margin: 1em;
@@ -167,7 +175,7 @@ section code {
 }
 
 .choice-title h4{
-	padding: 0.5em 0;
+/*	padding: 0.5em 0;*/
 	margin: 0 0 1em 0;
 	text-align: center;
 	font-size: 0.9em;
@@ -1009,6 +1017,13 @@ label[for=form-card-number] {
 .short, .shorten-input {
 	padding-top: 1em;
 }
+
+label[for=form-expiry-date-year]{
+	display: inline-block;
+}
+
+
+
 input[type=checkbox]{
 	margin-right: 0.5em;
 }
